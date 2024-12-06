@@ -309,83 +309,32 @@
           </ul>
           <span></span>
         </li>
-        <li class="sub-menu login" title="Register or login">
+        <li class="sub-menu terms" title="Terms &amp; Licenses">
           <span class="tab">DMCA</span>
-          <form action="/perl-bin/animedb.pl" method="post">
-            <div>
-              <fieldset>
-                <input type="hidden" name="last.anime.month" value="19" /><input
-                  type="hidden"
-                  name="view"
-                  value="smallgrid"
-                /><input type="hidden" name="show" value="calendar" /><input
-                  type="hidden"
-                  name="h"
-                  value="1"
-                /><input
-                  type="hidden"
-                  name="last.anime.year"
-                  value="2024"
-                /><input type="hidden" name="do" value="calendar" />
-              </fieldset>
-              <ul id="menu-login">
-                <li id="user-login" class="user-login">
-                  <a title="Show login page" href="/user/login"
-                    ><span class="text">login</span></a
-                  >
-                </li>
-                <li id="user-signup" class="user-signup">
-                  <a title="Register now" href="/user/register"
-                    ><span class="text">register</span></a
-                  >
-                </li>
-                <li id="user-xname" class="user-xname" title="User name">
-                  <span
-                    ><input
-                      name="xuser"
-                      class="text"
-                      maxlength="16"
-                      type="text"
-                      value=""
-                  /></span>
-                </li>
-                <li id="user-xpass" class="user-xpass" title="Password">
-                  <span
-                    ><input
-                      name="xpass"
-                      class="text"
-                      maxlength="64"
-                      type="password"
-                  /></span>
-                </li>
-                <li
-                  id="user-xkeep"
-                  class="user-xkeep"
-                  title="Remember login data"
-                >
-                  <span
-                    ><label
-                      ><input
-                        name="xdoautologin"
-                        type="checkbox"
-                        checked="checked"
-                      />
-                      <span>stay logged in</span></label
-                    ></span
-                  >
-                </li>
-                <li id="user-xauth" class="user-xauth" title="Login">
-                  <span
-                    ><button
-                      class="login"
-                      name="do.auth"
-                      type="submit"
-                      value="login"
-                    >
-                      <span>Login</span>
-                    </button></span
-                  >
-                </li>
+          <ul id="menu-terms">
+            <li class="donate">
+              <a title="Accounting, Patreon" href="/donation"
+                ><span class="text">donate</span></a
+              >
+            </li>
+            <li class="credits">
+              <a
+                title="Credits, Software Licenses"
+                href="https://wiki.anidb.net/Credits"
+                data-anidb-rel="anidb::wiki"
+                ><span>credits</span></a
+              >
+            </li>
+            <li class="policies">
+              <a
+                title="Terms of Service, Privacy Policy, Licenses"
+                href="/policy"
+                ><span class="text">policies</span></a
+              >
+            </li>
+          </ul>
+          <span></span>
+        </li>
               </ul>
               <span></span>
             </div>
@@ -627,7 +576,7 @@
                     <input type="hidden" name="show" value="calendar" />
                   </fieldset>
                   <div class="g_section filters">
-                    <h2><span>Filter</span></h2>
+                    <h2><span>About</span></h2>
                     <ul class="g_bubblewrap">
                       <li class="g_odd g_bubble">
                         <div class="g_boxwrap">
@@ -783,7 +732,7 @@
                 <h2><span>Latest Uploads</span></h2>
                 <!--1 poster-->
                 <div class="g_bubblewrap g_bubble container">
-                  <div class="g_odd g_bubble box small no1" id="a15910">
+                  <div class="g_odd g_bubble box no1" id="a15910">
                     <div class="thumb image">
                       <a href="/urdusub"
                         ><picture>
@@ -800,8 +749,25 @@
 
 
                     <div class="data">
-  <div class="icons actions">
-    <a
+                      <div class="icons actions">
+                        <a
+      
+      title="Watch on UrduSUB"
+      href="/urdusub"
+      data-anidb-rel="anidb::extern"
+    >
+      <!-- Add Image Instead of Icon -->
+       <!--
+      <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
+    </a>
+    -->
+    </div>  
+
+                      <div class="wrap name">
+                        <a class="name-colored" href="/anime/18267">Peaky Blinder (2013)</a>
+                      </div>
+                      <div class="icons actions">
+                        <a
       
       title="Watch on UrduSUB"
       href="/urdusub"
@@ -810,11 +776,6 @@
       <!-- Add Image Instead of Icon -->
       <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
     </a>
-                      </div>
-                      <div class="wrap name">
-                        <a class="name-colored" href="/anime/18454"
-                          >Peaky Blinder (2013)</a
-                        >
                       </div>
                       <div class="extra">
                         <a href="/urdusub">Season:1</a>
@@ -829,12 +790,16 @@
                           <span class="count">/10</span></span
                         >
                       </div>
-                      <div class="votes average">
+                      Historical drama; Crime drama
                         
-                        Crime, Historical, Gangsters, Thriller, Action
+                        
+                        <div class="extra"><a href="/urdusub">More Seasons+</a>
+                        </div>
+                        <div class="desc">* Based on a Crime, History, Subbed by <a href="/ZAB">ZAB</a>.<br /><br /><a href="/urdusub">Yoshino</a> grew up the sheltered yakuza princess of the largest crime family in Osaka, the Somei. Due to her resting bitch face and dangerous family, no man has ever approached her. When her grandfather signs a truce with the Tokyo-based Miyama crime family, he offers her up as a truce bride to the Miyama leader's grandson! <a href="https://anidb.net/ch141772">Miyama Kirishima</a> is popular, charming, and seems totally normal.<br /><br />But behind his smile is a violent sadomasochist who thirsts for her dominance even more when she impresses him with her moxie! Even though she knows how bad yakuza can be, she's stunned by Miyama's viciousness. She can't turn him down with the East-West peace treaty on the line...so instead she steels herself to play ball!<br /><br /><i>Source: Seven Seas Entertainment</i>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                      
 
 
                   <!--2 poster-->
@@ -845,7 +810,7 @@
                           <img
                             loading="lazy"
                             alt="Mayonaka Punch"
-                            src="https://cdn-eu.anidb.net/images/150/304738.jpg-thumb.jpg"
+                            src="https://mimi-panda.com/wp-content/uploads/2024/04/adult-coloring-pages-anime-2-923x923.jpeg.webp"
                             height="201"
                             width="150"
                             class="g_image g_bubble small"
@@ -855,12 +820,14 @@
                     <div class="data">
                       <div class="icons actions">
                         <a
-                          class="i_icon brand i_resource_crunchyroll"
-                          title="stream this content"
-                          href="https://www.crunchyroll.com/series/GEXH3W28K/"
-                          data-anidb-rel="anidb::extern"
-                          ><span>stream</span></a
-                        >
+      
+      title="Watch on UrduSUB"
+      href="/urdusub"
+      data-anidb-rel="anidb::extern"
+    >
+      <!-- Add Image Instead of Icon -->
+      <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
+    </a>
                       </div>
                       <div class="wrap name">
                         <a class="name-colored" href="/anime/18454"
@@ -897,66 +864,55 @@
 
                  
 
-                  <div class="g_odd g_bubble box small no99" id="a18603">
+                  <!--3 poster-->
+                  <div class="g_bubble box small no2" id="a18454">
                     <div class="thumb image">
-                      <a href="/anime/18603"
+                      <a href="/anime/18454"
                         ><picture>
                           <img
                             loading="lazy"
-                            alt="Go-Toubun no Hanayome *"
-                            src="https://cdn-eu.anidb.net/images/150/306682.jpg-thumb.jpg"
-                            height="211"
+                            alt="Mayonaka Punch"
+                            src="https://mimi-panda.com/wp-content/uploads/2024/08/free-anime-coloring-pages-for-adults-2.jpg"
+                            height="201"
                             width="150"
                             class="g_image g_bubble small"
                           /> </picture
                       ></a>
                     </div>
                     <div class="data">
+                      <div class="icons actions">
+                        <a
+      
+      title="Watch on UrduSUB"
+      href="/urdusub"
+      data-anidb-rel="anidb::extern"
+    >
+      <!-- Add Image Instead of Icon -->
+      <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
+    </a>
+                      </div>
                       <div class="wrap name">
-                        <a class="name-colored" href="/anime/18603"
-                          >Go-Toubun no Hanayome *</a
+                        <a class="name-colored" href="/anime/18454"
+                          >One piece 2021</a
                         >
                       </div>
-                      <div class="date">20th September</div>
-                      <div class="general">Movie, 1 ep</div>
+                      <div class="date">2nd June</div>
+                      <div class="general">TV Series, 12 eps</div>
                       <div class="extra">
-                        <a href="/creator/51361">Bibury Animation Studios</a>
+                        <a href="/creator/1385">P.A. Works</a>
                       </div>
-                      <div class="tags">
-                        <span class="g_tag"
-                          ><a class="tooltip" href="/tag/2859/animetb"
-                            ><span class="tagname">harem</span
-                            ><span class="wrapper"
-                              ><span class="g_bubble text"
-                                >Three or more characters, generally female, are
-                                under the influence of one character, normally
-                                male. Their interactions are romantically or
-                                sexually loaded. The female characters often
-                                draw heavily from stock archetypes. Sexual tones
-                                are applied to the lead`s behavior and to the
-                                members` depiction. The lead will often be
-                                physically abused for his behavior. The harem
-                                may be only a support to an existing or
-                                predictable relationship, or the lead may end up
-                                in relationships with most or all members.</span
-                              ></span
-                            ></a
-                          ></span
-                        >,
-                        <span class="g_tag"
-                          ><a class="tooltip" href="/tag/2797/animetb"
-                            ><span class="tagname">new</span
-                            ><span class="wrapper"
-                              ><span class="g_bubble text"
-                                >Not based on anything, the story is a new work,
-                                usually made up by the people involved in
-                                creating the anime. Generally if an original
-                                work (原作) credit is given, it will be to the
-                                studio, or director, or other members of the
-                                production team.</span
-                              ></span
-                            ></a
-                          ></span
+                      <div class="votes rating">
+                        <span class="key">Rating:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">4.24</span>
+                          <span class="count">(37)</span></span
+                        >
+                      </div>
+                      <div class="votes average">
+                        <span class="key">Average:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">5.41</span>
+                          <span class="count">(37)</span></span
                         >
                       </div>
                     </div>
@@ -967,7 +923,7 @@
           </div>
 
 
-          
+
           <div class="g_section bottom">
             <div class="g_section top">
               <form action="/perl-bin/animedb.pl" method="get">
