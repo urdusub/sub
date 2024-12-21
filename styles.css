@@ -319,7 +319,7 @@ select[multiple] {
     height: 15em
 }
 
-#anidb.internet_explorer .shuttle button {
+#biahoz.internet_explorer .shuttle button {
     min-width: 6.5em
 }
 
@@ -391,7 +391,7 @@ h1+.icons {
     border-bottom: 0
 }
 
-#anidb div.block {
+#biahoz div.block {
     width: 100%;
     margin-top: .5em;
     display: -webkit-box;
@@ -405,57 +405,57 @@ h1+.icons {
     justify-content: center
 }
 
-#anidb div.block>div.image {
+#biahoz div.block>div.image {
     text-align: center;
     margin-right: 1em
 }
 
-#anidb div.block>div.image>div.container {
+#biahoz div.block>div.image>div.container {
     position: relative;
     display: inline-block
 }
 
-#anidb div.block>div.data {
+#biahoz div.block>div.data {
     max-width: 65em;
     width: 100%;
     z-index: 1
 }
 
-#anidb .css_style+p {
+#biahoz .css_style+p {
     clear: left
 }
 
-#anidb div.block+div.g_bubble.desc,
-#anidb div.g_section.desc {
+#biahoz div.block+div.g_bubble.desc,
+#biahoz div.g_section.desc {
     margin: 1em 0;
     padding: 1em;
     overflow-wrap: break-word
 }
 
-#anidb div.block div.data table {
+#biahoz div.block div.data table {
     width: 100%;
     margin: 0
 }
 
-#anidb div.block div.data table th {
+#biahoz div.block div.data table th {
     width: 10em
 }
 
-#anidb>.fancybox-container div.block>div.image {
+#biahoz>.fancybox-container div.block>div.image {
     min-width: 150px;
     min-height: 225px;
     width: 150px;
     margin-left: 0
 }
 
-#anidb>.fancybox-container div.block>div.data {
+#biahoz>.fancybox-container div.block>div.data {
     min-width: 0;
     width: 100%;
     margin-right: 0
 }
 
-#anidb>.fancybox-container div.info.popup>h2,
-#anidb>.fancybox-container div.info.popup>h4 {
+#biahoz>.fancybox-container div.info.popup>h2,
+#biahoz>.fancybox-container div.info.popup>h4 {
     display: none
 }
 
@@ -866,28 +866,28 @@ h1+.icons {
     width: calc(100% + 1em)
 }
 
-#anidb.internet_explorer .g_bubblewrap>* {
+#biahoz.internet_explorer .g_bubblewrap>* {
     -ms-flex-grow: 0;
     flex-grow: 0
 }
 
-#anidb.internet_explorer #preferences .g_bubblewrap:not(.nogrow)>*,
-#anidb.internet_explorer .accounting_all .g_bubblewrap:not(.nogrow)>*,
-#anidb.internet_explorer .animelist_all .g_bubblewrap:not(.nogrow)>*,
-#anidb.internet_explorer .calendar_all .g_bubblewrap:not(.nogrow)>*,
-#anidb.internet_explorer .g_bubblewrap:not(.nogrow)>.graph.g_bubble,
-#anidb.internet_explorer .g_progressbar.g_bubblewrap:not(.nogrow)>* {
+#biahoz.internet_explorer #preferences .g_bubblewrap:not(.nogrow)>*,
+#biahoz.internet_explorer .accounting_all .g_bubblewrap:not(.nogrow)>*,
+#biahoz.internet_explorer .animelist_all .g_bubblewrap:not(.nogrow)>*,
+#biahoz.internet_explorer .calendar_all .g_bubblewrap:not(.nogrow)>*,
+#biahoz.internet_explorer .g_bubblewrap:not(.nogrow)>.graph.g_bubble,
+#biahoz.internet_explorer .g_progressbar.g_bubblewrap:not(.nogrow)>* {
     -ms-flex-grow: 1;
     flex-grow: 1
 }
 
-#anidb.internet_explorer .animelist_all .g_bubblewrap.nowrap,
-#anidb.internet_explorer .calendar_all .g_bubblewrap.nowrap {
+#biahoz.internet_explorer .animelist_all .g_bubblewrap.nowrap,
+#biahoz.internet_explorer .calendar_all .g_bubblewrap.nowrap {
     display: block
 }
 
-#anidb.internet_explorer .animelist_all .g_filter,
-#anidb.internet_explorer .calendar_all .g_filter {
+#biahoz.internet_explorer .animelist_all .g_filter,
+#biahoz.internet_explorer .calendar_all .g_filter {
     float: right
 }
 
@@ -1168,12 +1168,12 @@ h1+.icons {
     display: block
 }
 
-#anidb.internet_explorer .userpage_all .g_bubble.graph.votes div.column {
+#biahoz.internet_explorer .userpage_all .g_bubble.graph.votes div.column {
     height: 100%
 }
 
 .userpage_all .g_bubble.graph.votes div.column div.bar,
-#anidb.internet_explorer .g_bubble.graph>div.container {
+#biahoz.internet_explorer .g_bubble.graph>div.container {
     height: calc(100% - 5.5em)
 }
 
@@ -1633,7 +1633,7 @@ select {
 }
 
 .g_filter:not(.g_overlaymenu):not(.folded)~table,
-#anidb.internet_explorer .animelist_all .g_filter:not(.g_overlaymenu):not(.folded)~div table.animelist {
+#biahoz.internet_explorer .animelist_all .g_filter:not(.g_overlaymenu):not(.folded)~div table.animelist {
     width: calc(100% - 19em)
 }
 
@@ -1738,7 +1738,7 @@ div.pagination .g_list>*+* {
     box-sizing: border-box
 }
 
-#anidb:not(.internet_explorer) #layout-search ul.quicksearch .g_bubble.stripe {
+#biahoz:not(.internet_explorer) #layout-search ul.quicksearch .g_bubble.stripe {
     width: 100%
 }
 
@@ -2053,7 +2053,7 @@ div.pagination .g_list>*+* {
 
 @media screen and (max-width: 550px) {
 
-    #anidb.anime #layout-tabs ul.main-tabs>li.forum,
+    #biahoz.anime #layout-tabs ul.main-tabs>li.forum,
     #layout-main div.tabbed_pane ul.tabs li.fake {
         display: none
     }
@@ -2098,11 +2098,11 @@ div.pagination .g_list>*+* {
         flex-wrap: wrap
     }
 
-    #anidb.internet_explorer #layout-main .g_datatable table {
+    #biahoz.internet_explorer #layout-main .g_datatable table {
         width: 100%
     }
 
-    #anidb.internet_explorer #layout-main .g_datatable table tr {
+    #biahoz.internet_explorer #layout-main .g_datatable table tr {
         display: block
     }
 
@@ -2456,17 +2456,17 @@ div.pagination .g_list>*+* {
 }
 
 #layout-main div.chartag-list span.size0,
-#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="100"] .name a {
     font-size: .8rem
 }
 
 #layout-main div.chartag-list span.size1,
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="200"] .name a {
     font-size: .85rem
 }
 
 #layout-main div.chartag-list span.size2,
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="200"] .name a {
     font-size: .9rem
 }
 
@@ -3757,7 +3757,7 @@ div.g_timeline ul.row li a {
     margin-top: -2em
 }
 
-#anidb.internet_explorer #layout-main div.anime_all #mydata .g_definitionlist {
+#biahoz.internet_explorer #layout-main div.anime_all #mydata .g_definitionlist {
     width: calc(50% - 1.2em)
 }
 
@@ -3822,7 +3822,7 @@ div.g_timeline ul.row li a {
     }
 }
 
-#anidb.internet_explorer div.anime_all .g_section.mylist_status.vote_status .container {
+#biahoz.internet_explorer div.anime_all .g_section.mylist_status.vote_status .container {
     -ms-justify-content: space-around;
     -webkit-justify-content: space-around;
     -moz-justify-content: space-around;
@@ -4121,9 +4121,9 @@ div.g_timeline ul.row li a {
 
 @media screen and (max-width: 450px) {
 
-    #anidb.animelist #layout-tabs li.list,
-    #anidb.calendar #layout-tabs li.list,
-    #anidb.forum #layout-tabs li.list {
+    #biahoz.animelist #layout-tabs li.list,
+    #biahoz.calendar #layout-tabs li.list,
+    #biahoz.forum #layout-tabs li.list {
         display: none
     }
 }
@@ -5631,17 +5631,17 @@ div.g_timeline ul.row li a {
 
 @media screen and (max-width: 850px) {
 
-    #anidb.creq #layout-tabs ul.main-tabs>li.trusted,
-    #anidb.creq #layout-tabs ul.main-tabs>li.trustednew,
-    #anidb.creq #layout-tabs ul.main-tabs>li.untrusted {
+    #biahoz.creq #layout-tabs ul.main-tabs>li.trusted,
+    #biahoz.creq #layout-tabs ul.main-tabs>li.trustednew,
+    #biahoz.creq #layout-tabs ul.main-tabs>li.untrusted {
         display: none
     }
 }
 
 @media screen and (max-width: 500px) {
 
-    #anidb.creq #layout-tabs ul.main-tabs>li.history,
-    #anidb.creq #layout-tabs ul.main-tabs>li.my {
+    #biahoz.creq #layout-tabs ul.main-tabs>li.history,
+    #biahoz.creq #layout-tabs ul.main-tabs>li.my {
         display: none
     }
 }
@@ -5871,7 +5871,7 @@ div.g_timeline ul.row li a {
     width: 100%
 }
 
-#layout-main div.import_all table.jobs th.anidb,
+#layout-main div.import_all table.jobs th.biahoz,
 #layout-main div.import_all table.jobs th.external {
     width: 25%
 }
@@ -6052,14 +6052,14 @@ div.g_timeline ul.row li a {
     margin-right: 0
 }
 
-.internet_explorer#anidb #layout-main div.main_all .g_bubblewrap>* {
+.internet_explorer#biahoz #layout-main div.main_all .g_bubblewrap>* {
     -ms-flex-grow: 1;
     -webkit-flex-grow: 1;
     -moz-flex-grow: 1;
     flex-grow: 1
 }
 
-.internet_explorer#anidb #layout-main div.main_all .stripe.g_bubble>.data .tooltip span.text {
+.internet_explorer#biahoz #layout-main div.main_all .stripe.g_bubble>.data .tooltip span.text {
     width: 300px
 }
 
@@ -6307,7 +6307,7 @@ div.g_timeline ul.row li a {
     margin-top: -0.5em
 }
 
-.internet_explorer#anidb #layout-main div.main_all div.myhints div.container {
+.internet_explorer#biahoz #layout-main div.main_all div.myhints div.container {
     -ms-justify-content: flex-start;
     justify-content: flex-start
 }
@@ -7118,42 +7118,42 @@ div.g_timeline ul.row li a {
 
 @media screen and (max-width: 800px) {
 
-    #anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs):not(.entry):not(.edit):not(.history):not(.forum):not(.comment):not(.reviews),
-    #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
-    #anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs) {
+    #biahoz.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs):not(.entry):not(.edit):not(.history):not(.forum):not(.comment):not(.reviews),
+    #biahoz.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs),
+    #biahoz.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.myrecs) {
         display: none
     }
 }
 
 @media screen and (max-width: 700px) {
 
-    #anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.entry):not(.forum):not(.comment):not(.reviews),
-    #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
-    #anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog) {
+    #biahoz.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog):not(.entry):not(.forum):not(.comment):not(.reviews),
+    #biahoz.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog),
+    #biahoz.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.blog) {
         display: none
     }
 }
 
 @media screen and (max-width: 600px) {
 
-    #anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.entry):not(.forum):not(.comment):not(.reviews),
-    #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
-    #anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook) {
+    #biahoz.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook):not(.entry):not(.forum):not(.comment):not(.reviews),
+    #biahoz.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook),
+    #biahoz.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.guestbook) {
         display: none
     }
 
@@ -7164,34 +7164,34 @@ div.g_timeline ul.row li a {
 
 @media screen and (max-width: 515px) {
 
-    #anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.entry):not(.forum):not(.comment):not(.reviews),
-    #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
-    #anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies) {
+    #biahoz.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies):not(.entry):not(.forum):not(.comment):not(.reviews),
+    #biahoz.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies),
+    #biahoz.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.mynotifies) {
         display: none
     }
 }
 
 @media screen and (max-width: 425px) {
 
-    #anidb.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.entry):not(.forum):not(.comment):not(.reviews),
-    #anidb.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
-    #anidb.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
+    #biahoz.cmt #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes):not(.entry):not(.forum):not(.comment):not(.reviews),
+    #biahoz.mylist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.mynotifies #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.myrecs #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.myvotes #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.mywishlist #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.threads #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes),
+    #biahoz.userpage #layout-tabs li:not(.userdata):not(.mylist):not(.mywishlist):not(.myvotes) {
         display: none
     }
 }
 
-#anidb.internet_explorer div.userpage_all .g_section.achievements>.g_bubblewrap,
-#anidb.internet_explorer div.userpage_all .g_section.favourites>.g_bubblewrap {
+#biahoz.internet_explorer div.userpage_all .g_section.achievements>.g_bubblewrap,
+#biahoz.internet_explorer div.userpage_all .g_section.favourites>.g_bubblewrap {
     display: block
 }
 
@@ -7480,16 +7480,16 @@ div.g_timeline ul.row li a {
     width: 100%
 }
 
-#anidb>.fancybox-container #preferences #css_selector .g_definitionlist,
-#anidb>.fancybox-container #preferences .g_section.url {
+#biahoz>.fancybox-container #preferences #css_selector .g_definitionlist,
+#biahoz>.fancybox-container #preferences .g_section.url {
     display: none
 }
 
-#anidb>.fancybox-container #preferences #css_submit {
+#biahoz>.fancybox-container #preferences #css_submit {
     text-align: center
 }
 
-#anidb>.fancybox-container #preferences div.block>div.image {
+#biahoz>.fancybox-container #preferences div.block>div.image {
     min-height: 170px
 }
 
@@ -9554,37 +9554,37 @@ body.compensate-for-scrollbar {
     padding: 5px
 }
 
-#anidb .fancybox-container #popup_form .g_definitionlist table,
-#anidb .fancybox-container .maddtomylist table {
+#biahoz .fancybox-container #popup_form .g_definitionlist table,
+#biahoz .fancybox-container .maddtomylist table {
     width: 100%
 }
 
-#anidb>.fancybox-container .g_bubble>#layout-main {
+#biahoz>.fancybox-container .g_bubble>#layout-main {
     margin: 0
 }
 
-#anidb>.fancybox-container .g_bubble .g_definitionlist .value {
+#biahoz>.fancybox-container .g_bubble .g_definitionlist .value {
     width: auto
 }
 
 @media screen and (min-width: 800px) {
-    #anidb>.fancybox-container .fancybox-slide>.g_bubble {
+    #biahoz>.fancybox-container .fancybox-slide>.g_bubble {
         min-width: 500px
     }
 
-    #anidb>.fancybox-container .g_bubble.info_popup {
+    #biahoz>.fancybox-container .g_bubble.info_popup {
         max-width: 600px
     }
 }
 
 @media screen and (max-width: 650px) {
 
-    #anidb .fancybox-container .select2,
-    #anidb .fancybox-container input[type=date],
-    #anidb .fancybox-container input[type=email],
-    #anidb .fancybox-container input[type=password],
-    #anidb .fancybox-container input[type=text],
-    #anidb .fancybox-container input[type=url] {
+    #biahoz .fancybox-container .select2,
+    #biahoz .fancybox-container input[type=date],
+    #biahoz .fancybox-container input[type=email],
+    #biahoz .fancybox-container input[type=password],
+    #biahoz .fancybox-container input[type=text],
+    #biahoz .fancybox-container input[type=url] {
         width: 100% !important
     }
 
@@ -12246,7 +12246,7 @@ span.diff,
     color: #006400
 }
 
-#anidb table ul li.g_odd,
+#biahoz table ul li.g_odd,
 #layout-main table table td.g_odd,
 #layout-main ul.g_list li.g_odd {
     background-color: transparent
@@ -13018,8 +13018,8 @@ h4,
     content: " *"
 }
 
-#anidb tr.rating td.value span.myvote::before,
-#anidb tr.rating td.value span.predictedvote::before,
+#biahoz tr.rating td.value span.myvote::before,
+#biahoz tr.rating td.value span.predictedvote::before,
 #layout-main .g_bubble.stripe.review>div.data div.votes div.rating span.value::after,
 #layout-main div.anime_all .mydata tr.vote span.predictedvote+span.myvote::before {
     content: ", "
@@ -13367,7 +13367,7 @@ span.i_icon.rel {
 span.i_icon.rel.i_marker {
     width: 13px;
     height: 20px;
-    background-image: url("/css/assets/images/icon/anidb_marker.png")
+    background-image: url("/css/assets/images/icon/biahoz_marker.png")
 }
 
 span.smiley {
@@ -13863,8 +13863,8 @@ div.badge.mylist.timewasted div.inner {
     background-image: url("/css/assets/images/achievements/center-time_wasted2.png")
 }
 
-div.badge.stats.anidbmember div.inner {
-    background-image: url("/css/assets/images/achievements/center-anidb_member2.png")
+div.badge.stats.biahozmember div.inner {
+    background-image: url("/css/assets/images/achievements/center-biahoz_member2.png")
 }
 
 div.badge.stats.animeadded div.inner {
@@ -13912,91 +13912,91 @@ div.badge.one-time.club div.inner {
 }
 
 .awards #mainichi_animation {
-    background-image: url("/css/assets/images/awards/anidb_mainichi_animation.png")
+    background-image: url("/css/assets/images/awards/biahoz_mainichi_animation.png")
 }
 
 .awards #mainichi_oofuji_noburou {
-    background-image: url("/css/assets/images/awards/anidb_mainichi_oofuji_noburou.png")
+    background-image: url("/css/assets/images/awards/biahoz_mainichi_oofuji_noburou.png")
 }
 
 .i_award_mainichi {
-    background-image: url("/css/assets/images/awards/anidb_mainichi.gif")
+    background-image: url("/css/assets/images/awards/biahoz_mainichi.gif")
 }
 
 .i_award_jmaf {
-    background-image: url("/css/assets/images/awards/anidb_jmaf.gif")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf.gif")
 }
 
 .i_award_japa {
-    background-image: url("/css/assets/images/awards/anidb_japa.gif")
+    background-image: url("/css/assets/images/awards/biahoz_japa.gif")
 }
 
 .i_award_apsa {
-    background-image: url("/css/assets/images/awards/anidb_apsa.gif")
+    background-image: url("/css/assets/images/awards/biahoz_apsa.gif")
 }
 
 .i_award_oscars {
-    background-image: url("/css/assets/images/awards/anidb_oscars.gif")
+    background-image: url("/css/assets/images/awards/biahoz_oscars.gif")
 }
 
 .i_award_top10 {
-    background-image: url("/css/assets/images/awards/anidb_top10.png")
+    background-image: url("/css/assets/images/awards/biahoz_top10.png")
 }
 
 .i_award_arc2000 {
-    background-image: url("/css/assets/images/awards/anidb_arc2000award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2000award.gif")
 }
 
 .i_award_arc2001 {
-    background-image: url("/css/assets/images/awards/anidb_arc2001award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2001award.gif")
 }
 
 .i_award_arc2002 {
-    background-image: url("/css/assets/images/awards/anidb_arc2002award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2002award.gif")
 }
 
 .i_award_arc2003 {
-    background-image: url("/css/assets/images/awards/anidb_arc2003award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2003award.gif")
 }
 
 .i_award_arc2004 {
-    background-image: url("/css/assets/images/awards/anidb_arc2004award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2004award.gif")
 }
 
 .i_award_arc2005 {
-    background-image: url("/css/assets/images/awards/anidb_arc2005award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2005award.gif")
 }
 
 .i_award_arc2006 {
-    background-image: url("/css/assets/images/awards/anidb_arc2006award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2006award.gif")
 }
 
 .i_award_arc2007 {
-    background-image: url("/css/assets/images/awards/anidb_arc2007award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2007award.gif")
 }
 
 .i_award_arc2008 {
-    background-image: url("/css/assets/images/awards/anidb_arc2008award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2008award.gif")
 }
 
 .i_award_arc2009 {
-    background-image: url("/css/assets/images/awards/anidb_arc2009award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2009award.gif")
 }
 
 .i_award_arc2010 {
-    background-image: url("/css/assets/images/awards/anidb_arc2010award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2010award.gif")
 }
 
 .i_award_arc2011 {
-    background-image: url("/css/assets/images/awards/anidb_arc2011award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2011award.gif")
 }
 
 .i_award_arc2012 {
-    background-image: url("/css/assets/images/awards/anidb_arc2012award.gif")
+    background-image: url("/css/assets/images/awards/biahoz_arc2012award.gif")
 }
 
 .awards #top10 {
-    background-image: url("/css/assets/images/awards/anidb_top10_banner.gif")
+    background-image: url("/css/assets/images/awards/biahoz_top10_banner.gif")
 }
 
 .awards #arc2000_action {
@@ -15056,239 +15056,239 @@ div.badge.one-time.club div.inner {
 }
 
 .awards #apsa2007 {
-    background-image: url("/css/assets/images/awards/anidb_apsa2007.png")
+    background-image: url("/css/assets/images/awards/biahoz_apsa2007.png")
 }
 
 .awards #apsa2012 {
-    background-image: url("/css/assets/images/awards/anidb_apsa2012.png")
+    background-image: url("/css/assets/images/awards/biahoz_apsa2012.png")
 }
 
 .awards #apsa2015 {
-    background-image: url("/css/assets/images/awards/anidb_apsa2015.png")
+    background-image: url("/css/assets/images/awards/biahoz_apsa2015.png")
 }
 
 .awards #japa2007 {
-    background-image: url("/css/assets/images/awards/anidb_japa2007.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2007.png")
 }
 
 .awards #japa2008 {
-    background-image: url("/css/assets/images/awards/anidb_japa2008.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2008.png")
 }
 
 .awards #japa2009 {
-    background-image: url("/css/assets/images/awards/anidb_japa2009.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2009.png")
 }
 
 .awards #japa2010 {
-    background-image: url("/css/assets/images/awards/anidb_japa2010.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2010.png")
 }
 
 .awards #japa2011 {
-    background-image: url("/css/assets/images/awards/anidb_japa2011.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2011.png")
 }
 
 .awards #japa2012 {
-    background-image: url("/css/assets/images/awards/anidb_japa2012.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2012.png")
 }
 
 .awards #japa2013 {
-    background-image: url("/css/assets/images/awards/anidb_japa2013.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2013.png")
 }
 
 .awards #japa2014 {
-    background-image: url("/css/assets/images/awards/anidb_japa2014.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2014.png")
 }
 
 .awards #japa2015 {
-    background-image: url("/css/assets/images/awards/anidb_japa2015.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2015.png")
 }
 
 .awards #japa2016 {
-    background-image: url("/css/assets/images/awards/anidb_japa2016.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2016.png")
 }
 
 .awards #japa2017 {
-    background-image: url("/css/assets/images/awards/anidb_japa2017.png")
+    background-image: url("/css/assets/images/awards/biahoz_japa2017.png")
 }
 
 .awards #jmaf_manga1997 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga1997.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga1997.png")
 }
 
 .awards #jmaf_manga1998 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga1998.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga1998.png")
 }
 
 .awards #jmaf_manga1999 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga1999.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga1999.png")
 }
 
 .awards #jmaf_manga2000 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2000.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2000.png")
 }
 
 .awards #jmaf_manga2001 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2001.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2001.png")
 }
 
 .awards #jmaf_manga2002 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2002.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2002.png")
 }
 
 .awards #jmaf_manga2003 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2003.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2003.png")
 }
 
 .awards #jmaf_manga2004 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2004.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2004.png")
 }
 
 .awards #jmaf_manga2005 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2005.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2005.png")
 }
 
 .awards #jmaf_manga2006 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2006.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2006.png")
 }
 
 .awards #jmaf_manga2007 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2007.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2007.png")
 }
 
 .awards #jmaf_manga2008 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2008.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2008.png")
 }
 
 .awards #jmaf_manga2009 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2009.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2009.png")
 }
 
 .awards #jmaf_manga2010 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2010.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2010.png")
 }
 
 .awards #jmaf_manga2011 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2011.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2011.png")
 }
 
 .awards #jmaf_manga2012 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2012.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2012.png")
 }
 
 .awards #jmaf_manga2013 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2013.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2013.png")
 }
 
 .awards #jmaf_manga2014 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2014.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2014.png")
 }
 
 .awards #jmaf_manga2015 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2015.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2015.png")
 }
 
 .awards #jmaf_manga2016 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2016.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2016.png")
 }
 
 .awards #jmaf_manga2017 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_manga2017.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_manga2017.png")
 }
 
 .awards #jmaf_animation1997 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation1997.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation1997.png")
 }
 
 .awards #jmaf_animation1998 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation1998.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation1998.png")
 }
 
 .awards #jmaf_animation1999 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation1999.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation1999.png")
 }
 
 .awards #jmaf_animation2000 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2000.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2000.png")
 }
 
 .awards #jmaf_animation2001 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2001.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2001.png")
 }
 
 .awards #jmaf_animation2002 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2002.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2002.png")
 }
 
 .awards #jmaf_animation2003 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2003.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2003.png")
 }
 
 .awards #jmaf_animation2004 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2004.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2004.png")
 }
 
 .awards #jmaf_animation2005 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2005.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2005.png")
 }
 
 .awards #jmaf_animation2006 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2006.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2006.png")
 }
 
 .awards #jmaf_animation2007 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2007.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2007.png")
 }
 
 .awards #jmaf_animation2008 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2008.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2008.png")
 }
 
 .awards #jmaf_animation2009 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2009.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2009.png")
 }
 
 .awards #jmaf_animation2010 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2010.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2010.png")
 }
 
 .awards #jmaf_animation2011 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2011.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2011.png")
 }
 
 .awards #jmaf_animation2012 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2012.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2012.png")
 }
 
 .awards #jmaf_animation2013 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2013.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2013.png")
 }
 
 .awards #jmaf_animation2014 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2014.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2014.png")
 }
 
 .awards #jmaf_animation2015 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2015.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2015.png")
 }
 
 .awards #jmaf_animation2016 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2016.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2016.png")
 }
 
 .awards #jmaf_animation2017 {
-    background-image: url("/css/assets/images/awards/anidb_jmaf_animation2017.png")
+    background-image: url("/css/assets/images/awards/biahoz_jmaf_animation2017.png")
 }
 
 .awards #oscars_feature2003 {
-    background-image: url("/css/assets/images/awards/anidb_oscars_feature2003.png")
+    background-image: url("/css/assets/images/awards/biahoz_oscars_feature2003.png")
 }
 
 .awards #oscars_short2000 {
-    background-image: url("/css/assets/images/awards/anidb_oscars_short2000.png")
+    background-image: url("/css/assets/images/awards/biahoz_oscars_short2000.png")
 }
 
 .awards #oscars_short2009 {
-    background-image: url("/css/assets/images/awards/anidb_oscars_short2009.png")
+    background-image: url("/css/assets/images/awards/biahoz_oscars_short2009.png")
 }
 
 #layout-footer .i_resource_patreon,
@@ -16475,184 +16475,184 @@ label.i_icon.brand:hover {
 }
 
 .i_file_add {
-    background-image: url("/css/assets/images/icon/anidb_file_add.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_add.gif")
 }
 
 .i_file_delete {
-    background-image: url("/css/assets/images/icon/anidb_file_delete.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_delete.gif")
 }
 
 .i_file_edit {
-    background-image: url("/css/assets/images/icon/anidb_file_edit.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_edit.gif")
 }
 
 .i_file_details {
-    background-image: url("/css/assets/images/icon/anidb_file_details.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_details.gif")
 }
 
 .i_file_ed2k {
-    background-image: url("/css/assets/images/icon/anidb_file_ed2k.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_ed2k.gif")
 }
 
 .i_file_ed2k_corrupt {
-    background-image: url("/css/assets/images/icon/anidb_file_ed2k_corrupt.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_ed2k_corrupt.gif")
 }
 
 .i_new_icon {
-    background-image: url("/css/assets/images/icon/anidb_new_icon.gif")
+    background-image: url("/css/assets/images/icon/biahoz_new_icon.gif")
 }
 
 .i_av_yes {
-    background-image: url("/css/assets/images/icon/anidb_av_yes.gif")
+    background-image: url("/css/assets/images/icon/biahoz_av_yes.gif")
 }
 
 .i_crc_no {
-    background-image: url("/css/assets/images/icon/anidb_crc_no.gif")
+    background-image: url("/css/assets/images/icon/biahoz_crc_no.gif")
 }
 
 .i_crc_yes {
-    background-image: url("/css/assets/images/icon/anidb_crc_yes.gif")
+    background-image: url("/css/assets/images/icon/biahoz_crc_yes.gif")
 }
 
 .i_censored {
-    background-image: url("/css/assets/images/icon/anidb_censored.gif")
+    background-image: url("/css/assets/images/icon/biahoz_censored.gif")
 }
 
 .i_uncensored {
-    background-image: url("/css/assets/images/icon/anidb_uncensored.gif")
+    background-image: url("/css/assets/images/icon/biahoz_uncensored.gif")
 }
 
 .i_vrs_1 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_1.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_1.gif")
 }
 
 .i_vrs_2 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_2.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_2.gif")
 }
 
 .i_vrs_3 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_3.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_3.gif")
 }
 
 .i_vrs_4 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_4.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_4.gif")
 }
 
 .i_vrs_5 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_5.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_5.gif")
 }
 
 .i_vrs_6 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_6.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_6.gif")
 }
 
 .i_vrs_7 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_7.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_7.gif")
 }
 
 .i_vrs_8 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_8.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_8.gif")
 }
 
 .i_vrs_9 {
-    background-image: url("/css/assets/images/orange/anidb_vrs_9.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vrs_9.gif")
 }
 
 .i_chapters {
-    background-image: url("/css/assets/images/icon/anidb_chapters.png")
+    background-image: url("/css/assets/images/icon/biahoz_chapters.png")
 }
 
 .i_crc_unv {
-    background-image: url("/css/assets/images/icon/anidb_crc_unv.gif")
+    background-image: url("/css/assets/images/icon/biahoz_crc_unv.gif")
 }
 
 .i_video {
-    background-image: url("/css/assets/images/icon/anidb_video.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video.gif")
 }
 
 .i_video.divx5,
 .i_video.xvid {
-    background-image: url("/css/assets/images/icon/anidb_video_asp.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_asp.gif")
 }
 
 .i_video.avc {
-    background-image: url("/css/assets/images/icon/anidb_video_avc.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_avc.gif")
 }
 
 .i_video.wmv9 {
-    background-image: url("/css/assets/images/icon/anidb_video_wmv.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_wmv.gif")
 }
 
 .i_ftype_video {
-    background-image: url("/css/assets/images/icon/anidb_video.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video.gif")
 }
 
 .i_ftype_video2 {
-    background-image: url("/css/assets/images/icon/anidb_video2.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video2.gif")
 }
 
 .i_ftype_subtitle {
-    background-image: url("/css/assets/images/icon/anidb_subtitles.gif")
+    background-image: url("/css/assets/images/icon/biahoz_subtitles.gif")
 }
 
 .i_ftype_subtitle2 {
-    background-image: url("/css/assets/images/icon/anidb_subtitles2.gif")
+    background-image: url("/css/assets/images/icon/biahoz_subtitles2.gif")
 }
 
 .i_ftype_audio {
-    background-image: url("/css/assets/images/icon/anidb_audio.gif")
+    background-image: url("/css/assets/images/icon/biahoz_audio.gif")
 }
 
 .i_ftype_other {
-    background-image: url("/css/assets/images/icon/anidb_other.gif")
+    background-image: url("/css/assets/images/icon/biahoz_other.gif")
 }
 
 .i_file2ep_rel {
     width: 20px;
-    background-image: url("/css/assets/images/icon/anidb_file2ep2.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file2ep2.gif")
 }
 
 .i_file2file_rel {
     width: 20px;
-    background-image: url("/css/assets/images/icon/anidb_file2file2.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file2file2.gif")
 }
 
 .i_avmf_dump {
-    background-image: url("/css/assets/images/icon/anidb_avmf_dump.gif")
+    background-image: url("/css/assets/images/icon/biahoz_avmf_dump.gif")
 }
 
 .i_avmf_recheck {
-    background-image: url("/css/assets/images/icon/anidb_avmf_recheck.gif")
+    background-image: url("/css/assets/images/icon/biahoz_avmf_recheck.gif")
 }
 
 .i_avmf_reset {
-    background-image: url("/css/assets/images/icon/anidb_avmf_reset.gif")
+    background-image: url("/css/assets/images/icon/biahoz_avmf_reset.gif")
 }
 
 .i_avmf_forget {
-    background-image: url("/css/assets/images/icon/anidb_avmf_forget.gif")
+    background-image: url("/css/assets/images/icon/biahoz_avmf_forget.gif")
 }
 
 .i_avmf_delete {
-    background-image: url("/css/assets/images/icon/anidb_avmf_delete.gif")
+    background-image: url("/css/assets/images/icon/biahoz_avmf_delete.gif")
 }
 
 .i_video_10bit {
     width: 28px;
-    background-image: url("/css/assets/images/icon/anidb_video_10bit.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_10bit.gif")
 }
 
 .i_video_12bit {
     width: 28px;
-    background-image: url("/css/assets/images/icon/anidb_video_12bit.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_12bit.gif")
 }
 
 .i_video_3d {
-    background-image: url("/css/assets/images/icon/anidb_video_3d.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_3d.gif")
 }
 
 .i_creditless {
-    background-image: url("/css/assets/images/icon/anidb_video_creditless.gif")
+    background-image: url("/css/assets/images/icon/biahoz_video_creditless.gif")
 }
 
 .i_ext,
@@ -16672,19 +16672,19 @@ label.i_icon.brand:hover {
 }
 
 .i_comment {
-    background-image: url("/css/assets/images/icon/anidb_comment.gif")
+    background-image: url("/css/assets/images/icon/biahoz_comment.gif")
 }
 
 .i_summary {
-    background-image: url("/css/assets/images/icon/anidb_summary.gif")
+    background-image: url("/css/assets/images/icon/biahoz_summary.gif")
 }
 
 .i_nonotify {
-    background-image: url("/css/assets/images/icon/anidb_nonotify.gif")
+    background-image: url("/css/assets/images/icon/biahoz_nonotify.gif")
 }
 
 .i_notify {
-    background-image: url("/css/assets/images/icon/anidb_notify.gif")
+    background-image: url("/css/assets/images/icon/biahoz_notify.gif")
 }
 
 .i_plus,
@@ -16711,11 +16711,11 @@ label.i_icon.brand:hover {
 }
 
 .i_general_vote {
-    background-image: url("/css/assets/images/orange/anidb_vote.gif")
+    background-image: url("/css/assets/images/orange/biahoz_vote.gif")
 }
 
 .i_general_vote_revote {
-    background-image: url("/css/assets/images/orange/anidb_revote.gif")
+    background-image: url("/css/assets/images/orange/biahoz_revote.gif")
 }
 
 .i_arrow_up {
@@ -16793,136 +16793,136 @@ th.s_reverse {
 
 .i_general_list,
 .i_mylist {
-    background-image: url("/css/assets/images/icon/anidb_mylist.gif")
+    background-image: url("/css/assets/images/icon/biahoz_mylist.gif")
 }
 
 .i_file_addmylist {
-    background-image: url("/css/assets/images/icon/anidb_file_addmylist.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_addmylist.gif")
 }
 
 .i_file_editmylist {
-    background-image: url("/css/assets/images/icon/anidb_file_editmylist.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_editmylist.gif")
 }
 
 .i_file_removemylist {
-    background-image: url("/css/assets/images/icon/anidb_file_removemylist.gif")
+    background-image: url("/css/assets/images/icon/biahoz_file_removemylist.gif")
 }
 
 .i_filestate_corrupted {
-    background-image: url("/css/assets/images/state/anidb_filestate_corrupted.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_corrupted.gif")
 }
 
 .i_filestate_edited {
-    background-image: url("/css/assets/images/state/anidb_filestate_edited.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_edited.gif")
 }
 
 .i_filestate_onbluray {
-    background-image: url("/css/assets/images/state/anidb_filestate_onbluray.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_onbluray.gif")
 }
 
 .i_filestate_ondvd {
-    background-image: url("/css/assets/images/state/anidb_filestate_ondvd.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_ondvd.gif")
 }
 
 .i_filestate_ontv {
-    background-image: url("/css/assets/images/state/anidb_filestate_ontv.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_ontv.gif")
 }
 
 .i_filestate_onvhs {
-    background-image: url("/css/assets/images/state/anidb_filestate_onvhs.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_onvhs.gif")
 }
 
 .i_filestate_other {
-    background-image: url("/css/assets/images/state/anidb_filestate_other.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_other.gif")
 }
 
 .i_filestate_selfripped {
-    background-image: url("/css/assets/images/state/anidb_filestate_selfripped.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_selfripped.gif")
 }
 
 .i_filestate_streamed {
-    background-image: url("/css/assets/images/state/anidb_filestate_streamed.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_streamed.gif")
 }
 
 .i_filestate_intheaters {
-    background-image: url("/css/assets/images/state/anidb_filestate_theater.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_theater.gif")
 }
 
 .i_filestate_fillerep {
-    background-image: url("/css/assets/images/state/anidb_filestate_filler.gif")
+    background-image: url("/css/assets/images/state/biahoz_filestate_filler.gif")
 }
 
 .i_liststate_unknown {
-    background-image: url("/css/assets/images/state/anidb_liststate_unknown.gif")
+    background-image: url("/css/assets/images/state/biahoz_liststate_unknown.gif")
 }
 
 .i_liststate_watching {
-    background-image: url("/css/assets/images/state/anidb_liststate_watching.gif")
+    background-image: url("/css/assets/images/state/biahoz_liststate_watching.gif")
 }
 
 .i_liststate_collecting {
-    background-image: url("/css/assets/images/state/anidb_liststate_collecting.png")
+    background-image: url("/css/assets/images/state/biahoz_liststate_collecting.png")
 }
 
 .i_liststate_stalled {
-    background-image: url("/css/assets/images/state/anidb_liststate_stalled.gif")
+    background-image: url("/css/assets/images/state/biahoz_liststate_stalled.gif")
 }
 
 .i_liststate_dropped {
-    background-image: url("/css/assets/images/state/anidb_liststate_dropped.gif")
+    background-image: url("/css/assets/images/state/biahoz_liststate_dropped.gif")
 }
 
 .i_liststate_completed {
-    background-image: url("/css/assets/images/state/anidb_liststate_completed.gif")
+    background-image: url("/css/assets/images/state/biahoz_liststate_completed.gif")
 }
 
 .i_liststate_edit {
-    background-image: url("/css/assets/images/icon/anidb_liststate_edit.gif")
+    background-image: url("/css/assets/images/icon/biahoz_liststate_edit.gif")
 }
 
 .i_seen {
-    background-image: url("/css/assets/images/icon/anidb_seen.gif")
+    background-image: url("/css/assets/images/icon/biahoz_seen.gif")
 }
 
 .i_seen_no {
-    background-image: url("/css/assets/images/icon/anidb_seen_no.gif")
+    background-image: url("/css/assets/images/icon/biahoz_seen_no.gif")
 }
 
 .i_seen_yes {
-    background-image: url("/css/assets/images/icon/anidb_seen_yes.gif")
+    background-image: url("/css/assets/images/icon/biahoz_seen_yes.gif")
 }
 
 .i_state_all {
-    background-image: url("/css/assets/images/state/anidb_state_all.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_all.gif")
 }
 
 .i_state_deleted {
-    background-image: url("/css/assets/images/state/anidb_state_deleted.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_deleted.gif")
 }
 
 .i_state_mixed {
-    background-image: url("/css/assets/images/state/anidb_state_mixed.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_mixed.gif")
 }
 
 .i_state_oncd {
-    background-image: url("/css/assets/images/state/anidb_state_oncd.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_oncd.gif")
 }
 
 .i_state_onhdd {
-    background-image: url("/css/assets/images/state/anidb_state_onhdd.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_onhdd.gif")
 }
 
 .i_state_onserver {
-    background-image: url("/css/assets/images/state/anidb_state_onserver.png")
+    background-image: url("/css/assets/images/state/biahoz_state_onserver.png")
 }
 
 .i_state_unknown {
-    background-image: url("/css/assets/images/state/anidb_state_unknown.gif")
+    background-image: url("/css/assets/images/state/biahoz_state_unknown.gif")
 }
 
 .i_general_vote_pending,
 .i_general_warning {
-    background-image: url("/css/assets/images/icon/anidb_no_vote.gif")
+    background-image: url("/css/assets/images/icon/biahoz_no_vote.gif")
 }
 
 .i_mylist_ainfo {
@@ -16944,23 +16944,23 @@ th.s_reverse {
 }
 
 .i_pri_high {
-    background-image: url("/css/assets/images/icon/anidb_pri_high.gif")
+    background-image: url("/css/assets/images/icon/biahoz_pri_high.gif")
 }
 
 .i_pri_low {
-    background-image: url("/css/assets/images/icon/anidb_pri_low.gif")
+    background-image: url("/css/assets/images/icon/biahoz_pri_low.gif")
 }
 
 .i_pri_med {
-    background-image: url("/css/assets/images/icon/anidb_pri_med.gif")
+    background-image: url("/css/assets/images/icon/biahoz_pri_med.gif")
 }
 
 .i_rate_corrupted {
-    background-image: url("/css/assets/images/icon/anidb_rate_corrupted.gif")
+    background-image: url("/css/assets/images/icon/biahoz_rate_corrupted.gif")
 }
 
 .i_rate_eyecancer {
-    background-image: url("/css/assets/images/icon/anidb_rate_eyecancer.gif")
+    background-image: url("/css/assets/images/icon/biahoz_rate_eyecancer.gif")
 }
 
 .g_bubble .seiyuu a.favourite::before,
@@ -16978,7 +16978,7 @@ tr.favourite>td.name.anime>a::before {
     background-repeat: repeat-x !important;
     background-position: left !important;
     padding: 0 !important;
-    background-image: url("/css/assets/images/icon/anidb_rate_star_dark.png")
+    background-image: url("/css/assets/images/icon/biahoz_rate_star_dark.png")
 }
 
 .i_rate_veryhigh {
@@ -17014,19 +17014,19 @@ tr.favourite>td.name.anime>a::before {
 }
 
 .i_rate_weightless {
-    background-image: url("/css/assets/images/icon/anidb_rate_star_grey.png")
+    background-image: url("/css/assets/images/icon/biahoz_rate_star_grey.png")
 }
 
 .i_rate_missing {
-    background-image: url("/css/assets/images/icon/anidb_rate_star_black.png")
+    background-image: url("/css/assets/images/icon/biahoz_rate_star_black.png")
 }
 
 .i_rate_error {
-    background-image: url("/css/assets/images/icon/anidb_rate_star_red.png")
+    background-image: url("/css/assets/images/icon/biahoz_rate_star_red.png")
 }
 
 .i_rate_unknown {
-    background-image: url("/css/assets/images/icon/anidb_rate_unknown.gif")
+    background-image: url("/css/assets/images/icon/biahoz_rate_unknown.gif")
 }
 
 .g_bubble .seiyuu a.favourite::before,
@@ -18216,7 +18216,7 @@ tr.favourite>td.name.anime>a::before {
 .i_rate_star,
 .i_rate_veryhigh,
 .i_rate_verylow {
-    background-image: url("/css/assets/images/icon/anidb_rate_star.png")
+    background-image: url("/css/assets/images/icon/biahoz_rate_star.png")
 }
 
 .i_icon {
@@ -19747,14 +19747,14 @@ textarea,
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size9 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a,
-#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a,
-#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="0"] .name a,
+#layout-main div.tag-column div.tag[data-biahoz-weight="400"] .name a,
+#layout-main div.tag-column div.tag[data-biahoz-weight="600"] .name a {
     font-weight: bold
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a,
-#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="500"] .name a,
+#layout-main div.tag-column div.tag[data-biahoz-weight="600"] .name a {
     font-size: 1.33rem
 }
 
@@ -19902,27 +19902,27 @@ table,
 }
 
 @media screen and (max-width: 950px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
+    #biahoz:not(.nodropdownmenu) #layout-search {
         background: url("images/logo-wide.png") no-repeat scroll left top transparent
     }
 
-    #anidb.nodropdownmenu #layout-search {
+    #biahoz.nodropdownmenu #layout-search {
         background: url("images/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
+    #biahoz:not(.nodropdownmenu) #layout-search {
         background: url("images/logo.png") no-repeat scroll center top transparent
     }
 
-    #anidb.nodropdownmenu #layout-search {
+    #biahoz.nodropdownmenu #layout-search {
         background: none
     }
 }
 
 @media screen and (max-width: 510px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
+    #biahoz:not(.nodropdownmenu) #layout-search {
         background: url("images/logo-small.png") no-repeat scroll center top transparent
     }
 }
@@ -20660,63 +20660,63 @@ textarea,
     background-color: #bbb
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="0"] .name a {
     color: rgba(0, 0, 0, 0.7)
 }
 
-#layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
+#layout-main div.tag-column div.tag.abstract[data-biahoz-weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
     color: rgba(0, 0, 0, 0.5)
 }
 
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="100"] .name a {
     color: rgba(16, 82, 137, 0.5)
 }
 
 #layout-main div.chartag-list span.size2 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="200"] .name a {
     color: rgba(16, 82, 137, 0.6)
 }
 
 #layout-main div.chartag-list span.size3 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="300"] .name a {
     color: rgba(16, 82, 137, 0.7)
 }
 
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="400"] .name a {
     color: rgba(16, 82, 137, 0.8)
 }
 
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="500"] .name a {
     color: rgba(16, 82, 137, 1)
 }
 
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
-#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+#layout-main div.tag-column div.tag[data-biahoz-weight="600"] .name a {
     color: rgba(16, 82, 137, 1)
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
+#layout-main div.tag-column div.tag[data-biahoz-weight="100"] .weight {
     opacity: .3
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="200"] .weight {
+#layout-main div.tag-column div.tag[data-biahoz-weight="200"] .weight {
     opacity: .4
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="300"] .weight {
+#layout-main div.tag-column div.tag[data-biahoz-weight="300"] .weight {
     opacity: .6
 }
 
-#layout-main div.tag-column div.tag[data-anidb-weight="400"] .weight {
+#layout-main div.tag-column div.tag[data-biahoz-weight="400"] .weight {
     opacity: .8
 }
 
@@ -21146,18 +21146,18 @@ input[type=submit],
 
 @media all and (max-width: 950px) {
 
-    #anidb:not(.nodropdownmenu) #layout-content,
-    #anidb:not(.nodropdownmenu) #layout-main {
+    #biahoz:not(.nodropdownmenu) #layout-content,
+    #biahoz:not(.nodropdownmenu) #layout-main {
         min-height: 0
     }
 
-    #anidb:not(.nodropdownmenu) #layout-content {
+    #biahoz:not(.nodropdownmenu) #layout-content {
         margin-left: 0;
         margin-top: 7em;
         padding-left: .5em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu {
         display: inline-block;
         height: 31px;
         margin-left: .8em;
@@ -21165,7 +21165,7 @@ input[type=submit],
         padding-top: 0
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu>li {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li {
         display: block;
         float: left;
         font-weight: 700;
@@ -21173,7 +21173,7 @@ input[type=submit],
         padding: 0 1.3em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu>li ul {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li ul {
         border-top: 0;
         visibility: hidden;
         font-weight: 400;
@@ -21185,190 +21185,190 @@ input[type=submit],
         width: 144px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu a {
+    #biahoz:not(.nodropdownmenu) #layout-menu a {
         display: inline-block;
         padding: 3px 8px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu a.history {
+    #biahoz:not(.nodropdownmenu) #layout-menu a.history {
         padding: 3px 0
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu span.tab {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu span.tab {
         display: inline;
         float: right;
         cursor: pointer;
         padding: .5em 0
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu>li.sub-menu.touched ul,
-    #anidb:not(.nodropdownmenu) #layout-menu>li.sub-menu:active ul,
-    #anidb:not(.nodropdownmenu) #layout-menu>li.sub-menu:focus ul,
-    #anidb:not(.nodropdownmenu) #layout-menu>li.sub-menu:hover ul {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li.sub-menu.touched ul,
+    #biahoz:not(.nodropdownmenu) #layout-menu>li.sub-menu:active ul,
+    #biahoz:not(.nodropdownmenu) #layout-menu>li.sub-menu:focus ul,
+    #biahoz:not(.nodropdownmenu) #layout-menu>li.sub-menu:hover ul {
         visibility: visible
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li a {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li a {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: 28px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-main {
+    #biahoz:not(.nodropdownmenu) #layout-main {
         margin-left: .5em;
         margin-top: 1em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search,
-    #anidb:not(.nodropdownmenu) #layout-search div.search {
+    #biahoz:not(.nodropdownmenu) #layout-search,
+    #biahoz:not(.nodropdownmenu) #layout-search div.search {
         height: 70px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu {
         margin-top: 7.5em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.alert {
         height: 28px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu {
         margin-bottom: 0;
         cursor: pointer
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
         margin-top: -12.7em;
         visibility: visible;
         height: 75px;
         padding: 0
     }
 
-    #anidb:not(.nodropdownmenu) #layout-nav {
+    #biahoz:not(.nodropdownmenu) #layout-nav {
         margin-top: 0;
         height: 76px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-hint+#layout-nav {
+    #biahoz:not(.nodropdownmenu) #layout-hint+#layout-nav {
         height: 96px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-hint+#layout-nav #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-hint+#layout-nav #layout-menu {
         margin-top: 9.5em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu {
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
         background-color: #34394d
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu span.tab {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu span.tab {
         color: #ddd !important;
         box-shadow: none
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu+li.sub-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu+li.sub-menu {
         border-left: 1px solid #999 !important
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu:hover {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu:hover {
         background-color: #58636e !important
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu:hover span.tab {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu:hover span.tab {
         color: #c0daf0 !important;
         background-color: #58636e
     }
 }
 
 @media screen and (max-width: 950px) {
-    #anidb:not(.nodropdownmenu) #layout-content {
+    #biahoz:not(.nodropdownmenu) #layout-content {
         margin-top: 9.75em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
+    #biahoz:not(.nodropdownmenu) #layout-search div.search a.advsearch {
         display: none
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search .text {
+    #biahoz:not(.nodropdownmenu) #layout-search .text {
         width: calc(100% - 17em);
         margin-left: 1em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search div.search form>div {
+    #biahoz:not(.nodropdownmenu) #layout-search div.search form>div {
         top: 7.25em;
         width: calc(100% - .5em);
         left: -0.5em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search ul.quicksearch {
+    #biahoz:not(.nodropdownmenu) #layout-search ul.quicksearch {
         margin: .1em 0 0 1.4em !important;
         width: calc(100% - 1.5em);
         max-width: none
     }
 
-    #anidb:not(.nodropdownmenu) #layout-search ul.quicksearch .g_bubble.stripe {
+    #biahoz:not(.nodropdownmenu) #layout-search ul.quicksearch .g_bubble.stripe {
         max-width: none
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-menu {
         margin-top: 10.75em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu>li ul {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li ul {
         padding-top: .5em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
         width: calc(100vw - 1.5em)
     }
 
-    #anidb:not(.nodropdownmenu) #layout-hint+#layout-nav #layout-menu {
+    #biahoz:not(.nodropdownmenu) #layout-hint+#layout-nav #layout-menu {
         margin-top: 12.25em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-content #layout-main div.g_content {
+    #biahoz:not(.nodropdownmenu) #layout-content #layout-main div.g_content {
         min-height: 0
     }
 }
 
 @media screen and (max-width: 600px) {
-    #anidb:not(.nodropdownmenu) #layout-menu>li ul {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li ul {
         width: 10.1em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu>li ul#menu-account {
+    #biahoz:not(.nodropdownmenu) #layout-menu>li ul#menu-account {
         margin-left: -4em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li>a span,
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li>span {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li>a span,
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu ul li>span {
         padding: 0 5px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu a {
+    #biahoz:not(.nodropdownmenu) #layout-menu a {
         padding: 3px 5px
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert>span a {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu .alert>span a {
         margin-right: -0.75em
     }
 
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.mod {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu.mod {
         display: none
     }
 }
 
 @media screen and (max-width: 500px) {
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.terms {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu.terms {
         display: none
     }
 }
 
 @media screen and (max-width: 400px) {
-    #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
+    #biahoz:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
         display: none
     }
 }
 
-/*# sourceMappingURL=anidbstyle3.css.map */
+/*# sourceMappingURL=biahozstyle3.css.map */
