@@ -13595,7 +13595,9 @@ div.badge.mod.cdb-man div.inner {
     background-image: url("/css/assets/images/achievements/center-mod-cdbman.png")
 }
 
-
+div.badge.mod.deridiot div.inner {
+    background-image: url("/css/assets/images/achievements/center-mod-deridiot.png")
+}
 
 div.badge.mod.exp div.inner {
     background-image: url("/css/assets/images/achievements/center-mod-exp.png")
@@ -19896,50 +19898,50 @@ table,
 }
 
 #layout-search {
-    background: url("https://imagizer.imageshack.com/v2/240x33q70/c/924/o70sxJ.png") no-repeat scroll left top transparent
+    background: url("images/logo.png") no-repeat scroll left top transparent
 }
 
 @media screen and (max-width: 950px) {
-    #zab:not(.nodropdownmenu) #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x22q70/c/922/xMYAgb.png") no-repeat scroll left top transparent
+    #anidb:not(.nodropdownmenu) #layout-search {
+        background: url("images/logo-wide.png") no-repeat scroll left top transparent
     }
 
-    #zab.nodropdownmenu #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x53q70/c/924/5olBus.png") no-repeat scroll left top transparent
+    #anidb.nodropdownmenu #layout-search {
+        background: url("images/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
-    #zab:not(.nodropdownmenu) #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x33q70/c/924/o70sxJ.png") no-repeat scroll center top transparent
+    #anidb:not(.nodropdownmenu) #layout-search {
+        background: url("images/logo.png") no-repeat scroll center top transparent
     }
 
-    #zab.nodropdownmenu #layout-search {
+    #anidb.nodropdownmenu #layout-search {
         background: none
     }
 }
 
 @media screen and (max-width: 510px) {
-    #zab:not(.nodropdownmenu) #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x53q70/c/924/5olBus.png") no-repeat scroll center top transparent
+    #anidb:not(.nodropdownmenu) #layout-search {
+        background: url("images/logo-small.png") no-repeat scroll center top transparent
     }
 }
 
 @media screen and (min-width: 1235px) {
     #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x22q70/c/922/xMYAgb.png") no-repeat scroll left top transparent
+        background: url("images/logo-wide.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (min-width: 1575px) {
     #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x22q70/c/922/xMYAgb.png") no-repeat scroll left top transparent
+        background: url("images/logo-wider.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (min-width: 1860px) {
     #layout-search {
-        background: url("https://imagizer.imageshack.com/v2/240x15q70/c/923/FaqVhG.png") no-repeat scroll left top transparent
+        background: url("images/logo-widest.png") no-repeat scroll left top transparent
     }
 }
 
@@ -21138,9 +21140,8 @@ input[type=submit],
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
 }
 
-
 #layout-footer::after {
-    content: "© urdusub"
+    content: "design by deridiot"
 }
 
 @media all and (max-width: 950px) {
