@@ -29,7 +29,7 @@
   />
 
 
-
+<link rel="stylesheet" href="styles.css">
  
     
  <!--Begin: Urdu-Code - UrduSUB-->
@@ -97,7 +97,7 @@ title="UrduSUB"
     
     <link
       rel="manifest"
-      href="https://cdn-eu.anidb.net/css/assets/images/touch/site.webmanifest?v=2024-08-09T12-06-12"
+      href="https://cdn-eu.biahoz.net/css/assets/images/touch/site.webmanifest?v=2024-08-09T12-06-12"
     />
     <link
       rel="mask-icon"
@@ -116,7 +116,7 @@ title="UrduSUB"
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta
       name="msapplication-config"
-      content="https://cdn-eu.anidb.net/css/assets/images/touch/browserconfig.xml?v=2024-08-09T12-06-12"
+      content="https://cdn-eu.biahoz.net/css/assets/images/touch/browserconfig.xml?v=2024-08-09T12-06-12"
     />
     <meta name="theme-color" content="#ffffff" />
     <meta name="twitter:card" content="summary" />
@@ -147,7 +147,7 @@ title="UrduSUB"
       }
     </script>
   </head>
-  <body>
+  <body id="biahoz" class="Urdu Subtitle">
     <!--Hint ON top-->
     
     <div id="layout-hint" class="Join">
@@ -172,10 +172,11 @@ title="UrduSUB"
             </a></li>
             <li><a href="schedule" title="Schedule"><i class="fas fa-calendar-alt">
               
-            </i><span>Schedule</span></a></li>
-            
-          </ul>
-          
+            </i><span>Schedule</span></a>
+          </li>
+        </ul>
+        <span></span>
+      </li>
       
 
         <li class="sub-menu listings" title="Content">
@@ -187,20 +188,16 @@ title="UrduSUB"
             <li><a href="/anime" title="Anime"><i class="fas fa-eye"></i><span>anime</span></a></li>
             <li><a href="/movie" title="Characters"><i class="fas fa-video"></i><span>movie</span></a></li>
             <li><a href="/tv" title="Creators"><i class="fas fa-tv"></i><span>TV Show</span></a></li>
-            <li><a href="/groups" title="Groups"><i class="fas fa-star"></i><span>group</span></a></li>
-               
-          </ul>
-          <span></span>
-        </li>
-        
-
+      </ul>
+      <span></span>
     </li>
-  </ul>
+    <li class="sub-menu login" title="Creators">
+      <span class="tab">Creators</span>
+      <ul id="menu-lists">
+            
 
-
-
-
-      
+        <li><a href="/admin" title="ZAB"><i class="fas fa-user mr-2"></i> <span>Admin</span></a></li>
+    </ul>
 <!--Search Box - UrduSUB-->
 
 
@@ -218,9 +215,9 @@ title="UrduSUB"
 <div id="layout-content">
 	<div id="layout-tabs">
 		<ul class="main-tabs">
-			<li class="g_odd main"><span><a href="/"><span class="text">Request</span></a></span></li>
-			<li class="g_odd main"><span><a href="/forum"><span class="text">Contact</span></a></span></li>
-			<li class="g_odd main"><span><a href="#"><span class="text">DMCA</span></a></span></li>
+			<li class=""><span><a href="/request"><span class="text">Request</span></a></span></li>
+			<li class=""><span><a href="/policies"><span class="text">Policies</span></a></span></li>
+			<li class=""><span><a href="/dmca"><span class="text">DMCA</span></a></span></li>
 
 		</ul>
 	</div>
@@ -257,6 +254,7 @@ title="UrduSUB"
           </div>
           
           -->
+          <!--Side Filter About etc-->
           <div class="g_section middle g_bubblewrap nowrap">
             <div class="hide right g_filter">
               
@@ -270,7 +268,7 @@ title="UrduSUB"
                   
               </div>
             </div>
-
+<!---->
 
 
             <div class="container">
@@ -299,15 +297,14 @@ title="UrduSUB"
 
 
         <!-- Add Image Instead of Icon -->               
-        <!--  <a
-      
-      title="Watch on UrduSUB"
+        <!--  
+        <a title="Watch on UrduSUB"
       href="/urdusub"
-      data-anidb-rel="anidb::extern"
+      data-biahoz-rel="biahoz::extern"
     >
       
-       <!--
-      <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
+       
+      <img src="https://cdn-eu.biahoz.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
     </a>
     -->
     </div>  
@@ -532,7 +529,7 @@ title="UrduSUB"
 
     <div id="layout-footer">
       <p>
-        <a href="https://anidb.net" property="cc:attributionName">UrduSUB</a> does not host any files on its servers. All content is sourced from third-party platforms and is provided solely for viewing purposes.
+        <a href="https://biahoz.net" property="cc:attributionName">UrduSUB</a> does not host any files on its servers. All content is sourced from third-party platforms and is provided solely for viewing purposes.
         
       </p>
       <p>
@@ -555,7 +552,7 @@ title="UrduSUB"
           class="hide"
           alt="UrduSUB"
           itemprop="logo"
-          src="https://cdn-eu.anidb.net/css/assets/images/touch/android-chrome-512x512.png"
+          src="https://cdn-eu.biahoz.net/css/assets/images/touch/android-chrome-512x512.png"
         />
         <span class="hide" itemprop="name">UrduSUB</span>
         <div class="links">
@@ -564,7 +561,7 @@ title="UrduSUB"
           itemprop="sameAs"
           title="Stay up-to-date with us on Telegram!"
           href="https://t.me/urdusub"
-          data-anidb-rel="urdusub::extern"
+          data-biahoz-rel="urdusub::extern"
       >
           <i class="fab fa-telegram-plane"></i> <span class="text">Telegram</span>
       </a>
