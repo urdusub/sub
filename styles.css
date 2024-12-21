@@ -21141,7 +21141,7 @@ input[type=submit],
 }
 
 #layout-footer::after {
-    content: "design by deridiot"
+    content: "© urdusub"
 }
 
 @media all and (max-width: 950px) {
