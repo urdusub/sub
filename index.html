@@ -20,21 +20,34 @@
 
 
     <meta name="robots" content="index, follow" />
+
     <link
-      rel="stylesheet"
-      href="https://cdn-eu.anidb.net/css/anidbstyle3/anidbstyle3.css"
-      type="text/css"
-      title="Style"
-    />
+    rel="stylesheet"
+    href="styles.css"
+    type="text/css"
+    title="Style"
+  />
+
+<!--2 way to input stylsheet-->
+<link rel="stylesheet" href="styles.css">
+<!--is wali file ko hosting me upload karna hai is me icon wgera sb kuch hai
+https://github.com/zohaibaliafzal/biahoz/blob/ZohaibAliAfzal/anidbstyle3.css
+
+  -->
+<!--
+<link rel="stylesheet" href="anidbstyle3.css" type="text/css" title="Style"/>
 
 
+<link rel="stylesheet" href="creat.css" type="text/css" title="Style"/>
+-->
 
 
+ 
     
  <!--Begin: Urdu-Code - UrduSUB-->
 
  <meta charset="UTF-8">
- <link rel="stylesheet" href="https://web.archive.org/web/20231207174803cs_/https://fonts.googleapis.com/css?family=Noto+Nastaliq+Urdu">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Nastaliq+Urdu">
  <style>
      .urdu-text {
 font-family: 'Jameel Noori Nastaleeq';font-size: 18px;
@@ -146,7 +159,7 @@ title="UrduSUB"
       }
     </script>
   </head>
-  <body id="anidb" class="calendar">
+  <body>
     <!--Hint ON top-->
     
     <div id="layout-hint" class="Join">
@@ -167,9 +180,12 @@ title="UrduSUB"
             <li class="main"><a title="Main" href="/"><span class="text">Home</span></a></li>
             
             
-            <li><a href="/random" title="Random"><i class="fa fa-random"></i> <span>Random</span></a></li>
-            <li><a href="schedule" title="Schedule"><i class="fa fa-calendar-alt"></i> <span>Schedule</span></a></li>
-            <li><a href="/seasons" title="Anime"><i class="fa fa-chart-line"></i> <span>Seasons</span></a></li>
+            <li><a href="/random" title="Random"><i class="fas fa-random"></i><span>Random</span>
+            </a></li>
+            <li><a href="schedule" title="Schedule"><i class="fas fa-calendar-alt">
+              
+            </i><span>Schedule</span></a></li>
+            
           </ul>
           
       
@@ -179,12 +195,11 @@ title="UrduSUB"
           <ul id="menu-lists">
             
 
-            <li><a href="/latest" title="Latest"><i class="fa fa-random"></i> <span>latest</span></a></li>
-            <li><a href="/anime" title="Anime"><i class="fa fa-calendar-alt"></i> <span>anime</span></a></li>
-            <li><a href="/characters" title="Characters"><i class="fa fa-chart-line"></i> <span>characters</span></a></li>
-            <li><a href="/creators" title="Creators"><i class="fa fa-random"></i> <span>creators</span></a></li>
-            <li><a href="/collections" title="Collections"><i class="fa fa-calendar-alt"></i> <span>collections</span></a></li>
-            <li><a href="/groups" title="Groups"><i class="fa fa-chart-line"></i> <span>groups</span></a></li>
+            <li><a href="/latest" title="Latest"><i class="fas fa-fire"></i> <span>latest</span></a></li>
+            <li><a href="/anime" title="Anime"><i class="fas fa-eye"></i><span>anime</span></a></li>
+            <li><a href="/movie" title="Characters"><i class="fas fa-video"></i><span>movie</span></a></li>
+            <li><a href="/tv" title="Creators"><i class="fas fa-tv"></i><span>TV Show</span></a></li>
+            <li><a href="/groups" title="Groups"><i class="fas fa-star"></i><span>group</span></a></li>
                
           </ul>
           <span></span>
@@ -318,7 +333,7 @@ title="UrduSUB"
       title="Watch on UrduSUB"
       href="/urdusub">
       <!-- Add Image of Icon -1 -->
-      <img src="https://web.archive.org/web/20230421123907im_/https://urdusub.com/images/apple-touch-icon.png" alt="UrduSUB" class="icon-image" style="width: 16px; height: 16px;">
+      <img src="https://web.archive.org/web/20230421123907im_/https://urdusub.com/images/apple-touch-icon.png" alt="UrduSUB" class="icon-image" style="width: 20px; height: 20px;">
     </a>
 
     
@@ -515,7 +530,7 @@ title="UrduSUB"
           <ul class="g_list links">
             <li class="g_odd back">
               <span
-                ><a href="/"><span class="text">back</span></a></span
+                ><a href="/"><span class="text">Home</span></a></span
               >
             </li>
           </ul>
