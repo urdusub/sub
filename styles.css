@@ -19893,22 +19893,25 @@ table,
     border: 0
 }
 
-#layout-search {
+#layout-search {        /*logo.png */
     background: url("images/logo.png") no-repeat scroll left top transparent
 }
 
 @media screen and (max-width: 950px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
+                            /*logo-wide.png */
         background: url("images/logo-wide.png") no-repeat scroll left top transparent
     }
 
     #biahoz.nodropdownmenu #layout-search {
-        background: url("images/logo-small.png") no-repeat scroll left top transparent
+                            /*logo-small.png */
+        background: url("https://ia801406.us.archive.org/29/items/logo-small.png/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
+                              /*logo.png */
         background: url("images/logo.png") no-repeat scroll center top transparent
     }
 
@@ -19919,24 +19922,25 @@ table,
 
 @media screen and (max-width: 510px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
-        background: url("images/logo-small.png") no-repeat scroll center top transparent
+                                    /*logo-small.png */
+        background: url("https://ia801406.us.archive.org/29/items/logo-small.png/logo-small.png") no-repeat scroll center top transparent
     }
 }
 
 @media screen and (min-width: 1235px) {
-    #layout-search {
+    #layout-search {      /*logo-wide.png */
         background: url("images/logo-wide.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (min-width: 1575px) {
-    #layout-search {
+    #layout-search {        /*logo-wider.png */
         background: url("images/logo-wider.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (min-width: 1860px) {
-    #layout-search {
+    #layout-search {            /*logo-widest.png */
         background: url("images/logo-widest.png") no-repeat scroll left top transparent
     }
 }
