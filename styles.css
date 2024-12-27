@@ -720,7 +720,7 @@ h1+.icons {
     float: left;
     max-height: 100%
 }
-
+/* Poster Size - UrduSUB */
 .g_bubble.box>div.image img {
     max-width: 150px;
     max-height: 230px;
@@ -19905,7 +19905,7 @@ table,
 
     #biahoz.nodropdownmenu #layout-search {
                             /*logo-small.png */
-        background: url("https://ia801406.us.archive.org/29/items/logo-small.png/logo-small.png") no-repeat scroll left top transparent
+        background: url("https://ia802208.us.archive.org/2/items/logo-small_202412/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
@@ -19923,7 +19923,7 @@ table,
 @media screen and (max-width: 510px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
                                     /*logo-small.png */
-        background: url("https://ia801406.us.archive.org/29/items/logo-small.png/logo-small.png") no-repeat scroll center top transparent
+        background: url("https://ia802208.us.archive.org/2/items/logo-small_202412/logo-small.png") no-repeat scroll center top transparent
     }
 }
 
