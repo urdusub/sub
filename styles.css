@@ -19905,12 +19905,12 @@ table,
 
     #biahoz.nodropdownmenu #layout-search {
                             /*logo-small.png */
-        background: url("https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png") no-repeat scroll left top transparent
+        background: url("https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
-    #biahoz:not(.nodropdownmenu) #layout-search {https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png
+    #biahoz:not(.nodropdownmenu) #layout-search {https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png
                               /*logo.png */
         background: url("images/logo.png") no-repeat scroll center top transparent
     }
@@ -19923,7 +19923,7 @@ table,
 @media screen and (max-width: 510px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
                                     /*logo-small.png */
-        background: url("https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png") no-repeat scroll center top transparent
+        background: url("https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png") no-repeat scroll center top transparent
     }
 }
 
