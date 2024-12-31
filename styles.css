@@ -19905,12 +19905,12 @@ table,
 
     #biahoz.nodropdownmenu #layout-search {
                             /*logo-small.png */
-        background: url("https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png") no-repeat scroll left top transparent
+        background: url("https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
-    #biahoz:not(.nodropdownmenu) #layout-search {https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png
+    #biahoz:not(.nodropdownmenu) #layout-search {https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png
                               /*logo.png */
         background: url("images/logo.png") no-repeat scroll center top transparent
     }
@@ -19923,7 +19923,7 @@ table,
 @media screen and (max-width: 510px) {
     #biahoz:not(.nodropdownmenu) #layout-search {
                                     /*logo-small.png */
-        background: url("https://ia902203.us.archive.org/3/items/logo-small_20241227_2206/logo-small.png") no-repeat scroll center top transparent
+        background: url("https://ia600105.us.archive.org/34/items/logo-small_20241227_2157/logo-small.png") no-repeat scroll center top transparent
     }
 }
 
@@ -21370,5 +21370,36 @@ input[type=submit],
         display: none
     }
 }
+
+
+
+/* Prevent the image from being interacted with 
+URDUSUB
+*/
+.icon-image {
+    pointer-events: none;  /* Disables interaction with the image */
+}
+
+/* Alternatively, hide the image */
+.icon-image {
+    display: none;  /* Hides the image completely */
+}
+
+/* Optionally, add an overlay to prevent saving */
+.icon-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-image-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);  /* Semi-transparent overlay */
+}
+
 
 /*# sourceMappingURL=biahozstyle3.css.map */
