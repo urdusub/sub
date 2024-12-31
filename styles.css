@@ -21373,33 +21373,4 @@ input[type=submit],
 
 
 
-/* Prevent the image from being interacted with 
-URDUSUB
-*/
-.icon-image {
-    pointer-events: none;  /* Disables interaction with the image */
-}
-
-/* Alternatively, hide the image */
-.icon-image {
-    display: none;  /* Hides the image completely */
-}
-
-/* Optionally, add an overlay to prevent saving */
-.icon-image-wrapper {
-    position: relative;
-    display: inline-block;
-}
-
-.icon-image-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.5);  /* Semi-transparent overlay */
-}
-
-
 /*# sourceMappingURL=biahozstyle3.css.map */
