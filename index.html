@@ -470,53 +470,20 @@
         </div>
       </div>
     </div>
-    <div id="layout-content">
-      <div id="layout-tabs">
-        <ul class="main-tabs">
-          <li class="g_odd list">
-            <!-- <li class="calendar selected">-->
-            <span
-              ><a href="/urdusub"><span class="text">Peaky Blinders</span></a></span
-            >
-          </li>
-          <li class="g_odd schedule">
-            <span
-              ><a href="/urdusub"
-                ><span class="text">One Piece</span></a
-              ></span
-            >
-          
-          <li class="g_odd schedule">
-            <span
-              ><a href="/urdusub"
-                ><span class="text">Bleach</span></a
-              ></span
-            >
-          </li>
-          <li class="forum2">
-            <span
-              ><a href="/urdusub"
-                ><span class="text">The 100</span></a
-              ></span
-            >
-          </li>
-          <li class="g_odd forum">
-            <span
-              ><a href="/urdusub"
-                ><span class="text">Prison Break</span></a
-              ></span
-            >
-          </li>
-          <li class="forum3">
-            <span
-              ><a href="/urdusub"
-                ><span class="text">The Flash</span></a
-              ></span
-            >
-          </li>
-        </ul>
-      </div>
-      <!--Main Page layout-tabs-->
+   <div id="layout-content">
+	<div id="layout-tabs">
+		<ul class="main-tabs">
+			<li class="g_odd file selected"><span><a href="/latest/anime/release"><span class="text">files</span></a></span></li>
+			<li class="completed"><span><a href="/latest/anime/release/complete"><span class="text">completed</span></a></span></li>
+			<li class="g_odd hotanime"><span><a href="/latest/anime/popular"><span class="text">hot anime</span></a></span></li>
+			<li class="anime"><span><a href="/latest/anime"><span class="text">anime</span></a></span></li>
+			<li class="g_odd sequel"><span><a href="/latest/anime/relation"><span class="text">related anime</span></a></span></li>
+			<li class="recs"><span><a href="/latest/anime/recommendation"><span class="text">recommendations</span></a></span></li>
+			<li class="g_odd reviews"><span><a href="/latest/anime/review"><span class="text">reviews</span></a></span></li>
+			<li class="similaranime"><span><a href="/latest/anime/similar"><span class="text">similar anime</span></a></span></li>
+			<li class="g_odd customise"><span><a href="/latest/customise"><span class="text">customise</span></a></span></li>
+		</ul>
+	</div><!--layout-tabs-->
       <div id="layout-main">
         <h1 class="calendar">Main Page</h1>
 
@@ -588,57 +555,39 @@
               </ul>
             </form>
           </div>
-          <div class="g_section middle g_bubblewrap nowrap">
-            <div class="hide right g_filter">
-              <div
-                class="g_bubble flap hide"
-                title="click to show the filter menu"
-              >
-                About
-              </div>
-              <div class="content">
-                <span
-                  title="Hide Filter"
-                  class="fancybox-item fancybox-close"
-                ></span>
-                <form action="/urdusub" method="get">
-                  <div class="g_section g_bubble">
-                    <button
-                      class="filter"
-                      type="submit"
-                      name="do.update"
-                      value="1"
-                    >
-                      UrduSUB
-                    </button>
 
-                  </div>
-                  <fieldset>
-                    <input type="hidden" name="cleanurl" value="1" />
-                    <input type="hidden" name="do" value="calendar" />
-                    <input type="hidden" name="last.anime.year" value="2024" />
-                    <input type="hidden" name="last.anime.month" value="19" />
-                    <input type="hidden" name="last.anime.month" value="" />
 
-                    <input type="hidden" name="last.anime.month" value="19" />
 
-                    <input type="hidden" name="view" value="smallgrid" />
 
-                    <input type="hidden" name="last.anime.year" value="2024" />
 
-                    <input type="hidden" name="show" value="calendar" />
-                  </fieldset>
-                  <div class="g_section filters">
-                    <h2><span>Filter</span></h2>
-                    <ul class="g_bubblewrap">
+          
+          <div class="g_bubblewrap nowrap">
+	<div class="hide right g_filter">
+		<div class="g_bubble flap hide" title="click to show the filter menu">Filter</div>
+		<div class="content">
+			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
+			<form action="/perl-bin/animedb.pl" method="get">
+				<div class="g_section g_bubble">
+					<button class="filter" type="submit" name="do.update" value="1">Apply Filter</button>
+					<button class="reset" type="submit" name="do.reset" value="1">Reset</button>
+				</div>
+				<fieldset>
+					<input type="hidden" name="cleanurl" value="1"/>
+				<input type="hidden" name="cleanurl" value="1"/>
+				<input type="hidden" name="show" value="latest2"/>
+				<input type="hidden" name="do" value="file"/>
+				</fieldset>
+	<div class="g_section filters">
+		<h2><span>Filter</span></h2>
+		<ul class="g_bubblewrap">
                       <li class="g_odd g_bubble">
                         <div class="g_boxwrap">
                           <h3>Airing Status</h3>
-                          <label class="ignore"
+                          <label class="finished"
                             ><input
                               type="radio"
                               name="airing"
-                              value="0"
+                              value="2"
                               checked="checked"
                             />
                             <span>ignore</span></label
@@ -736,42 +685,14 @@
                           >
                         </div>
                       </li>
-                      <li class="g_bubble">
-                        <div class="g_boxwrap">
-                          <h3>Misc</h3>
-                          <label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="ignorepast"
-                            />
-                            <span>show only new</span></label
-                          >
-                          <label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="streamable"
-                            />
-                            <span>show only streamable</span></label
-                          >
-                        </div>
-                      </li>
-                      <li class="g_odd g_bubble">
-                        <h3>Origin</h3>
-                        <div class="g_boxwrap">
-                          <label
-                            ><input type="checkbox" value="1" name="tag.6152" />
-                            <span>China</span></label
-                          ><label
-                            ><input type="checkbox" value="1" name="tag.7885" />
-                            <span>Japan</span></label
-                          ><label
-                            ><input type="checkbox" value="1" name="tag.6166" />
-                            <span>South Korea</span></label
-                          >
-                        </div>
-                      </li>
+                      <li class="g_bubble"><h3>File Source</h3><label><input type="checkbox"  value="1" name="source.bd"  checked="checked"> <span>Bluray/HDDVD</span></label><label><input type="checkbox"  value="1" name="source.dvd"  checked="checked"> <span>DVD</span></label><label><input type="checkbox"  value="1" name="source.hdtv"  checked="checked"> <span>HDTV</span></label><label><input type="checkbox"  value="1" name="source.www"  checked="checked"> <span>WWW</span></label><label><input type="checkbox"  value="1" name="source.other"  checked="checked"> <span>other</span></label><label><input type="checkbox"  value="1" name="source.unknown"  checked="checked"> <span>unknown</span></label></li>
+			<li class="g_odd g_bubble"><h3>Misc</h3>
+<label>
+	
+	<select name="epp" size="1"><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="50" selected="selected">50</option><option value="100">100</option>
+	</select> # to show</label>
+<label><input type="checkbox"  value="1" name="uncensored" > <span>show uncensored only</span></label></li>
+			<li class="g_bubble"><h3>Timeframe</h3><label><input type="radio" name="timeframe" value="0" checked="checked"> <span>group by day</span></label><label><input type="radio" name="timeframe" value="1"> <span>group by week</span></label><label><input type="radio" name="timeframe" value="2"> <span>group by month</span></label></li>
                     </ul>
                   </div>
                 </form>
