@@ -1187,7 +1187,7 @@ h1+.icons {
 }
 
 .g_image.missing.missing::after {
-    color: #999
+    color: #9a9a9a
 }
 
 .g_image.missing {
@@ -2885,11 +2885,11 @@ div.g_timeline ul.row li a {
     height: calc(100% - 4.6em)
 }
 
-#layout-main div.accounting_all #accountbalance .container {
+#layout-main div.accounting_all #abcdcdountbalance .container {
     padding: 1em 0 0
 }
 
-#layout-main div.accounting_all #accountbalance .highcharts-container {
+#layout-main div.accounting_all #abcdcdountbalance .highcharts-container {
     margin-left: -0.5em
 }
 
@@ -8037,11 +8037,11 @@ div.g_timeline ul.row li a {
     padding-right: .5em
 }
 
-#addtag_animetb_parentid+.select2,
-#addtag_chartb_parentid+.select2,
-#addtag_creatortb_parentid+.select2,
-#addtag_eptb_parentid+.select2,
-#addtag_mangatb_parentid+.select2 {
+#abdedetag_animetb_parentid+.select2,
+#abdedetag_chartb_parentid+.select2,
+#abdedetag_creatortb_parentid+.select2,
+#abdedetag_eptb_parentid+.select2,
+#abdedetag_mangatb_parentid+.select2 {
     width: 37em !important
 }
 
@@ -8728,7 +8728,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-bg {
-    background: rgb(30, 30, 30);
+    background: rgb(31, 31, 31);
     opacity: 0;
     transition-duration: inherit;
     transition-property: opacity;
@@ -8762,7 +8762,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-infobar {
-    color: #ccc;
+    color: #cdcdcd;
     font-size: 13px;
     -webkit-font-smoothing: subpixel-antialiased;
     height: 44px;
@@ -8845,7 +8845,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-content {
-    background: #fff;
+    background: #000000;
     display: inline-block;
     margin: 0;
     max-width: 100%;
@@ -8937,15 +8937,15 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-slide--video .fancybox-content {
-    background: #000
+    background: #010101
 }
 
 .fancybox-slide--map .fancybox-content {
-    background: #e5e3df
+    background: #e6e4e0
 }
 
 .fancybox-slide--iframe .fancybox-content {
-    background: #fff
+    background: #000000
 }
 
 .fancybox-video,
@@ -8967,7 +8967,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-error {
-    background: #fff;
+    background: #000000;
     cursor: default;
     max-width: 400px;
     padding: 40px;
@@ -8975,7 +8975,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-error p {
-    color: #444;
+    color: #454545;
     font-size: 16px;
     line-height: 20px;
     margin: 0;
@@ -8983,7 +8983,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-button {
-    background: rgba(30, 30, 30, 0.6);
+    background: rgba(31, 31, 31, 0.6);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -9002,11 +9002,11 @@ body.compensate-for-scrollbar {
 .fancybox-button,
 .fancybox-button:visited,
 .fancybox-button:link {
-    color: #ccc
+    color: #cdcdcd
 }
 
 .fancybox-button:hover {
-    color: #fff
+    color: #000000
 }
 
 .fancybox-button:focus {
@@ -9019,7 +9019,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-button[disabled],
 .fancybox-button[disabled]:hover {
-    color: #888;
+    color: #898989;
     cursor: default;
     outline: none
 }
@@ -9052,7 +9052,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-progress {
-    background: #ff5268;
+    background: #005369;
     height: 2px;
     left: 0;
     position: absolute;
@@ -9071,7 +9071,7 @@ body.compensate-for-scrollbar {
     background: transparent;
     border: 0;
     border-radius: 0;
-    color: #ccc;
+    color: #cdcdcd;
     cursor: pointer;
     opacity: .8;
     padding: 8px;
@@ -9082,7 +9082,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-close-small:hover {
-    color: #fff;
+    color: #000000;
     opacity: 1
 }
 
@@ -9128,9 +9128,9 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-caption {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.15) 65%, rgba(0, 0, 0, 0.075) 75.5%, rgba(0, 0, 0, 0.037) 82.85%, rgba(0, 0, 0, 0.019) 88%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top, rgba(1, 1, 1, 0.85) 0%, rgba(1, 1, 1, 0.3) 50%, rgba(1, 1, 1, 0.15) 65%, rgba(1, 1, 1, 0.075) 75.5%, rgba(1, 1, 1, 0.037) 82.85%, rgba(1, 1, 1, 0.019) 88%, rgba(1, 1, 1, 0) 100%);
     bottom: 0;
-    color: #eee;
+    color: #efefef;
     font-size: 14px;
     font-weight: 400;
     left: 0;
@@ -9161,20 +9161,20 @@ body.compensate-for-scrollbar {
 .fancybox-caption a,
 .fancybox-caption a:link,
 .fancybox-caption a:visited {
-    color: #ccc;
+    color: #cdcdcd;
     text-decoration: none
 }
 
 .fancybox-caption a:hover {
-    color: #fff;
+    color: #000000;
     text-decoration: underline
 }
 
 .fancybox-loading {
     animation: fancybox-rotate 1s linear infinite;
     background: transparent;
-    border: 4px solid #888;
-    border-bottom-color: #fff;
+    border: 4px solid #898989;
+    border-bottom-color: #000000;
     border-radius: 50%;
     height: 50px;
     left: 50%;
@@ -9297,8 +9297,8 @@ body.compensate-for-scrollbar {
     }
 
     .fancybox-slide--image .fancybox-close-small {
-        background: #4e4e4e;
-        color: #f2f4f6;
+        background: #4f4f4f;
+        color: #f3f5f7;
         height: 36px;
         opacity: 1;
         padding: 6px;
@@ -9321,7 +9321,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-share {
-    background: #f4f4f4;
+    background: #f5f5f5;
     border-radius: 3px;
     max-width: 90%;
     padding: 30px;
@@ -9329,7 +9329,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-share h1 {
-    color: #222;
+    color: #232323;
     font-size: 35px;
     font-weight: 700;
     margin: 0 0 20px 0
@@ -9361,7 +9361,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-share__button:visited,
 .fancybox-share__button:link {
-    color: #fff
+    color: #000000
 }
 
 .fancybox-share__button:hover {
@@ -9369,27 +9369,27 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-share__button--fb {
-    background: #3b5998
+    background: #3c5a99
 }
 
 .fancybox-share__button--fb:hover {
-    background: #344e86
+    background: #354f87
 }
 
 .fancybox-share__button--pt {
-    background: #bd081d
+    background: #be091e
 }
 
 .fancybox-share__button--pt:hover {
-    background: #aa0719
+    background: #ab081a
 }
 
 .fancybox-share__button--tw {
-    background: #1da1f2
+    background: #1ea2f3
 }
 
 .fancybox-share__button--tw:hover {
-    background: #0d95e8
+    background: #0e96e9
 }
 
 .fancybox-share__button svg {
@@ -9402,15 +9402,15 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-share__button svg path {
-    fill: #fff
+    fill: #000000
 }
 
 .fancybox-share__input {
     background: transparent;
     border: 0;
-    border-bottom: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d8d8d8;
     border-radius: 0;
-    color: #5d5b5b;
+    color: #5e5c5c;
     font-size: 14px;
     margin: 10px 0 0 0;
     outline: none;
@@ -9419,7 +9419,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs {
-    background: #ddd;
+    background: #dedede;
     bottom: 0;
     display: none;
     margin: 0;
@@ -9428,7 +9428,7 @@ body.compensate-for-scrollbar {
     padding: 2px 2px 4px 2px;
     position: absolute;
     right: 0;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(1, 1, 1, 0);
     top: 0;
     width: 212px;
     z-index: 99995
@@ -9470,20 +9470,20 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar-track {
-    background: #fff;
+    background: #000000;
     border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)
+    box-shadow: inset 0 0 6px rgba(1, 1, 1, 0.3)
 }
 
 .fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar-thumb {
-    background: #2a2a2a;
+    background: #2b2b2b;
     border-radius: 10px
 }
 
 .fancybox-thumbs__list a {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(1, 1, 1, 0.1);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9502,7 +9502,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs__list a::before {
-    border: 6px solid #ff5268;
+    border: 6px solid #005369;
     bottom: 0;
     content: "";
     left: 0;
@@ -9968,9 +9968,9 @@ html {
 }
 
 .wysibb {
-    border: 1px solid #ddd;
+    border: 1px solid #dedede;
     position: relative;
-    background-color: #fff;
+    background-color: #000000;
     font-size: 12px;
     text-align: left
 }
@@ -10005,7 +10005,7 @@ html {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0;
-    border-right: 1px solid #ccc
+    border-right: 1px solid #cdcdcd
 }
 
 .wysibb .wysibb-text {
@@ -10073,10 +10073,10 @@ html {
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:active {
-    background: #ccc;
+    background: #cdcdcd;
     padding: 0px 1px;
-    box-shadow: inset 0px 0px 3px #aaa;
-    border: 1px solid #aaa;
+    box-shadow: inset 0px 0px 3px #ababab;
+    border: 1px solid #ababab;
     border-radius: 0px
 }
 
@@ -10089,15 +10089,15 @@ html {
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip {
     display: none;
-    background: #333;
-    border: 1px solid #fff;
+    background: #343434;
+    border: 1px solid #000000;
     position: absolute;
     line-height: 20px;
     font-size: 11px;
     padding: 3px 10px;
     bottom: 35px;
     left: 0;
-    color: #fff;
+    color: #000000;
     border-radius: 0px;
     white-space: nowrap;
     z-index: 10000
@@ -10108,7 +10108,7 @@ html {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #333;
+    border-top: 10px solid #343434;
     position: absolute;
     bottom: -5px;
     left: 3px
@@ -10126,25 +10126,25 @@ html {
     padding: 0px 1px;
     border: 1px solid transparent;
     border-radius: 0px;
-    background: #eee
+    background: #efefef
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn .fonticon {
-    color: #333;
+    color: #343434;
     font-family: "WysiBBiconFont";
     font-size: 18px;
     line-height: 28px;
-    text-shadow: 0px 1px 0px #fff;
+    text-shadow: 0px 1px 0px #000000;
     text-align: center
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover .fonticon {
-    color: #000
+    color: #010101
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on .fonticon {
     text-shadow: none;
-    color: #000
+    color: #010101
 }
 
 .modesw {
@@ -10286,7 +10286,7 @@ html {
 }
 
 .tthotkey {
-    color: #ddd;
+    color: #dedede;
     font-size: 9px
 }
 
@@ -10302,7 +10302,7 @@ html {
 
 .bottom-resize-line.drag,
 .bottom-resize-line:hover {
-    background: #eee
+    background: #efefef
 }
 
 .wbbtab {
@@ -10319,15 +10319,15 @@ html {
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-dropdown:hover {
-    background: #eee;
+    background: #efefef;
     border: 1px solid transparent
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-dropdown.on,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-dropdown.on:active {
-    border: 1px solid #aaa;
-    background: #ccc;
-    box-shadow: inset 0px 0px 3px #aaa
+    border: 1px solid #ababab;
+    background: #cdcdcd;
+    box-shadow: inset 0px 0px 3px #ababab
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-dropdown ins.ar {
@@ -10354,11 +10354,11 @@ html {
     position: fixed;
     top: 10px;
     left: 3%;
-    border: 1px solid #bbb;
-    box-shadow: 0px 0px 3px #aaa;
+    border: 1px solid #bcbcbc;
+    box-shadow: 0px 0px 3px #ababab;
     width: 90%;
     padding: 5px;
-    background: #fff;
+    background: #000000;
     max-height: 90%;
     overflow: auto;
     z-index: 1000;
@@ -10384,23 +10384,23 @@ html {
     *display: inline;
     zoom: 1;
     cursor: pointer;
-    border: 1px solid #fff
+    border: 1px solid #000000
 }
 
 .wbb-list .sc:hover {
-    border: 1px solid #333
+    border: 1px solid #343434
 }
 
 .wbb-list .nc {
     height: 24px;
     line-height: 24px;
     text-align: center;
-    color: #666;
+    color: #676767;
     margin: 0 1px 5px 1px
 }
 
 .wbb-list .nc:hover {
-    background: #eee
+    background: #efefef
 }
 
 .wbb-list .pl {
@@ -10409,7 +10409,7 @@ html {
 }
 
 .tbl-sel {
-    border: 1px solid #ddd;
+    border: 1px solid #dedede;
     position: absolute;
     cursor: pointer;
     -moz-box-sizing: border-box;
@@ -10417,11 +10417,11 @@ html {
 }
 
 .tbl-sel:hover {
-    background: #eee
+    background: #efefef
 }
 
 .wbb-table td {
-    border: 1px dashed #ddd;
+    border: 1px dashed #dedede;
     padding: 3px;
     margin: 5px;
     min-width: 5px;
@@ -10439,15 +10439,15 @@ html {
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-select:hover {
-    background: #eee
+    background: #efefef
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-select.on,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-select.on:active {
     padding: 1px 1px 1px 5px;
-    border: 1px solid #aaa;
-    background: #ccc;
-    box-shadow: inset 0px 0px 3px #aaa
+    border: 1px solid #ababab;
+    background: #cdcdcd;
+    box-shadow: inset 0px 0px 3px #ababab
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-select .wbb-list {
@@ -10488,12 +10488,12 @@ html {
 }
 
 .wbb-select .option:hover {
-    background: #eee
+    background: #efefef
 }
 
 .wbb-select .option.selected {
-    background: #428bca;
-    color: #fff
+    background: #438ccb;
+    color: #000000
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-smilebox {
@@ -10503,14 +10503,14 @@ html {
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wbb-smilebox:hover {
-    background-color: #eee
+    background-color: #efefef
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-smilebox.on,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-smilebox.on:active {
-    border: 1px solid #aaa;
-    background: #ccc;
-    box-shadow: inset 0px 0px 3px #aaa
+    border: 1px solid #ababab;
+    background: #cdcdcd;
+    box-shadow: inset 0px 0px 3px #ababab
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-smilebox .wbb-list {
@@ -10542,28 +10542,28 @@ html {
     right: 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    background: rgba(0, 0, 0, 0.5);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fffffff, endColorstr=#7Fffffff);
+    background: rgba(1, 1, 1, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#800000ff, endColorstr=#800000ff);
     zoom: 1;
     z-index: 1100
 }
 
 #wbbmodal .wbbm {
-    background: #fff;
+    background: #000000;
     text-align: left;
     max-width: 90%;
     max-height: 90%;
     margin: 30px auto;
-    border: 1px solid #bbb;
-    box-shadow: 0px 0px 5px #333;
+    border: 1px solid #bcbcbc;
+    box-shadow: 0px 0px 5px #343434;
     overflow: auto
 }
 
 #wbbmodal .wbbm-title {
-    color: #333;
+    color: #343434;
     position: relative;
     padding: 5px 10px;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #cdcdcd
 }
 
 #wbbmodal .wbbm-title .wbbm-title-text {
@@ -10582,7 +10582,7 @@ html {
     font-size: 21px;
     font-weight: bold;
     cursor: pointer;
-    color: #888
+    color: #898989
 }
 
 #wbbmodal .wbbm-title .wbbclose:hover {
@@ -10611,13 +10611,13 @@ html {
 
 #wbbmodal .wbbm .wbbm-tablist ul li.on,
 #wbbmodal .wbbm .wbbm-tablist ul li.on:hover {
-    background: #428bca;
-    color: #fff;
+    background: #438ccb;
+    color: #000000;
     cursor: default
 }
 
 #wbbmodal .wbbm .wbbm-tablist ul li:hover {
-    background: #eee
+    background: #efefef
 }
 
 #wbbmodal .wbbm-cont {
@@ -10630,7 +10630,7 @@ html {
 }
 
 #wbbmodal .div-modal-text {
-    border: 1px solid #aaa;
+    border: 1px solid #ababab;
     padding: 2px 5px;
     line-height: 28px;
     height: 28px;
@@ -10640,9 +10640,9 @@ html {
 }
 
 #wbbmodal .wbbm-bottom {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #cdcdcd;
     padding: 10px;
-    background: #f1f1f1
+    background: #f2f2f2
 }
 
 #wbbmodal .wbbm-inp-row {
@@ -10662,7 +10662,7 @@ html {
     line-height: 1.42857143;
     font-size: 14px;
     width: 100%;
-    border: 1px solid #aaa;
+    border: 1px solid #ababab;
     outline: none;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -10684,11 +10684,11 @@ html {
 }
 
 #wbbmodal #imguploader.drag {
-    border: 3px dashed #ccc
+    border: 3px dashed #cdcdcd
 }
 
 #wbbmodal #imguploader.drag.dragover {
-    background: #feffe4
+    background: #ff00e5
 }
 
 #wbbmodal #imguploader.drag.wbb-loading {
@@ -10697,12 +10697,12 @@ html {
 
 #wbbmodal #imguploader.drag .p {
     font-size: 2em;
-    color: #aaa;
+    color: #ababab;
     margin-top: 15px
 }
 
 #wbbmodal #imguploader.drag .p2 {
-    color: #aaa
+    color: #ababab
 }
 
 #wbbmodal #imguploader.drag .fileupload {
@@ -10795,7 +10795,7 @@ html {
     }
 
     .wysibb .wysibb-toolbar {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid #dedede;
         position: relative;
         padding: 0;
         height: auto
@@ -10803,7 +10803,7 @@ html {
 
     .wysibb .wysibb-toolbar .wysibb-toolbar-container {
         margin: 0;
-        border-right: 1px solid #ddd;
+        border-right: 1px solid #dedede;
         padding: 0;
         display: inline-block
     }
@@ -10844,10 +10844,10 @@ html {
         position: absolute;
         top: 32px;
         left: -1px;
-        border: 1px solid #bbb;
-        box-shadow: 0px 0px 3px #aaa;
+        border: 1px solid #bcbcbc;
+        box-shadow: 0px 0px 3px #ababab;
         width: 190px;
-        background: #fff;
+        background: #000000;
         max-height: 220px;
         overflow: auto;
         z-index: 1000
@@ -10861,7 +10861,7 @@ html {
         *display: inline;
         zoom: 1;
         cursor: pointer;
-        border: 1px solid #fff
+        border: 1px solid #000000
     }
 
     .ve-tlb-colorpick {
@@ -10886,7 +10886,7 @@ html {
     text-align: left;
     line-height: normal;
     z-index: 0;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(1, 1, 1, 0);
     font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
     font-size: 12px;
     user-select: none;
@@ -10915,7 +10915,7 @@ html {
 }
 
 .highcharts-background {
-    fill: #fff
+    fill: #000000
 }
 
 .highcharts-plot-border,
@@ -10933,29 +10933,29 @@ html {
 
 .highcharts-tracker-line {
     stroke-linejoin: round;
-    stroke: rgba(192, 192, 192, 0.0001);
+    stroke: rgba(193, 193, 193, 0.0001);
     stroke-width: 22;
     fill: none
 }
 
 .highcharts-tracker-area {
-    fill: rgba(192, 192, 192, 0.0001);
+    fill: rgba(193, 193, 193, 0.0001);
     stroke-width: 0
 }
 
 .highcharts-title {
-    fill: #333;
+    fill: #343434;
     font-size: 1.5em
 }
 
 .highcharts-subtitle {
-    fill: #666;
+    fill: #676767;
     font-size: 1em
 }
 
 .highcharts-axis-line {
     fill: none;
-    stroke: #ccd6eb
+    stroke: #cdd7ec
 }
 
 .highcharts-yaxis .highcharts-axis-line {
@@ -10963,18 +10963,18 @@ html {
 }
 
 .highcharts-axis-title {
-    fill: #666
+    fill: #676767
 }
 
 .highcharts-axis-labels {
-    fill: #666;
+    fill: #676767;
     cursor: default;
     font-size: .9em
 }
 
 .highcharts-grid-line {
     fill: none;
-    stroke: #e6e6e6
+    stroke: #e7e7e7
 }
 
 .highcharts-xaxis-grid .highcharts-grid-line {
@@ -10982,7 +10982,7 @@ html {
 }
 
 .highcharts-tick {
-    stroke: #ccd6eb
+    stroke: #cdd7ec
 }
 
 .highcharts-yaxis .highcharts-tick {
@@ -10990,22 +10990,22 @@ html {
 }
 
 .highcharts-minor-grid-line {
-    stroke: #f2f2f2
+    stroke: #f3f3f3
 }
 
 .highcharts-crosshair-thin {
     stroke-width: 1px;
-    stroke: #ccc
+    stroke: #cdcdcd
 }
 
 .highcharts-crosshair-category {
-    stroke: #ccd6eb;
+    stroke: #cdd7ec;
     stroke-opacity: .25
 }
 
 .highcharts-credits {
     cursor: pointer;
-    fill: #999;
+    fill: #9a9a9a;
     font-size: .7em;
     transition: fill 250ms, font-size 250ms
 }
@@ -11023,7 +11023,7 @@ html {
 }
 
 .highcharts-tooltip text {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-tooltip .highcharts-header {
@@ -11032,12 +11032,12 @@ html {
 
 .highcharts-tooltip-box {
     stroke-width: 1px;
-    fill: #f7f7f7;
+    fill: #f8f8f8;
     fill-opacity: .85
 }
 
 .highcharts-tooltip-box .highcharts-label-box {
-    fill: #f7f7f7;
+    fill: #f8f8f8;
     fill-opacity: .85
 }
 
@@ -11046,7 +11046,7 @@ div.highcharts-tooltip {
 }
 
 .highcharts-selection-marker {
-    fill: #335cad;
+    fill: #345dae;
     fill-opacity: .25
 }
 
@@ -11060,7 +11060,7 @@ div.highcharts-tooltip {
 .highcharts-empty-series {
     stroke-width: 1px;
     fill: none;
-    stroke: #ccc
+    stroke: #cdcdcd
 }
 
 .highcharts-state-hover .highcharts-graph {
@@ -11100,53 +11100,53 @@ g.highcharts-series,
 }
 
 .highcharts-color-0 {
-    fill: #7cb5ec;
-    stroke: #7cb5ec
+    fill: #7db6ed;
+    stroke: #7db6ed
 }
 
 .highcharts-color-1 {
-    fill: #434348;
-    stroke: #434348
+    fill: #444449;
+    stroke: #444449
 }
 
 .highcharts-color-2 {
-    fill: #90ed7d;
-    stroke: #90ed7d
+    fill: #91ee7e;
+    stroke: #91ee7e
 }
 
 .highcharts-color-3 {
-    fill: #f7a35c;
-    stroke: #f7a35c
+    fill: #f8a45d;
+    stroke: #f8a45d
 }
 
 .highcharts-color-4 {
-    fill: #8085e9;
-    stroke: #8085e9
+    fill: #8186ea;
+    stroke: #8186ea
 }
 
 .highcharts-color-5 {
-    fill: #f15c80;
-    stroke: #f15c80
+    fill: #f25d81;
+    stroke: #f25d81
 }
 
 .highcharts-color-6 {
-    fill: #e4d354;
-    stroke: #e4d354
+    fill: #e5d455;
+    stroke: #e5d455
 }
 
 .highcharts-color-7 {
-    fill: #2b908f;
-    stroke: #2b908f
+    fill: #2c9190;
+    stroke: #2c9190
 }
 
 .highcharts-color-8 {
-    fill: #f45b5b;
-    stroke: #f45b5b
+    fill: #f55c5c;
+    stroke: #f55c5c
 }
 
 .highcharts-color-9 {
-    fill: #91e8e1;
-    stroke: #91e8e1
+    fill: #92e9e2;
+    stroke: #92e9e2
 }
 
 .highcharts-area {
@@ -11156,7 +11156,7 @@ g.highcharts-series,
 
 .highcharts-markers {
     stroke-width: 1px;
-    stroke: #fff
+    stroke: #000000
 }
 
 .highcharts-a11y-markers-hidden .highcharts-point:not(.highcharts-point-hover):not(.highcharts-a11y-marker-visible),
@@ -11184,7 +11184,7 @@ g.highcharts-series,
 
 .highcharts-data-label text,
 text.highcharts-data-label {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-data-label-connector {
@@ -11202,12 +11202,12 @@ text.highcharts-data-label {
 
 .highcharts-series:not(.highcharts-pie-series) .highcharts-point-select,
 .highcharts-markers .highcharts-point-select {
-    fill: #ccc;
-    stroke: #000
+    fill: #cdcdcd;
+    stroke: #010101
 }
 
 .highcharts-column-series rect.highcharts-point {
-    stroke: #fff
+    stroke: #000000
 }
 
 .highcharts-column-series .highcharts-point {
@@ -11221,7 +11221,7 @@ text.highcharts-data-label {
 
 .highcharts-pie-series .highcharts-point {
     stroke-linejoin: round;
-    stroke: #fff
+    stroke: #000000
 }
 
 .highcharts-pie-series .highcharts-point-hover {
@@ -11231,7 +11231,7 @@ text.highcharts-data-label {
 
 .highcharts-funnel-series .highcharts-point {
     stroke-linejoin: round;
-    stroke: #fff
+    stroke: #000000
 }
 
 .highcharts-funnel-series .highcharts-point-hover {
@@ -11246,7 +11246,7 @@ text.highcharts-data-label {
 
 .highcharts-pyramid-series .highcharts-point {
     stroke-linejoin: round;
-    stroke: #fff
+    stroke: #000000
 }
 
 .highcharts-pyramid-series .highcharts-point-hover {
@@ -11265,12 +11265,12 @@ text.highcharts-data-label {
 
 .highcharts-treemap-series .highcharts-point {
     stroke-width: 1px;
-    stroke: #e6e6e6;
+    stroke: #e7e7e7;
     transition: stroke 250ms, fill 250ms, fill-opacity 250ms
 }
 
 .highcharts-treemap-series .highcharts-point-hover {
-    stroke: #999;
+    stroke: #9a9a9a;
     transition: stroke 25ms, fill 25ms, fill-opacity 25ms
 }
 
@@ -11302,7 +11302,7 @@ text.highcharts-data-label {
 }
 
 .highcharts-lollipop-stem {
-    stroke: #000
+    stroke: #010101
 }
 
 .highcharts-focus-border {
@@ -11320,7 +11320,7 @@ text.highcharts-data-label {
 }
 
 .highcharts-legend-item>text {
-    fill: #333;
+    fill: #343434;
     font-weight: bold;
     font-size: 1em;
     cursor: pointer;
@@ -11328,27 +11328,27 @@ text.highcharts-data-label {
 }
 
 .highcharts-legend-item:hover text {
-    fill: #000
+    fill: #010101
 }
 
 .highcharts-legend-item-hidden * {
-    fill: #ccc !important;
-    stroke: #ccc !important;
+    fill: #cdcdcd !important;
+    stroke: #cdcdcd !important;
     transition: fill 250ms
 }
 
 .highcharts-legend-nav-active {
-    fill: #039;
+    fill: #01349a;
     cursor: pointer
 }
 
 .highcharts-legend-nav-inactive {
-    fill: #ccc
+    fill: #cdcdcd
 }
 
 circle.highcharts-legend-nav-active,
 circle.highcharts-legend-nav-inactive {
-    fill: rgba(192, 192, 192, 0.0001)
+    fill: rgba(193, 193, 193, 0.0001)
 }
 
 .highcharts-legend-title-box {
@@ -11366,12 +11366,12 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-bubble-legend-labels {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-loading {
     position: absolute;
-    background-color: #fff;
+    background-color: #000000;
     opacity: .5;
     text-align: center;
     z-index: 10;
@@ -11393,18 +11393,18 @@ circle.highcharts-legend-nav-inactive {
 
 .highcharts-plot-band,
 .highcharts-pane {
-    fill: #000;
+    fill: #010101;
     fill-opacity: .05
 }
 
 .highcharts-plot-line {
     fill: none;
-    stroke: #999;
+    stroke: #9a9a9a;
     stroke-width: 1px
 }
 
 .highcharts-boxplot-box {
-    fill: #fff
+    fill: #000000
 }
 
 .highcharts-boxplot-median {
@@ -11416,16 +11416,16 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-errorbar-series .highcharts-point {
-    stroke: #000
+    stroke: #010101
 }
 
 .highcharts-gauge-series .highcharts-data-label-box {
-    stroke: #ccc;
+    stroke: #cdcdcd;
     stroke-width: 1px
 }
 
 .highcharts-gauge-series .highcharts-dial {
-    fill: #000;
+    fill: #010101;
     stroke-width: 0
 }
 
@@ -11435,7 +11435,7 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-waterfall-series .highcharts-graph {
-    stroke: #333;
+    stroke: #343434;
     stroke-dasharray: 1, 3
 }
 
@@ -11455,13 +11455,13 @@ circle.highcharts-legend-nav-inactive {
 
 .highcharts-venn-series .highcharts-point {
     fill-opacity: .75;
-    stroke: #ccc;
+    stroke: #cdcdcd;
     transition: stroke 250ms, fill-opacity 250ms
 }
 
 .highcharts-venn-series .highcharts-point-hover {
     fill-opacity: 1;
-    stroke: #ccc
+    stroke: #cdcdcd
 }
 
 .highcharts-navigator-mask-outside {
@@ -11469,25 +11469,25 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-navigator-mask-inside {
-    fill: #6685c2;
+    fill: #6786c3;
     fill-opacity: .25;
     cursor: ew-resize
 }
 
 .highcharts-navigator-outline {
-    stroke: #ccc;
+    stroke: #cdcdcd;
     fill: none
 }
 
 .highcharts-navigator-handle {
-    stroke: #ccc;
-    fill: #f2f2f2;
+    stroke: #cdcdcd;
+    fill: #f3f3f3;
     cursor: ew-resize
 }
 
 .highcharts-navigator-series {
-    fill: #335cad;
-    stroke: #335cad
+    fill: #345dae;
+    stroke: #345dae
 }
 
 .highcharts-navigator-series .highcharts-graph {
@@ -11504,11 +11504,11 @@ circle.highcharts-legend-nav-inactive {
 
 .highcharts-navigator-xaxis .highcharts-grid-line {
     stroke-width: 1px;
-    stroke: #e6e6e6
+    stroke: #e7e7e7
 }
 
 .highcharts-navigator-xaxis.highcharts-axis-labels {
-    fill: #999
+    fill: #9a9a9a
 }
 
 .highcharts-navigator-yaxis .highcharts-grid-line {
@@ -11516,67 +11516,67 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-scrollbar-thumb {
-    fill: #ccc;
-    stroke: #ccc;
+    fill: #cdcdcd;
+    stroke: #cdcdcd;
     stroke-width: 1px
 }
 
 .highcharts-scrollbar-button {
-    fill: #e6e6e6;
-    stroke: #ccc;
+    fill: #e7e7e7;
+    stroke: #cdcdcd;
     stroke-width: 1px
 }
 
 .highcharts-scrollbar-arrow {
-    fill: #666
+    fill: #676767
 }
 
 .highcharts-scrollbar-rifles {
-    stroke: #666;
+    stroke: #676767;
     stroke-width: 1px
 }
 
 .highcharts-scrollbar-track {
-    fill: #f2f2f2;
-    stroke: #f2f2f2;
+    fill: #f3f3f3;
+    stroke: #f3f3f3;
     stroke-width: 1px
 }
 
 .highcharts-button {
-    fill: #f7f7f7;
-    stroke: #ccc;
+    fill: #f8f8f8;
+    stroke: #cdcdcd;
     cursor: default;
     stroke-width: 1px;
     transition: fill 250ms
 }
 
 .highcharts-button text {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-button-hover {
     transition: fill 0ms;
-    fill: #e6e6e6;
-    stroke: #ccc
+    fill: #e7e7e7;
+    stroke: #cdcdcd
 }
 
 .highcharts-button-hover text {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-button-pressed {
     font-weight: bold;
-    fill: #e6ebf5;
-    stroke: #ccc
+    fill: #e7ecf6;
+    stroke: #cdcdcd
 }
 
 .highcharts-button-pressed text {
-    fill: #333;
+    fill: #343434;
     font-weight: bold
 }
 
 .highcharts-button-disabled text {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-range-selector-buttons .highcharts-button {
@@ -11588,7 +11588,7 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-range-label text {
-    fill: #666
+    fill: #676767
 }
 
 .highcharts-range-input rect {
@@ -11596,12 +11596,12 @@ circle.highcharts-legend-nav-inactive {
 }
 
 .highcharts-range-input text {
-    fill: #333
+    fill: #343434
 }
 
 .highcharts-range-input {
     stroke-width: 1px;
-    stroke: #ccc
+    stroke: #cdcdcd
 }
 
 input.highcharts-range-selector {
@@ -11615,7 +11615,7 @@ input.highcharts-range-selector {
 }
 
 .highcharts-crosshair-label text {
-    fill: #fff;
+    fill: #000000;
     font-size: 1.1em
 }
 
@@ -11624,27 +11624,27 @@ input.highcharts-range-selector {
 }
 
 .highcharts-candlestick-series .highcharts-point {
-    stroke: #000;
+    stroke: #010101;
     stroke-width: 1px
 }
 
 .highcharts-candlestick-series .highcharts-point-up {
-    fill: #fff
+    fill: #000000
 }
 
 .highcharts-hollowcandlestick-series .highcharts-point-down {
-    fill: #f21313;
-    stroke: #f21313
+    fill: #f31414;
+    stroke: #f31414
 }
 
 .highcharts-hollowcandlestick-series .highcharts-point-down-bearish-up {
-    fill: #06b535;
-    stroke: #06b535
+    fill: #07b636;
+    stroke: #07b636
 }
 
 .highcharts-hollowcandlestick-series .highcharts-point-up {
     fill: transparent;
-    stroke: #06b535
+    stroke: #07b636
 }
 
 .highcharts-ohlc-series .highcharts-point-hover {
@@ -11652,25 +11652,25 @@ input.highcharts-range-selector {
 }
 
 .highcharts-flags-series .highcharts-point .highcharts-label-box {
-    stroke: #999;
-    fill: #fff;
+    stroke: #9a9a9a;
+    fill: #000000;
     transition: fill 250ms
 }
 
 .highcharts-flags-series .highcharts-point-hover .highcharts-label-box {
-    stroke: #000;
-    fill: #ccd6eb
+    stroke: #010101;
+    fill: #cdd7ec
 }
 
 .highcharts-flags-series .highcharts-point text {
-    fill: #000;
+    fill: #010101;
     font-size: .9em;
     font-weight: bold
 }
 
 .highcharts-map-series .highcharts-point {
     transition: fill 500ms, fill-opacity 500ms, stroke-width 250ms;
-    stroke: #ccc;
+    stroke: #cdcdcd;
     stroke-width: inherit
 }
 
@@ -11694,7 +11694,7 @@ input.highcharts-range-selector {
 }
 
 .highcharts-mapview-inset-border {
-    stroke: #ccc;
+    stroke: #cdcdcd;
     stroke-width: 1px;
     fill: none
 }
@@ -11704,11 +11704,11 @@ input.highcharts-range-selector {
 }
 
 .highcharts-coloraxis-marker {
-    fill: #999
+    fill: #9a9a9a
 }
 
 .highcharts-null-point {
-    fill: #f7f7f7
+    fill: #f8f8f8
 }
 
 .highcharts-3d-frame {
@@ -11716,39 +11716,39 @@ input.highcharts-range-selector {
 }
 
 .highcharts-contextbutton {
-    fill: #fff;
+    fill: #000000;
     stroke: none;
     stroke-linecap: round
 }
 
 .highcharts-contextbutton:hover {
-    fill: #e6e6e6;
-    stroke: #e6e6e6
+    fill: #e7e7e7;
+    stroke: #e7e7e7
 }
 
 .highcharts-button-symbol {
-    stroke: #666;
+    stroke: #676767;
     stroke-width: 3px
 }
 
 .highcharts-menu {
-    border: 1px solid #999;
-    background: #fff;
+    border: 1px solid #9a9a9a;
+    background: #000000;
     padding: 5px 0;
-    box-shadow: 3px 3px 10px #888
+    box-shadow: 3px 3px 10px #898989
 }
 
 .highcharts-menu-item {
     padding: .5em 1em;
     background: none;
-    color: #333;
+    color: #343434;
     cursor: pointer;
     transition: background 250ms, color 250ms
 }
 
 .highcharts-menu-item:hover {
-    background: #335cad;
-    color: #fff
+    background: #345dae;
+    color: #000000
 }
 
 .highcharts-breadcrumbs-button {
@@ -11758,7 +11758,7 @@ input.highcharts-range-selector {
 }
 
 .highcharts-breadcrumbs-separator {
-    fill: #666
+    fill: #676767
 }
 
 .highcharts-drilldown-point {
@@ -11769,7 +11769,7 @@ input.highcharts-range-selector {
 text.highcharts-drilldown-data-label,
 .highcharts-drilldown-axis-label {
     cursor: pointer;
-    fill: #039;
+    fill: #01349a;
     font-weight: bold;
     text-decoration: underline
 }
@@ -11777,7 +11777,7 @@ text.highcharts-drilldown-data-label,
 .highcharts-no-data text {
     font-weight: bold;
     font-size: 12px;
-    fill: #666
+    fill: #676767
 }
 
 .highcharts-axis-resizer {
@@ -11792,23 +11792,23 @@ text.highcharts-drilldown-data-label,
 
 .highcharts-lineargauge-target {
     stroke-width: 1px;
-    stroke: #333
+    stroke: #343434
 }
 
 .highcharts-lineargauge-target-line {
     stroke-width: 1px;
-    stroke: #333
+    stroke: #343434
 }
 
 .highcharts-annotation-label-box {
     stroke-width: 1px;
-    stroke: #000;
-    fill: #000;
+    stroke: #010101;
+    fill: #010101;
     fill-opacity: .75
 }
 
 .highcharts-annotation-label text {
-    fill: #e6e6e6
+    fill: #e7e7e7
 }
 
 .highcharts-a11y-proxy-button {
@@ -11886,7 +11886,7 @@ g.highcharts-series,
 }
 
 .highcharts-axis-line {
-    stroke: #aaa
+    stroke: #ababab
 }
 
 .highcharts-yaxis .highcharts-axis-line {
@@ -11895,7 +11895,7 @@ g.highcharts-series,
 
 .highcharts-grid-line,
 .highcharts-tick {
-    stroke: #ccc
+    stroke: #cdcdcd
 }
 
 .highcharts-color-0 {
@@ -11904,18 +11904,18 @@ g.highcharts-series,
 }
 
 .highcharts-color-2 {
-    fill: #2484c1;
-    stroke: #2484c1
+    fill: #2585c2;
+    stroke: #2585c2
 }
 
 .highcharts-color-3 {
-    fill: #a05d56;
-    stroke: #a05d56
+    fill: #a15e57;
+    stroke: #a15e57
 }
 
 .highcharts-color-4 {
-    fill: #7b6888;
-    stroke: #7b6888
+    fill: #7c6989;
+    stroke: #7c6989
 }
 
 .highcharts-data-label {
@@ -11925,7 +11925,7 @@ g.highcharts-series,
 
 .select2-close-mask {
     opacity: 0;
-    background-color: #fff;
+    background-color: #000000;
     filter: alpha(opacity=0)
 }
 
@@ -11933,7 +11933,7 @@ g.highcharts-series,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    background-color: #fff
+    background-color: #000000
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field,
@@ -11941,19 +11941,19 @@ g.highcharts-series,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    border-color: #aaa
+    border-color: #ababab
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #444
+    color: #454545
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    border-color: #888 transparent transparent transparent
+    border-color: #898989 transparent transparent transparent
 }
 
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
-    border-color: transparent transparent #888 transparent
+    border-color: transparent transparent #898989 transparent
 }
 
 .select2-container--default .select2-search--inline .select2-search__field {
@@ -11963,39 +11963,39 @@ g.highcharts-series,
 
 .select2-container--default .select2-selection--multiple .select2-selection__placeholder,
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #666
+    color: #676767
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-    color: #999
+    color: #9a9a9a
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
-    color: #333
+    color: #343434
 }
 
 .select2-container--default .select2-results__option[aria-disabled=true] {
-    color: #999
+    color: #9a9a9a
 }
 
 .select2-container--default .select2-results__option[aria-selected=true] {
-    background-color: #ddd
+    background-color: #dedede
 }
 
 .select2-container--default.select2-container--disabled .select2-selection--multiple,
 .select2-container--default.select2-container--disabled .select2-selection--single {
-    background-color: #eee
+    background-color: #efefef
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #5897fb !important;
-    color: #fff !important
+    background-color: #5998fc !important;
+    color: #000000 !important
 }
 
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    background-color: #fdfdfd
+    background-color: #fefefe
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field,
@@ -12003,18 +12003,18 @@ g.highcharts-series,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    border-color: #e8e8e8
+    border-color: #e9e9e9
 }
 
 .select2-container--default .select2-selection--single:hover,
 .select2-container--open .select2-search--dropdown .select2-search__field,
 .select2-container--open .select2-selection--single {
-    border-color: #ccc;
-    background-color: #fff
+    border-color: #cdcdcd;
+    background-color: #000000
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #000
+    color: #010101
 }
 
 .toast-close-button,
@@ -12028,8 +12028,8 @@ g.highcharts-series,
 }
 
 button.toast-close-button {
-    -webkit-text-shadow: 0 1px 0 #fff;
-    text-shadow: 0 1px 0 #fff;
+    -webkit-text-shadow: 0 1px 0 #000000;
+    text-shadow: 0 1px 0 #000000;
     opacity: .8;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     filter: alpha(opacity=80);
@@ -12056,9 +12056,9 @@ button.toast-close-button {
     cursor: pointer;
     background-position: 15px center;
     background-repeat: no-repeat;
-    -moz-box-shadow: 0 0 12px #999;
-    -webkit-box-shadow: 0 0 12px #999;
-    box-shadow: 0 0 12px #999;
+    -moz-box-shadow: 0 0 12px #9a9a9a;
+    -webkit-box-shadow: 0 0 12px #9a9a9a;
+    box-shadow: 0 0 12px #9a9a9a;
     opacity: .9;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
     filter: alpha(opacity=90)
@@ -12086,15 +12086,15 @@ button.toast-close-button {
 }
 
 #layout-search ul.quicksearch {
-    background-color: #b1b3b5;
-    border: 1px solid #34394d;
-    box-shadow: 0 4px 3px 2px rgba(0, 0, 0, 0.2);
+    background-color: #b2b4b6;
+    border: 1px solid #353a4e;
+    box-shadow: 0 4px 3px 2px rgba(1, 1, 1, 0.2);
     border-radius: 0 0 5px 5px
 }
 
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover {
-    background-color: #bbb
+    background-color: #bcbcbc
 }
 
 #layout-search ul.quicksearch li.g_odd {
@@ -12109,26 +12109,26 @@ button.toast-close-button {
 
 .fancybox-container div.g_msg.error,
 #layout-main div.g_msg.error {
-    border: 1px solid #d00;
-    background-color: #ffe5e5
+    border: 1px solid #de0101;
+    background-color: #00e6e6
 }
 
 .fancybox-container div.g_msg.warning,
 #layout-main div.g_msg.warning {
-    border: 1px solid #f46f0b;
-    background-color: #fff0e5
+    border: 1px solid #f5700c;
+    background-color: #00f1e6
 }
 
 .fancybox-container div.g_msg.note,
 #layout-main div.g_msg.note {
-    border: 1px solid #afaf00;
-    background-color: #ffffdf
+    border: 1px solid #b0b001;
+    background-color: #0000e0
 }
 
 .fancybox-container div.g_msg.success,
 #layout-main div.g_msg.success {
-    border: 1px solid #2eb42e;
-    background-color: #e5ffe5
+    border: 1px solid #2fb52f;
+    background-color: #e600e6
 }
 
 .fancybox-container div.g_msg.error h3,
@@ -12138,22 +12138,22 @@ button.toast-close-button {
 
 .fancybox-container div.g_msg.warning h3,
 #layout-main div.g_msg.warning h3 {
-    color: #f46f0b
+    color: #f5700c
 }
 
 .fancybox-container div.g_msg.note h3,
 #layout-main div.g_msg.note h3 {
-    color: #afaf00
+    color: #b0b001
 }
 
 .fancybox-container div.g_msg.success h3,
 #layout-main div.g_msg.success h3 {
-    color: #2eb42e
+    color: #2fb52f
 }
 
 #layout-hint.mod {
-    background-color: #fff0e5;
-    border-color: #f46f0b
+    background-color: #00f1e6;
+    border-color: #f5700c
 }
 
 #layout-main div.g_msg .g_styledlist.enabled_filters .g_odd {
@@ -12166,14 +12166,14 @@ button.toast-close-button {
 
 #layout-main div.forum li.header div,
 #layout-main div.forum li.header div {
-    color: #fff
+    color: #000000
 }
 
 #layout-main div.cmt_all div.cmt_add hr,
 #layout-main div.forum div.g_bubble.threads,
 #layout-main div.forum hr,
 #layout-main div.postbody hr {
-    background-color: #4a4a5a
+    background-color: #4b4b5b
 }
 
 #layout-main div.cmt_entries div.profile,
@@ -12182,22 +12182,22 @@ button.toast-close-button {
 #layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum div.signature {
-    border-color: #9a9ca1
+    border-color: #9b9da2
 }
 
 #layout-main div.forum .g_bubble.infobox .row>div.middle .bar {
-    background-color: #105289;
-    border-bottom-color: #092e4d;
-    border-right-color: #092e4d;
-    color: #fff
+    background-color: #11538a;
+    border-bottom-color: #0a2f4e;
+    border-right-color: #0a2f4e;
+    color: #000000
 }
 
 #layout-main div.forum ul.topics li.g_odd.row {
-    background-color: #b0b0b0
+    background-color: #b1b1b1
 }
 
 #layout-main div.forum ul.topics li.row {
-    background-color: #bfc2c9
+    background-color: #c0c3ca
 }
 
 #layout-main div.forum div.deleted,
@@ -12208,11 +12208,11 @@ button.toast-close-button {
 #layout-main div.cmt_entries a.username-colored,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored {
-    color: #a00
+    color: #ab0101
 }
 
 #layout-main div.forum div.quickreply textarea {
-    border-color: #a9a9a9
+    border-color: #aaaaaa
 }
 
 @media screen and (max-width: 800px) {
@@ -12222,7 +12222,7 @@ button.toast-close-button {
 }
 
 .v_pos {
-    color: #060
+    color: #016701
 }
 
 .ajax-file-upload-error,
@@ -12243,7 +12243,7 @@ span.diff,
 }
 
 #layout-main div.mylist_list tr.all_watched td.stats {
-    color: #006400
+    color: #016501
 }
 
 #anidb table ul li.g_odd,
@@ -12259,7 +12259,7 @@ span.diff,
 }
 
 input.g_error {
-    background-color: #fdd
+    background-color: #00dede
 }
 
 h1 a.shortlink,
@@ -12287,13 +12287,13 @@ th a {
 }
 
 #layout-hint {
-    border: 1px solid #afaf00;
-    background-color: #ffffdf
+    border: 1px solid #b0b001;
+    background-color: #0000e0
 }
 
 #statusBox {
-    color: #000;
-    background-color: #fff
+    color: #010101;
+    background-color: #000000
 }
 
 div.loadingbar {
@@ -12322,19 +12322,19 @@ div.loadingbar_blue {
 
 ul.format-modes li.selected,
 ul.format-modes li:hover {
-    background-color: #8492b5
+    background-color: #8593b6
 }
 
 ul.format-modes li {
-    background-color: rgb(191, 194, 201)
+    background-color: rgb(192, 195, 202)
 }
 
 .g_image_overlay.add {
-    border-right-color: #007d00
+    border-right-color: #017e01
 }
 
 .g_image_overlay.delete {
-    border-right-color: #9a0f0c
+    border-right-color: #9b100d
 }
 
 .g_image_overlay>a {
@@ -12351,11 +12351,11 @@ ul.format-modes li {
 }
 
 #layout-main .g_account ul.tabs li.signup {
-    background-color: #800
+    background-color: #890101
 }
 
 #layout-main .g_account ul.tabs li a {
-    color: #fff
+    color: #000000
 }
 
 #layout-main .g_account ul.tabs li.signup:hover a {
@@ -12378,28 +12378,28 @@ ul.format-modes li {
 }
 
 #layout-main div.timeline_all div.timeline div.g_timeline {
-    border: 5px solid #777
+    border: 5px solid #787878
 }
 
 #layout-main div.timeline_all div.timeline div.g_timeline,
 #layout-main div.timeline_all div.timeline ul {
-    background: #555
+    background: #565656
 }
 
 #layout-main div.timeline_all div.timeline ul.legend {
-    border-bottom: 1px solid #f90
+    border-bottom: 1px solid #009a01
 }
 
 #layout-main div.timeline_all div.timeline ul.legend li span {
-    color: #eee;
-    background: #333;
-    border-bottom: 1px solid #f90;
-    border-right: 1px solid #f90
+    color: #efefef;
+    background: #343434;
+    border-bottom: 1px solid #009a01;
+    border-right: 1px solid #009a01
 }
 
 #layout-main div.timeline_all .timeline_entry {
-    color: #333;
-    background: #dfdfdf
+    color: #343434;
+    background: #e0e0e0
 }
 
 .g_progressbar {
@@ -12421,11 +12421,11 @@ ul.format-modes li {
 }
 
 .g_progressbar .segment {
-    background-color: #e8e8e8
+    background-color: #e9e9e9
 }
 
 .g_progressbar .segment .colored {
-    background-color: #2484c1
+    background-color: #2585c2
 }
 
 .g_progressbar .segment.done .colored {
@@ -12438,7 +12438,7 @@ ul.format-modes li {
 }
 
 .g_progressbar {
-    border-color: #bbb
+    border-color: #bcbcbc
 }
 
 html {
@@ -13049,7 +13049,7 @@ h4,
 #layout-main table.filelist tr.invalid,
 #layout-main td del,
 #layout-main tr.g_fs_lame {
-    background-color: #d6b8b8
+    background-color: #d7b9b9
 }
 
 .bar.votes .vote.low,
@@ -13062,7 +13062,7 @@ h4,
 #layout-main table.file.entities tr.g_odd.invalid,
 #layout-main table.filelist tr.g_odd.deprecated,
 #layout-main table.filelist tr.g_odd.invalid {
-    background-color: #c99
+    background-color: #cd9a9a
 }
 
 .g_bubble.box.mylist,
@@ -13093,11 +13093,11 @@ h4,
 #layout-main table.file.entities tr.good,
 #layout-main table.filelist tr.good,
 #layout-main td ins {
-    background-color: #a7dda7
+    background-color: #a8dea8
 }
 
 #layout-main div:not(.ed2kdump_all) tr td.mylist {
-    background-color: #a7dda7
+    background-color: #a8dea8
 }
 
 .bar.votes .vote.high,
@@ -13123,24 +13123,24 @@ h4,
 #layout-main table.file.entities tr.g_odd.good,
 #layout-main table.filelist tr.g_odd.good,
 #layout-main td.g_odd ins {
-    background-color: #9ad09a
+    background-color: #9bd19b
 }
 
 #layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
-    background-color: #9ad09a
+    background-color: #9bd19b
 }
 
 #layout-main table.file.entities tr.generic,
 #layout-main table.filelist tr.generic {
-    background-color: #ddd
+    background-color: #dedede
 }
 
 #layout-main div.addsongcollectionrel_all tr.same_url {
-    background-color: #d8b7ff
+    background-color: #d9b800
 }
 
 .bar.votes .vote {
-    background-color: #e7e789
+    background-color: #e8e88a
 }
 
 #layout-main div.addcharanimerel_all tr.same_name,
@@ -13148,20 +13148,20 @@ h4,
 #layout-main div.addcreatorsongrel_all tr.same_name,
 #layout-main div.addsongcollectionrel_all tr.same_name,
 #layout-main div.timeline_all .liststate_dropped {
-    background-color: #ffffdf
+    background-color: #0000e0
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
-    background-color: #c6c3ff;
-    border-bottom: 4px solid #c6c3ff
+    background-color: #c7c400;
+    border-bottom: 4px solid #c7c400
 }
 
 .ajax-file-upload-bar,
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
-    background-color: #6361ff;
-    border-bottom: 4px solid #6361ff
+    background-color: #646200;
+    border-bottom: 4px solid #646200
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
@@ -13181,7 +13181,7 @@ span.diff,
 #layout-main td.reviewed.no a,
 #menu-account li.alert a span::after,
 #menu-account li.alert a span::before {
-    color: #b32947
+    color: #b42a48
 }
 
 #layout-main .g_bubble.graph div.bar div.colored {
@@ -13189,12 +13189,12 @@ span.diff,
 }
 
 #layout-main .g_bubble.graph div.bar.my div.colored {
-    background-color: #cd9d29
+    background-color: #ce9e2a
 }
 
 .select2-close-mask {
     opacity: 0;
-    background-color: #fff;
+    background-color: #000000;
     filter: alpha(opacity=0)
 }
 
@@ -13202,7 +13202,7 @@ span.diff,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    background-color: #fff
+    background-color: #000000
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field,
@@ -13210,19 +13210,19 @@ span.diff,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    border-color: #aaa
+    border-color: #ababab
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #444
+    color: #454545
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    border-color: #888 transparent transparent transparent
+    border-color: #898989 transparent transparent transparent
 }
 
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
-    border-color: transparent transparent #888 transparent
+    border-color: transparent transparent #898989 transparent
 }
 
 .select2-container--default .select2-search--inline .select2-search__field {
@@ -13232,40 +13232,40 @@ span.diff,
 
 .select2-container--default .select2-selection--multiple .select2-selection__placeholder,
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #666
+    color: #676767
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-    color: #999
+    color: #9a9a9a
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
-    color: #333
+    color: #343434
 }
 
 .select2-container--default .select2-results__option[aria-disabled=true] {
-    color: #999
+    color: #9a9a9a
 }
 
 .select2-container--default .select2-results__option[aria-selected=true] {
-    background-color: #ddd
+    background-color: #dedede
 }
 
 .select2-container--default.select2-container--disabled .select2-selection--multiple,
 .select2-container--default.select2-container--disabled .select2-selection--single {
-    background-color: #eee
+    background-color: #efefef
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #5897fb !important;
-    color: #fff !important
+    background-color: #5998fc !important;
+    color: #000000 !important
 }
 
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    background-color: #34394d;
-    color: #ccc
+    background-color: #353a4e;
+    color: #cdcdcd
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field,
@@ -13273,30 +13273,30 @@ span.diff,
 .select2-container--default .select2-selection--multiple .select2-selection__choice,
 .select2-container--default .select2-selection--single,
 .select2-dropdown {
-    border-color: #34394d
+    border-color: #353a4e
 }
 
 .select2-container--default .select2-selection--single:hover,
 .select2-container--open .select2-search--dropdown .select2-search__field,
 .select2-container--open .select2-selection--single {
-    border-color: #999;
-    background-color: #34394d
+    border-color: #9a9a9a;
+    background-color: #353a4e
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #ccc
+    color: #cdcdcd
 }
 
 .select2-container--default .select2-results__option[aria-selected=true] {
-    color: #34394d
+    color: #353a4e
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    border-top-color: #ccc
+    border-top-color: #cdcdcd
 }
 
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
-    border-bottom-color: #ccc
+    border-bottom-color: #cdcdcd
 }
 
 a.i_icon:hover,
@@ -17958,7 +17958,7 @@ button.toggle_visible::before {
 td.name>.favourite::before,
 td.name.favourite>a::before,
 tr.favourite>td.name.anime>a::before {
-    color: #ffd751;
+    color: #00d852;
     content: "";
     font-weight: 900;
     font-size: 1.25rem;
@@ -18069,7 +18069,7 @@ tr.favourite>td.name.anime>a::before {
     text-align: right;
     width: 16px;
     padding-top: 2px;
-    text-shadow: .07em .07em 0 #f8f8f8, -0.07em -0.07em 0 #f8f8f8, .07em -0.07em 0 #f8f8f8, -0.07em .07em 0 #f8f8f8, .07em .07em 0 #f8f8f8
+    text-shadow: .07em .07em 0 #f9f9f9, -0.07em -0.07em 0 #f9f9f9, .07em -0.07em 0 #f9f9f9, -0.07em .07em 0 #f9f9f9, .07em .07em 0 #f9f9f9
 }
 
 .i_waifu_add::before {
@@ -18136,7 +18136,7 @@ tr.favourite>td.name.anime>a::before {
 .i_video_3d {
     display: inline-block !important;
     background-image: none !important;
-    background-color: #105289;
+    background-color: #11538a;
     border-radius: 3px;
     height: 16px;
     width: 20px
@@ -18166,7 +18166,7 @@ tr.favourite>td.name.anime>a::before {
 .i_video_10bit span,
 .i_video_12bit span,
 .i_video_3d span {
-    color: #fff;
+    color: #000000;
     display: inline-block !important;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9rem;
@@ -18178,27 +18178,27 @@ tr.favourite>td.name.anime>a::before {
 }
 
 .i_ext.audio {
-    background-color: #a00
+    background-color: #ab0101
 }
 
 .i_ext.subtitle {
-    background-color: #356e35
+    background-color: #366f36
 }
 
 .i_ext.archive {
-    background-color: #5a3a78
+    background-color: #5b3b79
 }
 
 .i_ext.linker {
-    background-color: #bd7e19
+    background-color: #be7f1a
 }
 
 .i_ext.other {
-    background-color: #444
+    background-color: #454545
 }
 
 .i_res {
-    background-color: #8a56aa
+    background-color: #8b57ab
 }
 
 .i_creditless,
@@ -18206,7 +18206,7 @@ tr.favourite>td.name.anime>a::before {
 .i_video_10bit,
 .i_video_12bit,
 .i_video_3d {
-    background-color: #983838
+    background-color: #993939
 }
 
 .i_rate_halfstar,
@@ -18562,7 +18562,7 @@ button.toast-close-button .text {
 .i_wishlist_blacklist::before {
     content: "";
     font-weight: 900;
-    color: #ff4e4e
+    color: #004f4f
 }
 
 .i_wishlist_buddy::before {
@@ -18573,7 +18573,7 @@ button.toast-close-button .text {
 .i_wishlist_toget::before {
     content: "";
     font-weight: 900;
-    color: #30ba30
+    color: #31bb31
 }
 
 .i_wishlist_towatch::before {
@@ -18718,7 +18718,7 @@ button.toast-close-button .text {
     text-align: right;
     width: 16px;
     padding-top: 2px;
-    text-shadow: .07em .07em 0 #f8f8f8, -0.07em -0.07em 0 #f8f8f8, .07em -0.07em 0 #f8f8f8, -0.07em .07em 0 #f8f8f8, .07em .07em 0 #f8f8f8
+    text-shadow: .07em .07em 0 #f9f9f9, -0.07em -0.07em 0 #f9f9f9, .07em -0.07em 0 #f9f9f9, -0.07em .07em 0 #f9f9f9, .07em .07em 0 #f9f9f9
 }
 
 .i_general_unverify::before,
@@ -18773,13 +18773,13 @@ button.toast-close-button .text {
 .i_gstate_stalled::after {
     font-size: .852rem;
     font-weight: 900;
-    color: #fff;
+    color: #000000;
     position: absolute;
     left: .3em
 }
 
 #groupfilter .i_icon {
-    background-color: #fff;
+    background-color: #000000;
     width: 14px;
     height: 14px
 }
@@ -18868,7 +18868,7 @@ button.toast-close-button .text {
 
 #loading.active {
     opacity: 1;
-    background: #000 url("https://cdn-eu.anidb.net/css/assets/images/libs/jquery.fancybox/fancybox_loading.gif") no-repeat scroll center center
+    background: #010101 url("https://cdn-eu.anidb.net/css/assets/images/libs/jquery.fancybox/fancybox_loading.gif") no-repeat scroll center center
 }
 
 @supports(display: grid) {
@@ -18880,7 +18880,7 @@ button.toast-close-button .text {
 
     #layout-main *:not(.g_definitionlist):not(.g_segmentlist):not(.disablerowhover)>table:not(.nohover)>tbody>tr:not(.files):not(.episodes)>td::after,
     #layout-main div.forum ul.topics li.row::after {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        background: linear-gradient(to bottom, rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1));
         content: "";
         height: 100%;
         left: 0;
@@ -18902,10 +18902,10 @@ button.toast-close-button .text {
         -webkit-animation: fancybox-rotate .8s infinite linear;
         animation: fancybox-rotate .8s infinite linear;
         background: transparent;
-        border: 6px solid rgba(100, 100, 100, 0.6);
+        border: 6px solid rgba(101, 101, 101, 0.6);
         border-radius: 100%;
-        border-top: 6px solid rgba(255, 255, 255, 0.6);
-        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+        border-top: 6px solid rgba(0, 0, 0, 0.6);
+        box-shadow: 0px 0px 5px 2px rgba(1, 1, 1, 0.4);
         height: 4em;
         width: 4em;
         transition-duration: .25s;
@@ -20231,7 +20231,7 @@ table,
 }
 
 html {
-    color: #000
+    color: #010101
 }
 
 #layout-main div.showhidecontent button.toggle_visible,
@@ -20251,7 +20251,7 @@ span.link,
 th a,
 #layout-main a.filter,
 #layout-menu li.sub-menu ul li a::before {
-    color: #0c4e86
+    color: #0d4f87
 }
 
 .g_section>form>h2,
@@ -20271,7 +20271,7 @@ select:hover,
 textarea:focus,
 textarea:hover,
 #layout-search ul.quicksearch li+li {
-    border-color: #999 !important
+    border-color: #9a9a9a !important
 }
 
 .g_bubble .name-colored,
@@ -20286,22 +20286,22 @@ span.link:hover,
 #layout-main div.forum a.topictitle:hover,
 #layout-main div.forum a.username-colored,
 #layout-menu li.sub-menu span.tab {
-    color: #800
+    color: #890101
 }
 
 #layout-main div.tabbed_pane ul.tabs li {
-    background-color: #d3d5d9
+    background-color: #d4d6da
 }
 
 #layout-content {
-    border-bottom-color: #7d7d7d;
-    border-left-color: #9a9a9a;
-    border-top-color: #9a9a9a
+    border-bottom-color: #7e7e7e;
+    border-left-color: #9b9b9b;
+    border-top-color: #9b9b9b
 }
 
 table,
 #layout-main div.info div.extra div table {
-    border-top-color: #ddd
+    border-top-color: #dedede
 }
 
 span.test:hover,
@@ -20315,7 +20315,7 @@ span.test:hover,
 #layout-main div.showhidecontent button.toggle_visible:hover,
 #layout-main tr.header th.sortable:hover:not(.sorter-false),
 #layout-main tr.header th.sortable:hover:not(.sorter-false) a {
-    color: #ddd
+    color: #dedede
 }
 
 input.text,
@@ -20348,7 +20348,7 @@ textarea,
 #layout-search input.text,
 #layout-search select,
 #layout-tabs ul.main-tabs li a {
-    color: #ccc
+    color: #cdcdcd
 }
 
 th .i_icon,
@@ -20356,7 +20356,7 @@ th .i_icon,
 #layout-main div.g_timedentry h4 a,
 #layout-main div.g_timedentry p.comment,
 #layout-main div.g_timedentry p.comment a {
-    color: #a2bfd7
+    color: #a3c0d8
 }
 
 #layout-main>h1 a:hover,
@@ -20364,7 +20364,7 @@ th .i_icon,
 #layout-main div.g_timedentry p.comment a:hover,
 #layout-main table tr th>a:hover,
 #layout-menu li:hover>a {
-    color: #fa5
+    color: #00ab56
 }
 
 button:hover,
@@ -20383,7 +20383,7 @@ span.test:hover,
 #layout-main ul.g_list li.selected,
 #layout-main ul.g_list li.selected .i_icon,
 #layout-main ul.g_list li:hover {
-    background-color: #505862
+    background-color: #515963
 }
 
 .g_bubble,
@@ -20407,7 +20407,7 @@ tr.g_odd,
 #layout-main div.forum ul.topics li.g_odd.row,
 #layout-main div.tabbed_pane ul.tabs li.selected,
 #layout-main div.tabbed_pane ul.tabs li:hover {
-    background-color: #bdbfc3
+    background-color: #bec0c4
 }
 
 .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
@@ -20420,7 +20420,7 @@ tr.g_odd,
 html,
 #layout-main div.format-buttons input,
 #layout-menu {
-    background-color: #b1b3b5
+    background-color: #b2b4b6
 }
 
 .g_bubble .g_bubble,
@@ -20439,7 +20439,7 @@ body.nonav,
 #layout-main div.forum ul.topics li.row,
 #layout-tabs ul.main-tabs li.selected,
 #layout-tabs ul.main-tabs li:hover {
-    background-color: #cfd1d4
+    background-color: #d0d2d5
 }
 
 .format-buttons select,
@@ -20469,26 +20469,26 @@ th a,
 #layout-search input.text,
 #layout-search select,
 #layout-tabs ul.main-tabs li {
-    background-color: #34394d
+    background-color: #353a4e
 }
 
 #layout-main .g_account ul.tabs li.signup {
-    background-color: #800
+    background-color: #890101
 }
 
 #layout-menu li.sub-menu ul li.alert a::before,
 #menu-account li.alert a span::after,
 #menu-account li.alert a span::before {
-    color: #b32947 !important
+    color: #b42a48 !important
 }
 
 #layout-main div.format-buttons .f_button {
-    background-color: #bbb
+    background-color: #bcbcbc
 }
 
 #layout-main div.format-buttons .f_button.selected,
 #layout-main div.format-buttons .f_button:hover {
-    background-color: #ccc
+    background-color: #cdcdcd
 }
 
 input.text,
@@ -20512,7 +20512,7 @@ textarea,
 #layout-main div.pagination span strong,
 #layout-search input.text,
 #layout-search select {
-    border-color: #34394d
+    border-color: #353a4e
 }
 
 .g_bubble,
@@ -20525,7 +20525,7 @@ textarea,
 #layout-main div.forum .g_bubble.infobox h3,
 #layout-main div.forum div.quickreply textarea,
 #layout-main div.forum div.signature {
-    border-color: #9a9a9a #7d7d7d #7d7d7d #9a9a9a
+    border-color: #9b9b9b #7e7e7e #7e7e7e #9b9b9b
 }
 
 .g_bubble.box:not(.small)>div.data div.name,
@@ -20538,30 +20538,30 @@ textarea,
 #layout-menu li.sub-menu ul li#user-xname input,
 #layout-menu li.sub-menu ul li#user-xpass input,
 #layout-tabs ul.main-tabs li {
-    border-color: #9a9a9a
+    border-color: #9b9b9b
 }
 
 #layout-main>h1,
 #layout-main div.g_timedentry h4,
 #layout-menu li.sub-menu {
-    border-color: #eee #8e8e8e #8e8e8e #eee
+    border-color: #efefef #8f8f8f #8f8f8f #efefef
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done,
 #layout-main div.group_all div.group_released td.epbar div.done {
-    background-color: #4f75e8;
-    border-bottom-color: #4f75e8
+    background-color: #5076e9;
+    border-bottom-color: #5076e9
 }
 
 #layout-main div.anime_all div.groups td.epbar div.notdone,
 #layout-main div.group_all div.group_released td.epbar div.notdone {
-    background-color: #c3cfff;
-    border-bottom-color: #c3cfff
+    background-color: #c4d000;
+    border-bottom-color: #c4d000
 }
 
 #layout-main div.anime_all div.groups td.epbar div.done.mylist,
 #layout-main div.group_all div.group_released td.epbar div.done.mylist {
-    border-bottom-color: #7ef27e
+    border-bottom-color: #7ff37f
 }
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong,
@@ -20570,138 +20570,138 @@ textarea,
 #layout-main div.g_bubble.showhidecontent,
 #layout-tabs ul.main-tabs li.selected a,
 #layout-tabs ul.main-tabs li:hover a {
-    color: #000
+    color: #010101
 }
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
-    color: #666
+    color: #676767
 }
 
 #layout-main div.forum .g_bubble.infobox div.data p.subtitle,
 #layout-main div.forum .g_bubble.infobox h3 {
-    border-bottom-color: #7d7d7d
+    border-bottom-color: #7e7e7e
 }
 
 .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-    background-color: #e6e4d1 !important
+    background-color: #e7e5d2 !important
 }
 
 .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
 .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
-    background-color: #f0edd5 !important
+    background-color: #f1eed6 !important
 }
 
 #layout-main div.main_all div.g_section>h2 {
-    background-color: #34394d;
-    color: #ddd;
-    border-color: #eee #8e8e8e #8e8e8e #eee
+    background-color: #353a4e;
+    color: #dedede;
+    border-color: #efefef #8f8f8f #8f8f8f #efefef
 }
 
 #layout-main .g_account ul.tabs li {
-    border-top-color: #9a9a9a;
-    border-left-color: #9a9a9a;
-    border-right-color: #7d7d7d
+    border-top-color: #9b9b9b;
+    border-left-color: #9b9b9b;
+    border-right-color: #7e7e7e
 }
 
 #layout-main .g_account ul.tabs li,
 #layout-main .g_account ul.tabs li.signup:hover {
-    background-color: #cfd1d4;
-    border-bottom-color: #cfd1d4
+    background-color: #d0d2d5;
+    border-bottom-color: #d0d2d5
 }
 
 #layout-main .g_account ul.tabs li.signup a {
-    color: #cfd1d4
+    color: #d0d2d5
 }
 
 #layout-main div.main_all div.news.forum div.latestnews div.posted {
-    color: #444
+    color: #454545
 }
 
 #layout-main div.forum div.g_bubble.rules {
-    background-color: #ecd5d8;
-    color: #bc2a4d;
-    border-color: #debfc3 #c4939f #c4939f #debfc3
+    background-color: #edd6d9;
+    color: #bd2b4e;
+    border-color: #dfc0c4 #c594a0 #c594a0 #dfc0c4
 }
 
 #layout-tabs ul.main-tabs>li.selected,
 #layout-tabs ul.main-tabs>li:hover {
-    border-bottom-color: #cfd1d4
+    border-bottom-color: #d0d2d5
 }
 
 #layout-tabs ul.main-tabs>li {
-    border-bottom-color: #34394d
+    border-bottom-color: #353a4e
 }
 
 .tooltip span.text,
 #imagepreview {
-    background-color: #d3d5d9 !important;
-    color: #000;
-    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #d4d6da !important;
+    color: #010101;
+    box-shadow: 0 8px 4px 0 rgba(1, 1, 1, 0.2);
     opacity: .95
 }
 
 .tooltip span.text::after,
 .tooltip span.text::before {
-    border-color: rgba(211, 213, 217, 0);
-    border-bottom-color: #d3d5d9
+    border-color: rgba(212, 214, 218, 0);
+    border-bottom-color: #d4d6da
 }
 
 #layout-search ul.quicksearch {
-    border-color: #34394d
+    border-color: #353a4e
 }
 
 #layout-search ul.quicksearch li.focus,
 #layout-search ul.quicksearch li:hover {
-    background-color: #bbb
+    background-color: #bcbcbc
 }
 
 #layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
-    color: rgba(0, 0, 0, 0.7)
+    color: rgba(1, 1, 1, 0.7)
 }
 
 #layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
 #layout-main div.tag-column span.not_added a {
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(1, 1, 1, 0.5)
 }
 
 #layout-main div.chartag-list span.size0 a,
 #layout-main div.chartag-list span.size1 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
-    color: rgba(16, 82, 137, 0.5)
+    color: rgba(17, 83, 138, 0.5)
 }
 
 #layout-main div.chartag-list span.size2 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
-    color: rgba(16, 82, 137, 0.6)
+    color: rgba(17, 83, 138, 0.6)
 }
 
 #layout-main div.chartag-list span.size3 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
-    color: rgba(16, 82, 137, 0.7)
+    color: rgba(17, 83, 138, 0.7)
 }
 
 #layout-main div.chartag-list span.size4 a,
 #layout-main div.chartag-list span.size5 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
-    color: rgba(16, 82, 137, 0.8)
+    color: rgba(17, 83, 138, 0.8)
 }
 
 #layout-main div.chartag-list span.size6 a,
 #layout-main div.chartag-list span.size7 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
-    color: rgba(16, 82, 137, 1)
+    color: rgba(17, 83, 138, 1)
 }
 
 #layout-main div.chartag-list span.size10 a,
 #layout-main div.chartag-list span.size8 a,
 #layout-main div.chartag-list span.size9 a,
 #layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
-    color: rgba(16, 82, 137, 1)
+    color: rgba(17, 83, 138, 1)
 }
 
 #layout-main div.tag-column div.tag[data-anidb-weight="100"] .weight {
@@ -20722,7 +20722,7 @@ textarea,
 
 #layout-main div.chartag-list a:hover,
 #layout-main div.tag-column a:hover {
-    color: #800 !important;
+    color: #890101 !important;
     opacity: 1 !important
 }
 
@@ -20740,7 +20740,7 @@ tr+tr th,
 #layout-main div.addtagentityrel_all #tag-list div.tag+div.tag,
 #layout-main div.g_definitionlist tr th,
 #layout-main div.report_all div.body ul li+li {
-    border-top-color: #999
+    border-top-color: #9a9a9a
 }
 
 #layout-main div.animelist_all tr td+td,
@@ -20762,24 +20762,24 @@ tr+tr th,
 #layout-main div.tag_all tr td+td,
 #layout-main div.taglist_all tr td+td,
 #layout-main div.userlist_all tr td+td {
-    border-left-color: #999
+    border-left-color: #9a9a9a
 }
 
 #layout-search input.text {
-    box-shadow: 1px 1px 2px #8e8e8e inset
+    box-shadow: 1px 1px 2px #8f8f8f inset
 }
 
 #layout-search select {
-    box-shadow: 0 1px 2px #8e8e8e inset
+    box-shadow: 0 1px 2px #8f8f8f inset
 }
 
 #layout-menu li.sub-menu li+li {
-    border-top-color: #454959
+    border-top-color: #464a5a
 }
 
 #layout-main .episodes tr.newtype td,
 #layout-main .staffblock+.staffblock table {
-    border-top-color: #34394d
+    border-top-color: #353a4e
 }
 
 #layout-menu li.sub-menu ul li.main a:hover {
@@ -20789,11 +20789,11 @@ tr+tr th,
 
 #layout-main div.cmt_all div.cmt_add hr,
 #layout-main div.postbody hr {
-    background-color: #777
+    background-color: #787878
 }
 
 #layout-main div.forum hr {
-    background-color: #9a9a9a
+    background-color: #9b9b9b
 }
 
 .ajax-file-upload:hover {
@@ -20811,43 +20811,43 @@ tr,
 
 .select2-container--default .select2-selection--multiple .select2-selection__placeholder,
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #aaa
+    color: #ababab
 }
 
 ::-webkit-input-placeholder {
-    color: #aaa;
+    color: #ababab;
     opacity: 1
 }
 
 ::-moz-placeholder {
-    color: #aaa;
+    color: #ababab;
     opacity: 1
 }
 
 ::-ms-input-placeholder {
-    color: #aaa;
+    color: #ababab;
     opacity: 1
 }
 
 ::-moz-placeholder {
-    color: #aaa;
+    color: #ababab;
     opacity: 1
 }
 
 ::placeholder {
-    color: #aaa;
+    color: #ababab;
     opacity: 1
 }
 
 .g_button a {
-    background-color: #fa5;
-    color: #000;
-    border-color: #fd0 #ff4d00 #ff4d00 #fd0
+    background-color: #00ab56;
+    color: #010101;
+    border-color: #00de01 #004e01 #004e01 #00de01
 }
 
 .g_button a:hover {
-    background-color: #f90;
-    color: #444 !important
+    background-color: #009a01;
+    color: #454545 !important
 }
 
 button,
@@ -20856,9 +20856,9 @@ input[type=submit],
 #layout-main div.edit_actions>span>*,
 #layout-main ul.g_list li,
 #layout-main ul.g_list li.g_odd {
-    color: #ccc;
-    background-color: #34394d;
-    border-color: #34394d
+    color: #cdcdcd;
+    background-color: #353a4e;
+    border-color: #353a4e
 }
 
 button:hover,
@@ -20872,7 +20872,7 @@ input[type=submit]:hover,
 #layout-main ul.g_list li.selected,
 #layout-main ul.g_list li.selected .i_icon,
 #layout-main ul.g_list li:hover {
-    color: #c0daf0 !important
+    color: #c1dbf1 !important
 }
 
 #layout-main ul.g_list li:hover a {
@@ -20880,42 +20880,42 @@ input[type=submit]:hover,
 }
 
 #layout-main div.calendar_all .g_section.middle div.g_section.content.today .g_bubblewrap.g_bubble.container {
-    background-color: #919ba1
+    background-color: #929ca2
 }
 
 .highcharts-axis-line,
 .highcharts-tick {
-    stroke: #777
+    stroke: #787878
 }
 
 .highcharts-grid-line {
-    stroke: #999
+    stroke: #9a9a9a
 }
 
 .highcharts-axis-labels {
-    fill: #000
+    fill: #010101
 }
 
 .highcharts-pie-series .highcharts-point {
-    stroke: #cfd1d4
+    stroke: #d0d2d5
 }
 
 .wysibb,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.wbb-smilebox .wbb-list,
 .wysibb.g_bubble,
 #wbbmodal .div-modal-text {
-    border-color: #34394d !important;
-    background-color: #34394d;
-    color: #ccc
+    border-color: #353a4e !important;
+    background-color: #353a4e;
+    color: #cdcdcd
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-inner {
-    color: #ccc;
+    color: #cdcdcd;
     text-shadow: none
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on span.btn-inner {
-    color: #000
+    color: #010101
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
@@ -20924,30 +20924,30 @@ input[type=submit]:hover,
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-inner:hover,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover .fonticon {
-    color: #fff
+    color: #000000
 }
 
 .wysibb .wysibb-toolbar,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container {
-    border-color: #999
+    border-color: #9a9a9a
 }
 
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on,
 .wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover {
-    background-color: #999
+    background-color: #9a9a9a
 }
 
 #wbbmodal .wbbm,
 #wbbmodal .wbbm-bottom,
 #wbbmodal .wbbm-content,
 #wbbmodal .wbbm-title {
-    border-color: #9a9a9a #7d7d7d #7d7d7d #9a9a9a;
-    background-color: #cfd1d4;
-    color: #000
+    border-color: #9b9b9b #7e7e7e #7e7e7e #9b9b9b;
+    background-color: #d0d2d5;
+    color: #010101
 }
 
 .wysibb .wysibb-text a {
-    color: #fff
+    color: #000000
 }
 
 .i_mylist_add::before,
@@ -20957,32 +20957,32 @@ input[type=submit]:hover,
 .i_wishlist_add::before,
 .i_wishlist_delete::before,
 .i_wishlist_edit::before {
-    text-shadow: .07em .07em 0 #cfd1d4, -0.07em -0.07em 0 #cfd1d4, .07em -0.07em 0 #cfd1d4, -0.07em .07em 0 #cfd1d4, .07em .07em 0 #cfd1d4
+    text-shadow: .07em .07em 0 #d0d2d5, -0.07em -0.07em 0 #d0d2d5, .07em -0.07em 0 #d0d2d5, -0.07em .07em 0 #d0d2d5, .07em .07em 0 #d0d2d5
 }
 
 .g_filter .flap {
-    box-shadow: 0 1px 3px #666;
+    box-shadow: 0 1px 3px #676767;
     opacity: .9
 }
 
 #layout-main *:not(.g_definitionlist)>table>tbody>tr:not(.files):not(.episodes)>td::after,
 #layout-main div.forum ul.topics li.row:hover::after {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+    background: linear-gradient(to bottom, rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.2))
 }
 
 @media screen and (max-width: 800px) {
     #layout-main .g_datatable table tr {
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4)
+        box-shadow: 0 1px 3px 0 rgba(1, 1, 1, 0.4)
     }
 
     #layout-main .g_datatable table tr td.name.main {
-        background: #444 !important;
-        color: #fff
+        background: #454545 !important;
+        color: #000000
     }
 
     #layout-main .g_datatable table tr td.name.main .i_info::after,
     #layout-main .g_datatable table tr td.name.main a {
-        color: #ddd
+        color: #dedede
     }
 }
 
@@ -20996,20 +20996,20 @@ input[type=submit]:hover,
 
 #layout-menu li.sub-menu ul li a,
 #layout-menu li.sub-menu ul li.user-xkeep label span {
-    color: #000
+    color: #010101
 }
 
 .g_button a:hover,
 h4 a:hover,
 table th.sortable:hover:not(.sorter-false),
 th a:hover {
-    color: #c0daf0 !important
+    color: #c1dbf1 !important
 }
 
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover .v_high,
 #layout-main div.userpage_all div.g_menu ul li:hover a {
-    color: #ddd !important
+    color: #dedede !important
 }
 
 #layout-main div.userpage_all .g_section.achievements>.container>.container,
@@ -21018,18 +21018,18 @@ th a:hover {
 }
 
 .g_button a {
-    background-color: #34394d;
-    border-color: #34394d
+    background-color: #353a4e;
+    border-color: #353a4e
 }
 
 #layout-main .staffblock+.staffblock table {
-    border-color: #34394d !important
+    border-color: #353a4e !important
 }
 
 .g_button a,
 th,
 th a {
-    color: #ccc
+    color: #cdcdcd
 }
 
 .g_button a,
@@ -21048,7 +21048,7 @@ input[type=submit],
 #layout-main ul.g_list li.g_odd,
 #layout-search input.text,
 #layout-search select {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3)
+    box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.3)
 }
 
 .g_bubble,
@@ -21060,16 +21060,16 @@ input[type=submit],
 #layout-main div.userpage_all div.g_menu ul,
 #layout-menu li.sub-menu span.tab,
 #layout-menu li.sub-menu ul {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4)
+    box-shadow: 0 1px 3px 0 rgba(1, 1, 1, 0.4)
 }
 
 #layout-main div.tabbed_pane ul.tabs li,
 #layout-tabs ul.main-tabs>li {
-    box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2)
+    box-shadow: 2px -2px 2px -1px rgba(1, 1, 1, 0.2)
 }
 
 #layout-main .g_account ul.tabs li {
-    box-shadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 -2px 3px 0 rgba(1, 1, 1, 0.2)
 }
 
 #layout-search input.text.focus,
@@ -21082,21 +21082,21 @@ input[type=submit],
 #layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
 #layout-main div.userpage_all div.g_menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover {
-    background-color: #505862
+    background-color: #515963
 }
 
 #layout-menu li.sub-menu span.tab,
 #layout-menu li.sub-menu ul li:hover,
 #layout-menu li.sub-menu ul li:hover a,
 #layout-menu li.sub-menu ul li:hover a::before {
-    color: #ddd;
-    background-color: #34394d
+    color: #dedede;
+    background-color: #353a4e
 }
 
 #layout-main div.userpage_all div.g_menu ul,
 #layout-main div.userpage_all div.g_menu ul li.g_odd,
 #layout-menu li.sub-menu ul {
-    background-color: #bdbfc3
+    background-color: #bec0c4
 }
 
 .i_general_unverify::before,
@@ -21113,18 +21113,18 @@ input[type=submit],
 .i_wishlist_toget::before,
 .i_wishlist_towatch::before,
 .i_wishlist_undefined::before {
-    text-shadow: .07em .07em 0 #cfd1d4, -0.07em -0.07em 0 #cfd1d4, .07em -0.07em 0 #cfd1d4, -0.07em .07em 0 #cfd1d4, .07em .07em 0 #cfd1d4
+    text-shadow: .07em .07em 0 #d0d2d5, -0.07em -0.07em 0 #d0d2d5, .07em -0.07em 0 #d0d2d5, -0.07em .07em 0 #d0d2d5, .07em .07em 0 #d0d2d5
 }
 
 #layout-main div.main_all div.g_section>h2 {
     background-color: inherit;
     color: inherit;
-    border-color: #9a9a9a
+    border-color: #9b9b9b
 }
 
 #layout-main .g_account ul.tabs li,
 #layout-main .g_account ul.tabs li.signup:hover {
-    border-color: #cfd1d4
+    border-color: #d0d2d5
 }
 
 #layout-main div.info div.extra div h2 {
@@ -21137,7 +21137,7 @@ input[type=submit],
 
 #layout-main *:not(.g_definitionlist)>table>tbody>tr:not(.files):not(.episodes)>td::after,
 #layout-main div.forum ul.topics li.row:hover::after {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+    background: linear-gradient(to bottom, rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.2))
 }
 
 #layout-footer::after {
@@ -21258,26 +21258,26 @@ input[type=submit],
     }
 
     #anidb:not(.nodropdownmenu) #layout-menu {
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-        background-color: #34394d
+        box-shadow: 0px 1px 2px 0px rgba(1, 1, 1, 0.2);
+        background-color: #353a4e
     }
 
     #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu span.tab {
-        color: #ddd !important;
+        color: #dedede !important;
         box-shadow: none
     }
 
     #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu+li.sub-menu {
-        border-left: 1px solid #999 !important
+        border-left: 1px solid #9a9a9a !important
     }
 
     #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu:hover {
-        background-color: #58636e !important
+        background-color: #59646f !important
     }
 
     #anidb:not(.nodropdownmenu) #layout-menu li.sub-menu:hover span.tab {
-        color: #c0daf0 !important;
-        background-color: #58636e
+        color: #c1dbf1 !important;
+        background-color: #59646f
     }
 }
 
