@@ -19898,7 +19898,7 @@ table,
 }
 
 #layout-search {
-    background: url("images/logo.png") no-repeat scroll left top transparent
+    background: url("https://i8.imageban.ru/out/2026/03/27/a5f733a94b67b8b5259e5ae9aaca36e9.png") no-repeat scroll left top transparent
 }
 
 @media screen and (max-width: 950px) {
@@ -19907,13 +19907,13 @@ table,
     }
 
     #anidb.nodropdownmenu #layout-search {
-        background: url("images/logo-small.png") no-repeat scroll left top transparent
+        background: url("https://i8.imageban.ru/out/2026/03/27/a5f733a94b67b8b5259e5ae9aaca36e9.png") no-repeat scroll left top transparent
     }
 }
 
 @media screen and (max-width: 800px) {
     #anidb:not(.nodropdownmenu) #layout-search {
-        background: url("images/logo.png") no-repeat scroll center top transparent
+        background: url("https://i8.imageban.ru/out/2026/03/27/a5f733a94b67b8b5259e5ae9aaca36e9.png") no-repeat scroll center top transparent
     }
 
     #anidb.nodropdownmenu #layout-search {
@@ -19923,7 +19923,7 @@ table,
 
 @media screen and (max-width: 510px) {
     #anidb:not(.nodropdownmenu) #layout-search {
-        background: url("images/logo-small.png") no-repeat scroll center top transparent
+        background: url("https://i8.imageban.ru/out/2026/03/27/a5f733a94b67b8b5259e5ae9aaca36e9.png") no-repeat scroll center top transparent
     }
 }
 
@@ -19941,7 +19941,7 @@ table,
 
 @media screen and (min-width: 1860px) {
     #layout-search {
-        background: url("images/logo-widest.png") no-repeat scroll left top transparent
+        background: url("https://i2.imageban.ru/out/2026/03/27/18209de421df19601dfb387f877e9ab3.png") no-repeat scroll left top transparent
     }
 }
 
