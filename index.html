@@ -561,52 +561,54 @@
 
 
 
-          <!--Side-Filter-Start-->
-          <div class="g_bubblewrap nowrap g_section">
-	<div class="hide right g_filter hassettings">
+          
+          <div class="g_bubblewrap nowrap">
+	<div class="hide right g_filter">
 		<div class="g_bubble flap hide" title="click to show the filter menu">Filter</div>
 		<div class="content">
 			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
 			<form action="/perl-bin/animedb.pl" method="get">
-	<div class="g_section settings">
-		<h2><span>Save/Load Settings</span></h2>
-		<ul>
-			<li class="g_odd g_bubble">
-				<div class="row">
-	<select name="settings" size="1"><option value="0" selected="selected">select a template</option>
-	</select>
-					<button class="load" type="submit" name="do.load" value="load">Load</button>
-					<button class="default" type="submit" name="do.default" value="Set Default">set default</button>
-					<button class="delete" type="submit" name="do.delete" value="Delete">delete</button>
-				</div>
-				<div class="row">
-					<input class="name" type="text" name="addfilter.name" placeholder="template name"/>
-					<button class="add" type="submit" name="do.add" value="add">Add</button>
-					<button class="edit" type="submit" name="do.edit" value="edit">Edit</button>
-				</div>
-				<div class="row">
-					<label><input type="checkbox" name="addfilter.preserve_order" /> Store order parameter</label>
-				</div></li>
-		</ul>
-	</div>
 				<div class="g_section g_bubble">
 					<button class="filter" type="submit" name="do.update" value="1">Apply Filter</button>
 					<button class="reset" type="submit" name="do.reset" value="1">Reset</button>
 				</div>
 				<fieldset>
 					<input type="hidden" name="cleanurl" value="1"/>
-			<input type="hidden" name="orderby.name" value="0.1"/>
-
-			<input type="hidden" name="view" value="list"/>
-
-			<input type="hidden" name="show" value="animelist"/>
+				<input type="hidden" name="cleanurl" value="1"/>
+				<input type="hidden" name="show" value="latest2"/>
+				<input type="hidden" name="do" value="file"/>
 				</fieldset>
 	<div class="g_section filters">
 		<h2><span>Filter</span></h2>
-
-    
 		<ul class="g_bubblewrap">
-                      <li class="g_odd g_bubble">
+			<li class="g_odd g_bubble">
+		<div class="g_boxwrap"><h3>Adult Content</h3><label class="ignore"><input type="radio" name="h" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="h" value="1"> <span>hide 18+ Content</span></label><label><input type="radio" name="h" value="2"> <span>show only 18+ Content</span></label></div></li>
+			<li class="g_bubble">
+		<div class="g_boxwrap"><h3>Airing Status</h3><label class="ignore"><input type="radio" name="airing" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="airing" value="1"> <span>still airing</span></label><label><input type="radio" name="airing" value="2"> <span>finished</span></label><label><input type="radio" name="airing" value="3"> <span>unaired/unknown</span></label></div></li>
+			<li class="g_odd g_bubble"><h3>Anime Type</h3>
+		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="type.movie" > <span>Movie</span></label><label><input type="checkbox"  value="1" name="type.musicvideo" > <span>Music Video</span></label><label><input type="checkbox"  value="1" name="type.other" > <span>Other</span></label><label><input type="checkbox"  value="1" name="type.ova" > <span>OVA</span></label><label><input type="checkbox"  value="1" name="type.tvseries" > <span>TV Series</span></label><label><input type="checkbox"  value="1" name="type.tvspecial" > <span>TV Special</span></label><label><input type="checkbox"  value="1" name="type.unknown" > <span>unknown</span></label><label><input type="checkbox"  value="1" name="type.web" > <span>Web</span></label></div></li>
+			<li class="g_bubble"><div class="g_boxwrap"><h3>Misc</h3><label><input type="checkbox"  value="1" name="noalias" > <span>hide synonyms</span></label>
+<label><input type="checkbox"  value="1" name="streamable" > <span>show only streamable</span></label>
+<label><input type="checkbox"  value="1" name="orderbar" > <span>show order bar</span></label>
+<label><input type="checkbox"  value="1" name="lang.dub.pref" > <span>use audio lang pref</span></label>
+<label><input type="checkbox"  value="1" name="lang.sub.pref" > <span>use subtitle lang pref</span></label></div></li>
+			<li class="g_odd g_bubble">
+		<div class="g_boxwrap"><h3>My Buddy</h3><label class="ignore"><input type="radio" name="buddy" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="buddy" value="1"> <span>show if in mylist</span></label><label><input type="radio" name="buddy" value="2"> <span>hide if in mylist</span></label><label><input type="radio" name="buddy" value="3"> <span>show if watched</span></label><label><input type="radio" name="buddy" value="4"> <span>hide if watched</span></label></div></li>
+			<li class="g_bubble"><h3>Mylist State</h3>
+		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="liststate.collecting" > <span>collecting</span></label><label><input type="checkbox"  value="1" name="liststate.completed" > <span>completed</span></label><label><input type="checkbox"  value="1" name="liststate.dropped" > <span>dropped</span></label><label><input type="checkbox"  value="1" name="liststate.stalled" > <span>stalled</span></label><label><input type="checkbox"  value="1" name="liststate.unknown" > <span>unknown</span></label><label><input type="checkbox"  value="1" name="liststate.watching" > <span>watching</span></label></div></li>
+			<li class="g_odd g_bubble">
+		<div class="g_boxwrap"><h3>Mylist Status</h3><label class="ignore"><input type="radio" name="mylist" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="mylist" value="1"> <span>complete</span></label><label><input type="radio" name="mylist" value="2"> <span>incomplete</span></label><label><input type="radio" name="mylist" value="3"> <span>in mylist</span></label><label><input type="radio" name="mylist" value="4"> <span>not in mylist</span></label><label><input type="radio" name="mylist" value="5"> <span>related & not in mylist</span></label></div></li>
+			<li class="g_bubble">
+		<div class="g_boxwrap"><h3>Notification Status</h3><label class="ignore"><input type="radio" name="notification" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="notification" value="1"> <span>notifications enabled</span></label><label><input type="radio" name="notification" value="2"> <span>notifications disabled</span></label></div></li>
+			<li class="g_odd g_bubble"><h3>Origin</h3>
+		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="tag.6152" > <span>China</span></label><label><input type="checkbox"  value="1" name="tag.7885" > <span>Japan</span></label><label><input type="checkbox"  value="1" name="tag.6166" > <span>South Korea</span></label></div></li>
+			<li class="g_bubble">
+		<div class="g_boxwrap"><h3>Vote Status</h3><label class="ignore"><input type="radio" name="vote" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="vote" value="1"> <span>permanent</span></label><label><input type="radio" name="vote" value="2"> <span>temporary</span></label><label><input type="radio" name="vote" value="3"> <span>none</span></label><label><input type="radio" name="vote" value="4"> <span>either</span></label></div></li>
+			<li class="g_odd g_bubble"><h3>Watched Status</h3>
+		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="watched.allihave" > <span>"all I have" watched</span></label><label><input type="checkbox"  value="1" name="watched.complete" > <span>completely watched</span></label><label><input type="checkbox"  value="1" name="watched.partial" > <span>partially watched</span></label><label><input type="checkbox"  value="1" name="watched.unwatched" > <span>unwatched</span></label></div></li>
+			<li class="g_bubble">
+		<div class="g_boxwrap"><h3>Wishlist Status</h3><label class="ignore"><input type="radio" name="wishlist.status" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="wishlist.status" value="1"> <span>in wish- or blacklist</span></label><label><input type="radio" name="wishlist.status" value="2"> <span>not in wish- or blacklist</span></label><label><input type="radio" name="wishlist.status" value="3"> <span>in wishlist</span></label><label><input type="radio" name="wishlist.status" value="4"> <span>not in wishlist</span></label><label><input type="radio" name="wishlist.status" value="5"> <span>in blacklist</span></label><label><input type="radio" name="wishlist.status" value="6"> <span>not in blacklist</span></label></div></li>
+    <li class="g_odd g_bubble">
                         <div class="g_boxwrap">
                           <h3>Airing Status</h3>
                           <label class="ignore"
@@ -711,10 +713,6 @@
                           >
                         </div>
                       </li>
-
-                      <!--Hide Some Filter setting-->
-                      <!--
-
                       <li class="g_bubble"><h3>File Source</h3><label><input type="checkbox"  value="1" name="source.bd"  checked="checked"> <span>Bluray/HDDVD</span></label><label><input type="checkbox"  value="1" name="source.dvd"  checked="checked"> <span>DVD</span></label><label><input type="checkbox"  value="1" name="source.hdtv"  checked="checked"> <span>HDTV</span></label><label><input type="checkbox"  value="1" name="source.www"  checked="checked"> <span>WWW</span></label><label><input type="checkbox"  value="1" name="source.other"  checked="checked"> <span>other</span></label><label><input type="checkbox"  value="1" name="source.unknown"  checked="checked"> <span>unknown</span></label></li>
 			<li class="g_odd g_bubble"><h3>Misc</h3>
 <label>
@@ -723,27 +721,11 @@
 	</select> # to show</label>
 <label><input type="checkbox"  value="1" name="uncensored" > <span>show uncensored only</span></label></li>
 			<li class="g_bubble"><h3>Timeframe</h3><label><input type="radio" name="timeframe" value="0" checked="checked"> <span>group by day</span></label><label><input type="radio" name="timeframe" value="1"> <span>group by week</span></label><label><input type="radio" name="timeframe" value="2"> <span>group by month</span></label></li>
-                              -->
-
-      
-                    </ul>
-                  </div>
-                </form>
-              </div>
-            </div>
-
-
-
-
-<!--Side-Filter-END-->
-
-
-
-
-
-
-
-
+		</ul>
+	</div>
+			</form>
+		</div>
+	</div>
             <div class="container">
               <div class="g_section content">
                 <h2><span>Latest Uploads</span></h2>
