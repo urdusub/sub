@@ -483,7 +483,7 @@
 			<li class="g_odd reviews"><span><a href="/latest/anime/review"><span class="text">reviews</span></a></span></li>
 			<li class="similaranime"><span><a href="/latest/anime/similar"><span class="text">similar anime</span></a></span></li>
 			<li class="g_odd customise"><span><a href="/latest/customise"><span class="text">customise</span></a></span></li>
-		</ul>
+		</ul> 
 	</div>
   <!--layout-tabs-->
       <!--layout-tabs-->
@@ -561,25 +561,50 @@
 
 
 
-          
-          <div class="g_bubblewrap nowrap">
-	<div class="hide right g_filter">
+          <!--Side-Filter-Start-->
+          <div class="g_bubblewrap nowrap g_section">
+	<div class="hide right g_filter hassettings">
 		<div class="g_bubble flap hide" title="click to show the filter menu">Filter</div>
 		<div class="content">
 			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
 			<form action="/perl-bin/animedb.pl" method="get">
+	<div class="g_section settings">
+		<h2><span>Save/Load Settings</span></h2>
+		<ul>
+			<li class="g_odd g_bubble">
+				<div class="row">
+	<select name="settings" size="1"><option value="0" selected="selected">select a template</option>
+	</select>
+					<button class="load" type="submit" name="do.load" value="load">Load</button>
+					<button class="default" type="submit" name="do.default" value="Set Default">set default</button>
+					<button class="delete" type="submit" name="do.delete" value="Delete">delete</button>
+				</div>
+				<div class="row">
+					<input class="name" type="text" name="addfilter.name" placeholder="template name"/>
+					<button class="add" type="submit" name="do.add" value="add">Add</button>
+					<button class="edit" type="submit" name="do.edit" value="edit">Edit</button>
+				</div>
+				<div class="row">
+					<label><input type="checkbox" name="addfilter.preserve_order" /> Store order parameter</label>
+				</div></li>
+		</ul>
+	</div>
 				<div class="g_section g_bubble">
 					<button class="filter" type="submit" name="do.update" value="1">Apply Filter</button>
 					<button class="reset" type="submit" name="do.reset" value="1">Reset</button>
 				</div>
 				<fieldset>
 					<input type="hidden" name="cleanurl" value="1"/>
-				<input type="hidden" name="cleanurl" value="1"/>
-				<input type="hidden" name="show" value="latest2"/>
-				<input type="hidden" name="do" value="file"/>
+			<input type="hidden" name="orderby.name" value="0.1"/>
+
+			<input type="hidden" name="view" value="list"/>
+
+			<input type="hidden" name="show" value="animelist"/>
 				</fieldset>
 	<div class="g_section filters">
 		<h2><span>Filter</span></h2>
+
+    
 		<ul class="g_bubblewrap">
                       <li class="g_odd g_bubble">
                         <div class="g_boxwrap">
@@ -686,6 +711,10 @@
                           >
                         </div>
                       </li>
+
+                      <!--Hide Some Filter setting-->
+                      <!--
+
                       <li class="g_bubble"><h3>File Source</h3><label><input type="checkbox"  value="1" name="source.bd"  checked="checked"> <span>Bluray/HDDVD</span></label><label><input type="checkbox"  value="1" name="source.dvd"  checked="checked"> <span>DVD</span></label><label><input type="checkbox"  value="1" name="source.hdtv"  checked="checked"> <span>HDTV</span></label><label><input type="checkbox"  value="1" name="source.www"  checked="checked"> <span>WWW</span></label><label><input type="checkbox"  value="1" name="source.other"  checked="checked"> <span>other</span></label><label><input type="checkbox"  value="1" name="source.unknown"  checked="checked"> <span>unknown</span></label></li>
 			<li class="g_odd g_bubble"><h3>Misc</h3>
 <label>
@@ -694,11 +723,27 @@
 	</select> # to show</label>
 <label><input type="checkbox"  value="1" name="uncensored" > <span>show uncensored only</span></label></li>
 			<li class="g_bubble"><h3>Timeframe</h3><label><input type="radio" name="timeframe" value="0" checked="checked"> <span>group by day</span></label><label><input type="radio" name="timeframe" value="1"> <span>group by week</span></label><label><input type="radio" name="timeframe" value="2"> <span>group by month</span></label></li>
+                              -->
+
+      
                     </ul>
                   </div>
                 </form>
               </div>
             </div>
+
+
+
+
+<!--Side-Filter-END-->
+
+
+
+
+
+
+
+
             <div class="container">
               <div class="g_section content">
                 <h2><span>Latest Uploads</span></h2>
