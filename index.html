@@ -561,22 +561,45 @@
 
 
 
-          
-          <div class="g_bubblewrap nowrap">
-	<div class="hide right g_filter">
+          <!--Side-Filte-Start-->
+          <div class="g_bubblewrap nowrap g_section">
+	<div class="hide right g_filter hassettings">
 		<div class="g_bubble flap hide" title="click to show the filter menu">Filter</div>
 		<div class="content">
 			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
 			<form action="/perl-bin/animedb.pl" method="get">
+	<div class="g_section settings">
+		<h2><span>Save/Load Settings</span></h2>
+		<ul>
+			<li class="g_odd g_bubble">
+				<div class="row">
+	<select name="settings" size="1"><option value="0" selected="selected">select a template</option>
+	</select>
+					<button class="load" type="submit" name="do.load" value="load">Load</button>
+					<button class="default" type="submit" name="do.default" value="Set Default">set default</button>
+					<button class="delete" type="submit" name="do.delete" value="Delete">delete</button>
+				</div>
+				<div class="row">
+					<input class="name" type="text" name="addfilter.name" placeholder="template name"/>
+					<button class="add" type="submit" name="do.add" value="add">Add</button>
+					<button class="edit" type="submit" name="do.edit" value="edit">Edit</button>
+				</div>
+				<div class="row">
+					<label><input type="checkbox" name="addfilter.preserve_order" /> Store order parameter</label>
+				</div></li>
+		</ul>
+	</div>
 				<div class="g_section g_bubble">
 					<button class="filter" type="submit" name="do.update" value="1">Apply Filter</button>
 					<button class="reset" type="submit" name="do.reset" value="1">Reset</button>
 				</div>
 				<fieldset>
 					<input type="hidden" name="cleanurl" value="1"/>
-				<input type="hidden" name="cleanurl" value="1"/>
-				<input type="hidden" name="show" value="latest2"/>
-				<input type="hidden" name="do" value="file"/>
+			<input type="hidden" name="orderby.name" value="0.1"/>
+
+			<input type="hidden" name="view" value="list"/>
+
+			<input type="hidden" name="show" value="animelist"/>
 				</fieldset>
 	<div class="g_section filters">
 		<h2><span>Filter</span></h2>
@@ -726,7 +749,9 @@
 			</form>
 		</div>
 	</div>
-            <div class="container">
+  <!--Side-Filte-END-->
+        
+              <div class="container">
               <div class="g_section content">
                 <h2><span>Latest Uploads</span></h2>
                 <div class="g_bubblewrap g_bubble container">
