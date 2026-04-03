@@ -11,7 +11,7 @@
     />
     <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="mugistyles.css"
-      type="text/css"
+      type="text/css" 
       title="Style"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -175,13 +175,13 @@
       <span class="tab">HOME</span>
       <ul id="menu-main">
         <li class="main">
-          <a title="Main Page" href="/"><span class="text"><i class="fas fa-home"></i> Main</span></a>
+          <a title="Main Page" href="/"><span class="text">Main</span></a>
         </li>
         <li class="Latest Releases">
-          <a title="Latest Releases" href="/latest"><span class="text"><i class="fas fa-fire"></i> Latest</span></a>
+          <a title="Latest Releases" href="/latest"><span class="text">Latest</span></a>
         </li>
         <li class="Random">
-          <a title="Random Anime" href="/random"><span class="text"><i class="fas fa-random"></i> Random</span></a>
+          <a title="Random Anime" href="/random"><span class="text">Random</span></a>
         </li>
       </ul>
       <span></span>
@@ -192,19 +192,19 @@
       <span class="tab">ANIME</span>
       <ul id="menu-lists">
         <li class="anime">
-          <a title="All Anime" href="/anime"><span class="text"><i class="fas fa-play-circle"></i> All Anime</span></a>
+          <a title="All Anime" href="/anime"><span class="text">All Anime</span></a>
         </li>
         <li class="tvseries">
-          <a title="TV Series" href="/anime/tv"><span class="text"><i class="fas fa-tv"></i> TV Series</span></a>
+          <a title="TV Series" href="/anime/tv"><span class="text">TV Series</span></a>
         </li>
         <li class="movies">
-          <a title="Movies" href="/anime/movies"><span class="text"><i class="fas fa-film"></i> Movies</span></a>
+          <a title="Movies" href="/anime/movies"><span class="text">Movies</span></a>
         </li>
         <li class="ova">
-          <a title="OVA / ONA" href="/anime/ova"><span class="text"><i class="fas fa-compact-disc"></i> OVA / ONA</span></a>
+          <a title="OVA / ONA" href="/anime/ova"><span class="text">OVA / ONA</span></a>
         </li>
         <li class="genres">
-          <a title="Browse by Genre" href="/genres"><span class="text"><i class="fas fa-tags"></i> Genres</span></a>
+          <a title="Browse by Genre" href="/genres"><span class="text">Genres</span></a>
         </li>
       </ul>
       <span></span>
@@ -216,10 +216,10 @@
       <ul id="menu-support">
      
         <li class="ongoing">
-          <a title="Ongoing Series" href="/releases/ongoing"><span class="text"><i class="fas fa-spinner"></i> Ongoing</span></a>
+          <a title="Ongoing Series" href="/releases/ongoing"><span class="text">Ongoing</span></a>
         </li>
         <li class="completed">
-          <a title="Completed Series" href="/releases/completed"><span class="text"><i class="fas fa-check-circle"></i> Completed</span></a>
+          <a title="Completed Series" href="/releases/completed"><span class="text">Completed</span></a>
         </li>
     
       </ul>
@@ -231,16 +231,16 @@
       <span class="tab">SUPPORT</span>
       <ul id="menu-terms">
         <li class="Donate">
-          <a title="Donate to MugiSUB" href="/donation"><span class="text"><i class="fas fa-heart"></i> Donate</span></a>
+          <a title="Donate to MugiSUB" href="/donation"><span class="text">Donate</span></a>
         </li>
         <li class="Report">
-          <a title="Report an Error" href="/report"><span class="text"><i class="fas fa-flag"></i> Report Error</span></a>
+          <a title="Report an Error" href="/report"><span class="text">Report Error</span></a>
         </li>
         <li class="Policies">
-          <a title="Privacy Policy" href="/policy"><span class="text"><i class="fas fa-shield-alt"></i> Policies</span></a>
+          <a title="Privacy Policy" href="/policy"><span class="text">Policies</span></a>
         </li>
         <li class="Staff">
-          <a title="MugiSUB Team" href="/about"><span class="text"><i class="fas fa-users"></i> Our Team</span></a>
+          <a title="MugiSUB Team" href="/about"><span class="text">Our Team</span></a>
         </li>
       </ul>
       <span></span>
@@ -258,12 +258,12 @@
           <ul id="menu-login">
             <li id="user-login">
   <a title="Show login page" href="/user/login"
-    ><span class="text"><i class="fas fa-sign-in-alt"></i> login</span></a
+    ><span class="text">Login</span></a
   >
 </li>
 <li id="user-signup">
   <a title="Register now" href="/user/register"
-    ><span class="text"><i class="fas fa-user-plus"></i> register</span></a
+    ><span class="text">Register</span></a
   >
 </li>
             <li id="user-xname" class="user-xname" title="User name">
@@ -374,8 +374,8 @@
                 type="submit"
                 name="do.search"
                 value="1"
-                class="submit search"
-              >
+                class="submit search">
+              
                 Search
               </button>
               <fieldset>
@@ -429,8 +429,8 @@
 <!--Search-bar-full-code-end-->
 
 
-<!--Anime-list-upper-start-->
 
+<!--Anime-list-upper-start-->
 <!--Anime-list-upper-end-->
 
 
@@ -443,19 +443,24 @@
 		<div class="content">
 			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
 			<form action="/perl-bin/animedb.pl" method="get">
-
-			
 					<input type="hidden" name="cleanurl" value="1"/>
 			<input type="hidden" name="orderby.name" value="0.1"/>
-
 			<input type="hidden" name="view" value="list"/>
-
 			<input type="hidden" name="show" value="animelist"/>
 				</fieldset>
 	<div class="g_section filters">
 		<h2><span>Filter</span></h2>
 <ul class="g_bubblewrap">
-
+ <li class="g_odd g_bubble"><h3>Pages</h3>
+  <label>
+    <select name="epp" size="1">
+      <option value="10" selected="selected">Anime</option>
+      <option value="20">Movies</option>
+      <option value="30">TV Shows</option>
+    </select> 
+  </label>
+  <label><input type="checkbox" value="1" name="uncensored"> <a href="/misc/show-this-page"><span>show this page</span></a></label>
+</li>
   <li class="g_odd g_bubble">
     <div class="g_boxwrap"><h3>Adult Content</h3><label class="ignore"><input type="radio" name="h" value="0" check="check"> <a href="/content/ignore"><span>ignore</span></a></label><label><input type="radio" name="h" value="1"> <a href="/content/hide-18-plus"><span>hide 18+ Content</span></a></label><label><input type="radio" name="h" value="2"> <a href="/content/only-18-plus"><span>show only 18+ Content</span></a></label></div>
   </li>
@@ -468,71 +473,7 @@
     <div class="g_boxwrap"><label><input type="checkbox" value="1" name="type.movie"> <a href="/type/movie"><span>Movie</span></a></label><label><input type="checkbox" value="1" name="type.musicvideo"> <a href="/type/musicvideo"><span>Music Video</span></a></label><label><input type="checkbox" value="1" name="type.other"> <a href="/type/other"><span>Other</span></a></label><label><input type="checkbox" value="1" name="type.ova"> <a href="/type/ova"><span>OVA</span></a></label><label><input type="checkbox" value="1" name="type.tvseries"> <a href="/type/tvseries"><span>TV Series</span></a></label><label><input type="checkbox" value="1" name="type.tvspecial"> <a href="/type/tvspecial"><span>TV Special</span></a></label><label><input type="checkbox" value="1" name="type.unknown"> <a href="/type/unknown"><span>unknown</span></a></label><label><input type="checkbox" value="1" name="type.web"> <a href="/type/web"><span>Web</span></a></label></div>
   </li>
 
-  <li class="g_bubble">
-    <div class="g_boxwrap"><h3>Misc</h3><label><input type="checkbox" value="1" name="noalias"> <a href="/misc/hide-synonyms"><span>hide synonyms</span></a></label>
-    <label><input type="checkbox" value="1" name="streamable"> <a href="/misc/streamable"><span>show only streamable</span></a></label>
-    <label><input type="checkbox" value="1" name="orderbar"> <a href="/misc/orderbar"><span>show order bar</span></a></label>
-    <label><input type="checkbox" value="1" name="lang.dub.pref"> <a href="/misc/audio-lang"><span>use audio lang pref</span></a></label>
-    <label><input type="checkbox" value="1" name="lang.sub.pref"> <a href="/misc/sub-lang"><span>use subtitle lang pref</span></a></label></div>
-  </li>
-
-  <li class="g_odd g_bubble">
-    <div class="g_boxwrap"><h3>My Buddy</h3><label class="ignore"><input type="radio" name="buddy" value="0" check="check"> <a href="/buddy/ignore"><span>ignore</span></a></label><label><input type="radio" name="buddy" value="1"> <a href="/buddy/show-mylist"><span>show if in mylist</span></a></label><label><input type="radio" name="buddy" value="2"> <a href="/buddy/hide-mylist"><span>hide if in mylist</span></a></label><label><input type="radio" name="buddy" value="3"> <a href="/buddy/show-watched"><span>show if watched</span></a></label><label><input type="radio" name="buddy" value="4"> <a href="/buddy/hide-watched"><span>hide if watched</span></a></label></div>
-  </li>
-
-  <li class="g_bubble"><h3>Mylist State</h3>
-    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="liststate.collecting"> <a href="/mylist/collecting"><span>collecting</span></a></label><label><input type="checkbox" value="1" name="liststate.completed"> <a href="/mylist/completed"><span>completed</span></a></label><label><input type="checkbox" value="1" name="liststate.dropped"> <a href="/mylist/dropped"><span>dropped</span></a></label><label><input type="checkbox" value="1" name="liststate.stalled"> <a href="/mylist/stalled"><span>stalled</span></a></label><label><input type="checkbox" value="1" name="liststate.unknown"> <a href="/mylist/unknown"><span>unknown</span></a></label><label><input type="checkbox" value="1" name="liststate.watching"> <a href="/mylist/watching"><span>watching</span></a></label></div>
-  </li>
-
-  <li class="g_odd g_bubble">
-    <div class="g_boxwrap"><h3>Mylist Status</h3><label class="ignore"><input type="radio" name="mylist" value="0" check="check"> <a href="/mylist-status/ignore"><span>ignore</span></a></label><label><input type="radio" name="mylist" value="1"> <a href="/mylist-status/complete"><span>complete</span></a></label><label><input type="radio" name="mylist" value="2"> <a href="/mylist-status/incomplete"><span>incomplete</span></a></label><label><input type="radio" name="mylist" value="3"> <a href="/mylist-status/in-mylist"><span>in mylist</span></a></label><label><input type="radio" name="mylist" value="4"> <a href="/mylist-status/not-in-mylist"><span>not in mylist</span></a></label><label><input type="radio" name="mylist" value="5"> <a href="/mylist-status/related"><span>related &amp; not in mylist</span></a></label></div>
-  </li>
-
-  <li class="g_bubble">
-    <div class="g_boxwrap"><h3>Notification Status</h3><label class="ignore"><input type="radio" name="notification" value="0" check="check"> <a href="/notification/ignore"><span>ignore</span></a></label><label><input type="radio" name="notification" value="1"> <a href="/notification/enabled"><span>notifications enabled</span></a></label><label><input type="radio" name="notification" value="2"> <a href="/notification/disabled"><span>notifications disabled</span></a></label></div>
-  </li>
-
-  <li class="g_odd g_bubble"><h3>Origin</h3>
-    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="tag.6152"> <a href="/origin/china"><span>China</span></a></label><label><input type="checkbox" value="1" name="tag.7885"> <a href="/origin/japan"><span>Japan</span></a></label><label><input type="checkbox" value="1" name="tag.6166"> <a href="/origin/south-korea"><span>South Korea</span></a></label></div>
-  </li>
-
-  <li class="g_bubble">
-    <div class="g_boxwrap"><h3>Vote Status</h3><label class="ignore"><input type="radio" name="vote" value="0" check="check"> <a href="/vote/ignore"><span>ignore</span></a></label><label><input type="radio" name="vote" value="1"> <a href="/vote/permanent"><span>permanent</span></a></label><label><input type="radio" name="vote" value="2"> <a href="/vote/temporary"><span>temporary</span></a></label><label><input type="radio" name="vote" value="3"> <a href="/vote/none"><span>none</span></a></label><label><input type="radio" name="vote" value="4"> <a href="/vote/either"><span>either</span></a></label></div>
-  </li>
-
-  <li class="g_odd g_bubble"><h3>Watched Status</h3>
-    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="watched.allihave"> <a href="/watched/all-i-have"><span>"all I have" watched</span></a></label><label><input type="checkbox" value="1" name="watched.complete"> <a href="/watched/complete"><span>completely watched</span></a></label><label><input type="checkbox" value="1" name="watched.partial"> <a href="/watched/partial"><span>partially watched</span></a></label><label><input type="checkbox" value="1" name="watched.unwatched"> <a href="/watched/unwatched"><span>unwatched</span></a></label></div>
-  </li>
-
-  <li class="g_bubble">
-    <div class="g_boxwrap"><h3>Wishlist Status</h3><label class="ignore"><input type="radio" name="wishlist.status" value="0" check="check"> <a href="/wishlist/ignore"><span>ignore</span></a></label><label><input type="radio" name="wishlist.status" value="1"> <a href="/wishlist/wish-or-blacklist"><span>in wish- or blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="2"> <a href="/wishlist/not-wish-or-blacklist"><span>not in wish- or blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="3"> <a href="/wishlist/in-wishlist"><span>in wishlist</span></a></label><label><input type="radio" name="wishlist.status" value="4"> <a href="/wishlist/not-in-wishlist"><span>not in wishlist</span></a></label><label><input type="radio" name="wishlist.status" value="5"> <a href="/wishlist/blacklist"><span>in blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="6"> <a href="/wishlist/not-blacklist"><span>not in blacklist</span></a></label></div>
-  </li>
-
-  <li class="g_odd g_bubble">
-    <div class="g_boxwrap"><h3>Calendar Mode</h3><label><input type="radio" name="calendar.mode" value="0" check="check"> <a href="/calendar/starting"><span>starting</span></a></label><label><input type="radio" name="calendar.mode" value="1"> <a href="/calendar/ending"><span>ending</span></a></label><label><input type="radio" name="calendar.mode" value="2"> <a href="/calendar/airing"><span>airing</span></a></label></div>
-  </li>
-
-  <li class="g_bubble"><h3>File Source</h3>
-    <label><input type="checkbox" value="1" name="source.bd" check="check"> <a href="/source/bluray"><span>Bluray/HDDVD</span></a></label><label><input type="checkbox" value="1" name="source.dvd" check="check"> <a href="/source/dvd"><span>DVD</span></a></label><label><input type="checkbox" value="1" name="source.hdtv" check="check"> <a href="/source/hdtv"><span>HDTV</span></a></label><label><input type="checkbox" value="1" name="source.www" check="check"> <a href="/source/www"><span>WWW</span></a></label><label><input type="checkbox" value="1" name="source.other" check="check"> <a href="/source/other"><span>other</span></a></label><label><input type="checkbox" value="1" name="source.unknown" check="check"> <a href="/source/unknown"><span>unknown</span></a></label>
-  </li>
-
-  <li class="g_odd g_bubble"><h3>Misc</h3>
-  <label>
-    <select name="epp" size="1">
-      <option value="10">hello</option>
-      <option value="20">20</option>
-      <option value="30">30</option>
-      <option value="50" selected="selected">50</option>
-      <option value="100">100</option>
-    </select> # to show
-  </label>
-  <label><input type="checkbox" value="1" name="uncensored"> <a href="/misc/show-this-page"><span>show this page</span></a></label>
-</li>
-
-  <li class="g_bubble"><h3>Timeframe</h3>
-    <label><input type="radio" name="timeframe" value="0" check="check"> <a href="/timeframe/day"><span>group by day</span></a></label><label><input type="radio" name="timeframe" value="1"> <a href="/timeframe/week"><span>group by week</span></a></label><label><input type="radio" name="timeframe" value="2"> <a href="/timeframe/month"><span>group by month</span></a></label>
-  </li>
-
+  
 </ul>
 </div>
 </form>
@@ -564,13 +505,12 @@
                     <div class="data">
   <div class="icons actions">
     <a
-      
-      title="Watch on UrduSUB"
+title="Watch on UrduSUB"
       href="/urdusub"
       data-anidb-rel="anidb::extern"
     >
       <!-- Add Image Instead of Icon -->
-      <img src="https://cdn-eu.anidb.net/css/assets/images/touch/favicon-16x16.png?v=2024-08-09T12-06-12" alt="Urdusub" class="icon-image">
+      <img src="https://image.tmdb.org/t/p/w500/pJlFBsMjVIBCtmx1xYzfxUbnkP1.png" alt="Urdusub" class="icon-image">
     </a>
                       </div>
                       <div class="wrap name">
@@ -846,6 +786,187 @@
                       </div>
                     </div>
                   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <div class="g_odd g_bubble box small no41" id="a17936">
+                    <div class="thumb image">
+                      <a href="/anime/17936"
+                        ><picture>
+                          <img
+                            loading="lazy"
+                            alt="Kono Sekai wa Fukanzen Sugiru"
+                            src="https://cdn-eu.anidb.net/images/150/300804.jpg-thumb.jpg"
+                            height="212"
+                            width="150"
+                            class="g_image g_bubble small"
+                          /> </picture
+                      ></a>
+                    </div>
+                    <div class="data">
+                      <div class="icons actions">
+                        <a
+                          class="i_icon brand i_resource_crunchyroll"
+                          title="stream this content"
+                          href="https://www.crunchyroll.com/series/G24H1NW30/"
+                          data-anidb-rel="anidb::extern"
+                          ><span>stream</span></a
+                        >
+                      </div>
+                      <div class="wrap name">
+                        <a class="name-colored" href="/anime/17936"
+                          >Kono Sekai wa Fukanzen Sugiru</a
+                        >
+                      </div>
+                      <div class="date">6th July</div>
+                      <div class="general">TV Series, 13 eps</div>
+                      <div class="extra">
+                        <a href="/creator/62058">Studio Palette</a>,
+                        <a href="/creator/71257">100 Studio</a>
+                      </div>
+                      <div class="votes rating">
+                        <span class="key">Rating:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">3.85</span>
+                          <span class="count">(43)</span></span
+                        >
+                      </div>
+                      <div class="votes average">
+                        <span class="key">Average:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">5.41</span>
+                          <span class="count">(43)</span></span
+                        >
+                      </div>
+                      <div class="tags">
+                        <span class="g_tag"
+                          ><a class="tooltip" href="/tag/2849/animetb"
+                            ><span class="tagname">fantasy</span
+                            ><span class="wrapper"
+                              ><span class="g_bubble text"
+                                >Imaginative or fanciful work, especially one
+                                dealing with supernatural elements and
+                                themes.</span
+                              ></span
+                            ></a
+                          ></span
+                        >,
+                        <span class="g_tag"
+                          ><a class="tooltip" href="/tag/2798/animetb"
+                            ><span class="tagname">manga</span
+                            ><span class="wrapper"
+                              ><span class="g_bubble text"
+                                >Manga is the lifeblood that drives the anime
+                                industry. Everything and its mother is based on
+                                manga. However! There are exceptions where the
+                                manga was not the basis for the anime. See also
+                                manhua and manhwa.</span
+                              ></span
+                            ></a
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+                  <div class="g_odd g_bubble box small no41" id="a17936">
+                    <div class="thumb image">
+                      <a href="/anime/17936"
+                        ><picture>
+                          <img
+                            loading="lazy"
+                            alt="Kono Sekai wa Fukanzen Sugiru"
+                            src="https://cdn-eu.anidb.net/images/150/300804.jpg-thumb.jpg"
+                            height="212"
+                            width="150"
+                            class="g_image g_bubble small"
+                          /> </picture
+                      ></a>
+                    </div>
+                    <div class="data">
+                      <div class="icons actions">
+                        <a
+                          class="i_icon brand i_resource_crunchyroll"
+                          title="stream this content"
+                          href="https://www.crunchyroll.com/series/G24H1NW30/"
+                          data-anidb-rel="anidb::extern"
+                          ><span>stream</span></a
+                        >
+                      </div>
+                      <div class="wrap name">
+                        <a class="name-colored" href="/anime/17936"
+                          >Kono Sekai wa Fukanzen Sugiru</a
+                        >
+                      </div>
+                      <div class="date">6th July</div>
+                      <div class="general">TV Series, 13 eps</div>
+                      <div class="extra">
+                        <a href="/creator/62058">Studio Palette</a>,
+                        <a href="/creator/71257">100 Studio</a>
+                      </div>
+                      <div class="votes rating">
+                        <span class="key">Rating:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">3.85</span>
+                          <span class="count">(43)</span></span
+                        >
+                      </div>
+                      <div class="votes average">
+                        <span class="key">Average:</span>
+                        <span data-label="Rating" class="rating mid"
+                          ><span class="value">5.41</span>
+                          <span class="count">(43)</span></span
+                        >
+                      </div>
+                      <div class="tags">
+                        <span class="g_tag"
+                          ><a class="tooltip" href="/tag/2849/animetb"
+                            ><span class="tagname">fantasy</span
+                            ><span class="wrapper"
+                              ><span class="g_bubble text"
+                                >Imaginative or fanciful work, especially one
+                                dealing with supernatural elements and
+                                themes.</span
+                              ></span
+                            ></a
+                          ></span
+                        >,
+                        <span class="g_tag"
+                          ><a class="tooltip" href="/tag/2798/animetb"
+                            ><span class="tagname">manga</span
+                            ><span class="wrapper"
+                              ><span class="g_bubble text"
+                                >Manga is the lifeblood that drives the anime
+                                industry. Everything and its mother is based on
+                                manga. However! There are exceptions where the
+                                manga was not the basis for the anime. See also
+                                manhua and manhwa.</span
+                              ></span
+                            ></a
+                          ></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+
+
 
 
                   <div class="g_odd g_bubble box small no99" id="a18603">

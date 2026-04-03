@@ -1,8 +1,3 @@
-/* custom-nave-blue-nav-icon-colors-start */
-#layout-menu i.fas {
-    color: #1e3a5f;
-}
-/* custom-nave-blue-nav-icon-colors-end */
 
 
 blockquote,
@@ -20580,6 +20575,7 @@ textarea,
 #layout-tabs ul.main-tabs li:hover a {
     color: #000
 }
+/* Upper tabs under logo */
 
 #layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div {
     color: #666
@@ -21378,5 +21374,15 @@ input[type=submit],
         display: none
     }
 }
+
+
+
+
+/* custom-nave-blue-nav-icon-colors-start */
+#layout-menu i.fas {
+    color: #1e3a5f;
+}
+/* custom-nave-blue-nav-icon-colors-end */
+
 
 /*# sourceMappingURL=anidbstyle3.css.map */
