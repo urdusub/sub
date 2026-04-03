@@ -162,238 +162,166 @@
       >
     </div>
     -->
-    <div id="layout-nav" class="calendar_nav">
-      <ul id="layout-menu" class="calendar_menu">
-        <li class="sub-menu main" title="Menu">
-          <span class="tab">Home</span>
-          <ul id="menu-main">
-            <li class="main">
-              <a title="Main" href="/"><span class="text">main</span></a>
-            </li>
-            <li class="search">
-              <a title="Advanced search" href="/search/anime"
-                ><span class="text">search</span></a
-              >
-            </li>
-            <li class="calendar">
-              <a title="Anime calendar" href="/anime/season"
-                ><span class="text">season chart</span></a
-              >
-            </li>
-            <li class="schedule">
-              <a title="Episode schedule" href="/anime/schedule"
-                ><span class="text">schedule</span></a
-              >
-            </li>
-            <li class="random">
-              <a title="Random anime" href="/anime/random"
-                ><span class="text">random</span></a
-              >
-            </li>
-          </ul>
-          <span></span>
-        </li>
-        <li class="sub-menu listings" title="Content">
-          <span class="tab">Anime</span>
-          <ul id="menu-lists">
-            <li class="latest">
-              <a title="Latest additions" href="/latest"
-                ><span class="text">latest</span></a
-              >
-            </li>
-            <li class="anime">
-              <a title="Anime list" href="/anime"
-                ><span class="text">anime</span></a
-              >
-            </li>
-            <li class="character">
-              <a title="Character list" href="/character"
-                ><span class="text">characters</span></a
-              >
-            </li>
-            <li class="club">
-              <a title="Club list" href="/club"
-                ><span class="text">clubs</span></a
-              >
-            </li>
-            <li class="creator">
-              <a title="Creator list" href="/creator"
-                ><span class="text">creators</span></a
-              >
-            </li>
-            <li class="collection">
-              <a title="Collection list" href="/collection"
-                ><span class="text">collections</span></a
-              >
-            </li>
-            <li class="group">
-              <a title="Group list" href="/group"
-                ><span class="text">groups</span></a
-              >
-            </li>
-            <li class="song">
-              <a title="Song list" href="/song"
-                ><span class="text">songs</span></a
-              >
-            </li>
-            <li class="tags">
-              <a title="Tag list" href="/tag"><span class="text">tags</span></a>
-            </li>
-          </ul>
-          <span></span>
-        </li>
-        <li class="sub-menu support" title="Support">
-          <span class="tab">Movies</span>
-          <ul id="menu-support">
-            <li class="forum">
-              <a title="Help @ forum" href="/forum"
-                ><span class="text">forum</span></a
-              >
-            </li>
-            <li class="help">
-              <a
-                title="Help @ wiki"
-                href="https://wiki.anidb.net/Main_Page"
-                data-anidb-rel="anidb::wiki"
-                ><span>help</span></a
-              >
-            </li>
-            <li class="irc">
-              <a title="Help @ IRC" href="/irc"
-                ><span class="text">IRC</span></a
-              >
-            </li>
 
-            <li class="report">
-              <a
-                title="Report a mistake"
-                href="https://wiki.anidb.net/Report_mistake"
-                data-anidb-rel="anidb::wiki"
-                ><span>report error</span></a
-              >
-            </li>
-            <li class="software">
-              <a title="Software to interact with AniDB" href="/software"
-                ><span class="text">software</span></a
-              >
-            </li>
-            <li class="staff">
-              <a title="AniDB staff" href="/admin/staff"
-                ><span class="text">staff</span></a
-              >
-            </li>
-          </ul>
-          <span></span>
+
+
+
+   <!--side-navbar-start-->
+<div id="layout-nav" class="calendar_nav">
+  <ul id="layout-menu" class="calendar_menu">
+
+    <!-- HOME -->
+    <li class="sub-menu main" title="Menu">
+      <span class="tab">HOME</span>
+      <ul id="menu-main">
+        <li class="main">
+          <a title="Main Page" href="/"><span class="text"><i class="fas fa-home"></i> Main</span></a>
         </li>
-        <li class="sub-menu terms" title="Terms &amp; Licenses">
-          <span class="tab">TV series</span>
-          <ul id="menu-terms">
-            <li class="donate">
-              <a title="Accounting, Patreon" href="/donation"
-                ><span class="text">donate</span></a
-              >
-            </li>
-            <li class="credits">
-              <a
-                title="Credits, Software Licenses"
-                href="https://wiki.anidb.net/Credits"
-                data-anidb-rel="anidb::wiki"
-                ><span>credits</span></a
-              >
-            </li>
-            <li class="policies">
-              <a
-                title="Terms of Service, Privacy Policy, Licenses"
-                href="/policy"
-                ><span class="text">policies</span></a
-              >
-            </li>
-          </ul>
-          <span></span>
+        <li class="Latest Releases">
+          <a title="Latest Releases" href="/latest"><span class="text"><i class="fas fa-fire"></i> Latest</span></a>
         </li>
-        <li class="sub-menu login" title="Register or login">
-          <span class="tab">DMCA</span>
-          <form action="/perl-bin/animedb.pl" method="post">
-            <div>
-              <fieldset>
-                <input type="hidden" name="last.anime.month" value="19" /><input
-                  type="hidden"
-                  name="view"
-                  value="smallgrid"
-                /><input type="hidden" name="show" value="calendar" /><input
-                  type="hidden"
-                  name="h"
-                  value="1"
-                /><input
-                  type="hidden"
-                  name="last.anime.year"
-                  value="2024"
-                /><input type="hidden" name="do" value="calendar" />
-              </fieldset>
-              <ul id="menu-login">
-                <li id="user-login" class="user-login">
-                  <a title="Show login page" href="/user/login"
-                    ><span class="text">login</span></a
-                  >
-                </li>
-                <li id="user-signup" class="user-signup">
-                  <a title="Register now" href="/user/register"
-                    ><span class="text">register</span></a
-                  >
-                </li>
-                <li id="user-xname" class="user-xname" title="User name">
-                  <span
-                    ><input
-                      name="xuser"
-                      class="text"
-                      maxlength="16"
-                      type="text"
-                      value=""
-                  /></span>
-                </li>
-                <li id="user-xpass" class="user-xpass" title="Password">
-                  <span
-                    ><input
-                      name="xpass"
-                      class="text"
-                      maxlength="64"
-                      type="password"
-                  /></span>
-                </li>
-                <li
-                  id="user-xkeep"
-                  class="user-xkeep"
-                  title="Remember login data"
-                >
-                  <span
-                    ><label
-                      ><input
-                        name="xdoautologin"
-                        type="checkbox"
-                        checked="checked"
-                      />
-                      <span>stay logged in</span></label
-                    ></span
-                  >
-                </li>
-                <li id="user-xauth" class="user-xauth" title="Login">
-                  <span
-                    ><button
-                      class="login"
-                      name="do.auth"
-                      type="submit"
-                      value="login"
-                    >
-                      <span>Login</span>
-                    </button></span
-                  >
-                </li>
-              </ul>
-              <span></span>
-            </div>
-          </form>
+        <li class="Random">
+          <a title="Random Anime" href="/random"><span class="text"><i class="fas fa-random"></i> Random</span></a>
         </li>
       </ul>
+      <span></span>
+    </li>
+
+    <!-- ANIME -->
+    <li class="sub-menu listings" title="Content">
+      <span class="tab">ANIME</span>
+      <ul id="menu-lists">
+        <li class="anime">
+          <a title="All Anime" href="/anime"><span class="text"><i class="fas fa-play-circle"></i> All Anime</span></a>
+        </li>
+        <li class="tvseries">
+          <a title="TV Series" href="/anime/tv"><span class="text"><i class="fas fa-tv"></i> TV Series</span></a>
+        </li>
+        <li class="movies">
+          <a title="Movies" href="/anime/movies"><span class="text"><i class="fas fa-film"></i> Movies</span></a>
+        </li>
+        <li class="ova">
+          <a title="OVA / ONA" href="/anime/ova"><span class="text"><i class="fas fa-compact-disc"></i> OVA / ONA</span></a>
+        </li>
+        <li class="genres">
+          <a title="Browse by Genre" href="/genres"><span class="text"><i class="fas fa-tags"></i> Genres</span></a>
+        </li>
+      </ul>
+      <span></span>
+    </li>
+
+    <!-- RELEASES -->
+    <li class="sub-menu support" title="Releases">
+      <span class="tab">RELEASES</span>
+      <ul id="menu-support">
+     
+        <li class="ongoing">
+          <a title="Ongoing Series" href="/releases/ongoing"><span class="text"><i class="fas fa-spinner"></i> Ongoing</span></a>
+        </li>
+        <li class="completed">
+          <a title="Completed Series" href="/releases/completed"><span class="text"><i class="fas fa-check-circle"></i> Completed</span></a>
+        </li>
+    
+      </ul>
+      <span></span>
+    </li>
+
+    <!-- SUPPORT -->
+    <li class="sub-menu terms" title="Support">
+      <span class="tab">SUPPORT</span>
+      <ul id="menu-terms">
+        <li class="Donate">
+          <a title="Donate to MugiSUB" href="/donation"><span class="text"><i class="fas fa-heart"></i> Donate</span></a>
+        </li>
+        <li class="Report">
+          <a title="Report an Error" href="/report"><span class="text"><i class="fas fa-flag"></i> Report Error</span></a>
+        </li>
+        <li class="Policies">
+          <a title="Privacy Policy" href="/policy"><span class="text"><i class="fas fa-shield-alt"></i> Policies</span></a>
+        </li>
+        <li class="Staff">
+          <a title="MugiSUB Team" href="/about"><span class="text"><i class="fas fa-users"></i> Our Team</span></a>
+        </li>
+      </ul>
+      <span></span>
+    </li>
+
+    <!-- DMCA / LOGIN -->
+    <li class="sub-menu login" title="Register or login">
+      <span class="tab">DMCA</span>
+      <form action="/api/action" method="post">
+        <div>
+          <fieldset>
+            <input type="hidden" name="show" value="calendar" />
+            <input type="hidden" name="do" value="calendar" />
+          </fieldset>
+          <ul id="menu-login">
+            <li id="user-login">
+  <a title="Show login page" href="/user/login"
+    ><span class="text"><i class="fas fa-sign-in-alt"></i> login</span></a
+  >
+</li>
+<li id="user-signup">
+  <a title="Register now" href="/user/register"
+    ><span class="text"><i class="fas fa-user-plus"></i> register</span></a
+  >
+</li>
+            <li id="user-xname" class="user-xname" title="User name">
+              <span
+                ><input
+                  name="xuser"
+                  class="text"
+                  maxlength="16"
+                  type="text"
+                  value=""
+              /></span>
+            </li>
+            <li id="user-xpass" class="user-xpass" title="Password">
+              <span
+                ><input
+                  name="xpass"
+                  class="text"
+                  maxlength="64"
+                  type="password"
+              /></span>
+            </li>
+            <li id="user-xkeep" class="user-xkeep" title="Remember login data">
+              <span
+                ><label
+                  ><input
+                    name="xdoautologin"
+                    type="checkbox"
+                    check="check"
+                  />
+                  <span>stay logged in</span></label
+                ></span
+              >
+            </li>
+            <li id="user-xauth" class="user-xauth" title="Login">
+              <span
+                ><button
+                  class="login"
+                  name="do.auth"
+                  type="submit"
+                  value="login"
+                >
+                  <span>Login</span>
+                </button></span
+              >
+            </li>
+          </ul>
+          <span></span>
+        </div>
+      </form>
+    </li>
+
+  </ul>
+<!--side-navbar-end-->
+
+
+
+
+<!--Search-bar-full-code-start-->
       <div class="menu_hr"></div>
       <div id="layout-search" class="calendar_search">
         <div
@@ -498,65 +426,12 @@
 		<a href="https://anidb.net/anime" itemprop="item"><span itemprop="name">Anime</span></a>
 	</div>
 </div>
-		<h1 class="animelist">Anime List</h1>
-		
-		<div class="g_content animelist_all">
-		<a href="/perl-bin/animedb.pl?show=woybcywwspzvelrzg" style="display:none;">Download (Do <b>NOT</b> click!)</a>
-<div class="g_section g_datatable animelist_list">
-<ul class="g_list jump">
-	<li class="prev"><span class="nolink">prev</span></li>
-	<li class="next"><a href="/anime/?h=1&amp;noalias=1&amp;orderby.name=0.1&amp;page=1&amp;view=smallgrid">next</a></li>
-	<li class="listview"><a class="i_icon i_view_list" href="/anime/?h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=list"><span class="text">list</span></a></li>
-	<li class="gridview"><a class="i_icon i_view_grid" href="/anime/?h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=grid"><span class="text">grid</span></a></li>
-	<li class="smallgridview selected"><span class="nolink i_icon i_view_smallgrid"><span class="text">smallgrid</span></span></li>
-	<li class="all "><span class="nolink">all</span></li>
-	<li class="0-9"><a href="/anime/?char=0&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">0-9</a></li>
-	<li class="a"><a href="/anime/?char=a&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">a</a></li>
-	<li class="b"><a href="/anime/?char=b&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">b</a></li>
-	<li class="c"><a href="/anime/?char=c&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">c</a></li>
-	<li class="d"><a href="/anime/?char=d&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">d</a></li>
-	<li class="e"><a href="/anime/?char=e&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">e</a></li>
-	<li class="f"><a href="/anime/?char=f&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">f</a></li>
-	<li class="g"><a href="/anime/?char=g&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">g</a></li>
-	<li class="h"><a href="/anime/?char=h&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">h</a></li>
-	<li class="i"><a href="/anime/?char=i&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">i</a></li>
-	<li class="j"><a href="/anime/?char=j&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">j</a></li>
-	<li class="k"><a href="/anime/?char=k&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">k</a></li>
-	<li class="l"><a href="/anime/?char=l&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">l</a></li>
-	<li class="m"><a href="/anime/?char=m&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">m</a></li>
-	<li class="n"><a href="/anime/?char=n&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">n</a></li>
-	<li class="o"><a href="/anime/?char=o&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">o</a></li>
-	<li class="p"><a href="/anime/?char=p&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">p</a></li>
-	<li class="q"><a href="/anime/?char=q&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">q</a></li>
-	<li class="r"><a href="/anime/?char=r&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">r</a></li>
-	<li class="s"><a href="/anime/?char=s&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">s</a></li>
-	<li class="t"><a href="/anime/?char=t&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">t</a></li>
-	<li class="u"><a href="/anime/?char=u&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">u</a></li>
-	<li class="v"><a href="/anime/?char=v&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">v</a></li>
-	<li class="w"><a href="/anime/?char=w&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">w</a></li>
-	<li class="x"><a href="/anime/?char=x&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">x</a></li>
-	<li class="y"><a href="/anime/?char=y&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">y</a></li>
-	<li class="z"><a href="/anime/?char=z&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">z</a></li>
-	<li class="other"><a href="/anime/?char=other&amp;h=1&amp;noalias=1&amp;orderby.name=0.1&amp;view=smallgrid">other</a></li>
-                <li class="g_odd month">
-                  <span>
-                    <select name="last.anime.month" size="1">
-                      <optgroup label="Seasons">
-                        <option value="13">Winter</option>
-                        <option value="16">Spring</option>
-                        <option value="19" selected="selected">Summer</option>
-                        <option value="22">Autumn</option>
-                      </optgroup>
-                      
-                    </select></span
-                  >
-                </li>
-                
-                </li>
-              </ul>
-            </form>
-          </div>
+<!--Search-bar-full-code-end-->
 
+
+<!--Anime-list-upper-start-->
+
+<!--Anime-list-upper-end-->
 
 
 
@@ -568,32 +443,8 @@
 		<div class="content">
 			<span title="Hide Filter" class="fancybox-item fancybox-close"></span>
 			<form action="/perl-bin/animedb.pl" method="get">
-	<div class="g_section settings">
-		<h2><span>Save/Load Settings</span></h2>
-		<ul>
-			<li class="g_odd g_bubble">
-				<div class="row">
-	<select name="settings" size="1"><option value="0" selected="selected">select a template</option>
-	</select>
-					<button class="load" type="submit" name="do.load" value="load">Load</button>
-					<button class="default" type="submit" name="do.default" value="Set Default">set default</button>
-					<button class="delete" type="submit" name="do.delete" value="Delete">delete</button>
-				</div>
-				<div class="row">
-					<input class="name" type="text" name="addfilter.name" placeholder="template name"/>
-					<button class="add" type="submit" name="do.add" value="add">Add</button>
-					<button class="edit" type="submit" name="do.edit" value="edit">Edit</button>
-				</div>
-				<div class="row">
-					<label><input type="checkbox" name="addfilter.preserve_order" /> Store order parameter</label>
-				</div></li>
-		</ul>
-	</div>
-				<div class="g_section g_bubble">
-					<button class="filter" type="submit" name="do.update" value="1">Apply Filter</button>
-					<button class="reset" type="submit" name="do.reset" value="1">Reset</button>
-				</div>
-				<fieldset>
+
+			
 					<input type="hidden" name="cleanurl" value="1"/>
 			<input type="hidden" name="orderby.name" value="0.1"/>
 
@@ -603,154 +454,93 @@
 				</fieldset>
 	<div class="g_section filters">
 		<h2><span>Filter</span></h2>
-		<ul class="g_bubblewrap">
-			<li class="g_odd g_bubble">
-		<div class="g_boxwrap"><h3>Adult Content</h3><label class="ignore"><input type="radio" name="h" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="h" value="1"> <span>hide 18+ Content</span></label><label><input type="radio" name="h" value="2"> <span>show only 18+ Content</span></label></div></li>
-			<li class="g_bubble">
-		<div class="g_boxwrap"><h3>Airing Status</h3><label class="ignore"><input type="radio" name="airing" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="airing" value="1"> <span>still airing</span></label><label><input type="radio" name="airing" value="2"> <span>finished</span></label><label><input type="radio" name="airing" value="3"> <span>unaired/unknown</span></label></div></li>
-			<li class="g_odd g_bubble"><h3>Anime Type</h3>
-		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="type.movie" > <span>Movie</span></label><label><input type="checkbox"  value="1" name="type.musicvideo" > <span>Music Video</span></label><label><input type="checkbox"  value="1" name="type.other" > <span>Other</span></label><label><input type="checkbox"  value="1" name="type.ova" > <span>OVA</span></label><label><input type="checkbox"  value="1" name="type.tvseries" > <span>TV Series</span></label><label><input type="checkbox"  value="1" name="type.tvspecial" > <span>TV Special</span></label><label><input type="checkbox"  value="1" name="type.unknown" > <span>unknown</span></label><label><input type="checkbox"  value="1" name="type.web" > <span>Web</span></label></div></li>
-			<li class="g_bubble"><div class="g_boxwrap"><h3>Misc</h3><label><input type="checkbox"  value="1" name="noalias" > <span>hide synonyms</span></label>
-<label><input type="checkbox"  value="1" name="streamable" > <span>show only streamable</span></label>
-<label><input type="checkbox"  value="1" name="orderbar" > <span>show order bar</span></label>
-<label><input type="checkbox"  value="1" name="lang.dub.pref" > <span>use audio lang pref</span></label>
-<label><input type="checkbox"  value="1" name="lang.sub.pref" > <span>use subtitle lang pref</span></label></div></li>
-			<li class="g_odd g_bubble">
-		<div class="g_boxwrap"><h3>My Buddy</h3><label class="ignore"><input type="radio" name="buddy" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="buddy" value="1"> <span>show if in mylist</span></label><label><input type="radio" name="buddy" value="2"> <span>hide if in mylist</span></label><label><input type="radio" name="buddy" value="3"> <span>show if watched</span></label><label><input type="radio" name="buddy" value="4"> <span>hide if watched</span></label></div></li>
-			<li class="g_bubble"><h3>Mylist State</h3>
-		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="liststate.collecting" > <span>collecting</span></label><label><input type="checkbox"  value="1" name="liststate.completed" > <span>completed</span></label><label><input type="checkbox"  value="1" name="liststate.dropped" > <span>dropped</span></label><label><input type="checkbox"  value="1" name="liststate.stalled" > <span>stalled</span></label><label><input type="checkbox"  value="1" name="liststate.unknown" > <span>unknown</span></label><label><input type="checkbox"  value="1" name="liststate.watching" > <span>watching</span></label></div></li>
-			<li class="g_odd g_bubble">
-		<div class="g_boxwrap"><h3>Mylist Status</h3><label class="ignore"><input type="radio" name="mylist" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="mylist" value="1"> <span>complete</span></label><label><input type="radio" name="mylist" value="2"> <span>incomplete</span></label><label><input type="radio" name="mylist" value="3"> <span>in mylist</span></label><label><input type="radio" name="mylist" value="4"> <span>not in mylist</span></label><label><input type="radio" name="mylist" value="5"> <span>related & not in mylist</span></label></div></li>
-			<li class="g_bubble">
-		<div class="g_boxwrap"><h3>Notification Status</h3><label class="ignore"><input type="radio" name="notification" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="notification" value="1"> <span>notifications enabled</span></label><label><input type="radio" name="notification" value="2"> <span>notifications disabled</span></label></div></li>
-			<li class="g_odd g_bubble"><h3>Origin</h3>
-		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="tag.6152" > <span>China</span></label><label><input type="checkbox"  value="1" name="tag.7885" > <span>Japan</span></label><label><input type="checkbox"  value="1" name="tag.6166" > <span>South Korea</span></label></div></li>
-			<li class="g_bubble">
-		<div class="g_boxwrap"><h3>Vote Status</h3><label class="ignore"><input type="radio" name="vote" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="vote" value="1"> <span>permanent</span></label><label><input type="radio" name="vote" value="2"> <span>temporary</span></label><label><input type="radio" name="vote" value="3"> <span>none</span></label><label><input type="radio" name="vote" value="4"> <span>either</span></label></div></li>
-			<li class="g_odd g_bubble"><h3>Watched Status</h3>
-		<div class="g_boxwrap"><label><input type="checkbox"  value="1" name="watched.allihave" > <span>"all I have" watched</span></label><label><input type="checkbox"  value="1" name="watched.complete" > <span>completely watched</span></label><label><input type="checkbox"  value="1" name="watched.partial" > <span>partially watched</span></label><label><input type="checkbox"  value="1" name="watched.unwatched" > <span>unwatched</span></label></div></li>
-			<li class="g_bubble">
-		<div class="g_boxwrap"><h3>Wishlist Status</h3><label class="ignore"><input type="radio" name="wishlist.status" value="0" checked="checked"> <span>ignore</span></label><label><input type="radio" name="wishlist.status" value="1"> <span>in wish- or blacklist</span></label><label><input type="radio" name="wishlist.status" value="2"> <span>not in wish- or blacklist</span></label><label><input type="radio" name="wishlist.status" value="3"> <span>in wishlist</span></label><label><input type="radio" name="wishlist.status" value="4"> <span>not in wishlist</span></label><label><input type="radio" name="wishlist.status" value="5"> <span>in blacklist</span></label><label><input type="radio" name="wishlist.status" value="6"> <span>not in blacklist</span></label></div></li>
-    <li class="g_odd g_bubble">
-                        <div class="g_boxwrap">
-                          <h3>Airing Status</h3>
-                          <label class="ignore"
-                            ><input
-                              type="radio"
-                              name="airing"
-                              value="0"
-                              checked="checked"
-                            />
-                            <span>ignore</span></label
-                          ><label
-                            ><input type="radio" name="airing" value="1" />
-                            <span>still airing</span></label
-                          ><label
-                            ><input type="radio" name="airing" value="2" />
-                            <span>finished</span></label
-                          ><label
-                            ><input type="radio" name="airing" value="3" />
-                            <span>unaired/unknown</span></label
-                          >
-                        </div>
-                      </li>
-                      <li class="g_bubble">
-                        <h3>Anime Type</h3>
-                        <div class="g_boxwrap">
-                          <label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.movie"
-                            />
-                            <span>Movie</span></label
-                          ><label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.musicvideo"
-                            />
-                            <span>Music Video</span></label
-                          ><label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.other"
-                            />
-                            <span>Other</span></label
-                          ><label
-                            ><input type="checkbox" value="1" name="type.ova" />
-                            <span>OVA</span></label
-                          ><label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.tvseries"
-                            />
-                            <span>TV Series</span></label
-                          ><label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.tvspecial"
-                            />
-                            <span>TV Special</span></label
-                          ><label
-                            ><input
-                              type="checkbox"
-                              value="1"
-                              name="type.unknown"
-                            />
-                            <span>unknown</span></label
-                          ><label
-                            ><input type="checkbox" value="1" name="type.web" />
-                            <span>Web</span></label
-                          >
-                        </div>
-                      </li>
-                      <li class="g_odd g_bubble">
-                        <div class="g_boxwrap">
-                          <h3>Calendar Mode</h3>
-                          <label
-                            ><input
-                              type="radio"
-                              name="calendar.mode"
-                              value="0"
-                              checked="checked"
-                            />
-                            <span>starting</span></label
-                          ><label
-                            ><input
-                              type="radio"
-                              name="calendar.mode"
-                              value="1"
-                            />
-                            <span>ending</span></label
-                          ><label
-                            ><input
-                              type="radio"
-                              name="calendar.mode"
-                              value="2"
-                            />
-                            <span>airing</span></label
-                          >
-                        </div>
-                      </li>
-                      <li class="g_bubble"><h3>File Source</h3><label><input type="checkbox"  value="1" name="source.bd"  checked="checked"> <span>Bluray/HDDVD</span></label><label><input type="checkbox"  value="1" name="source.dvd"  checked="checked"> <span>DVD</span></label><label><input type="checkbox"  value="1" name="source.hdtv"  checked="checked"> <span>HDTV</span></label><label><input type="checkbox"  value="1" name="source.www"  checked="checked"> <span>WWW</span></label><label><input type="checkbox"  value="1" name="source.other"  checked="checked"> <span>other</span></label><label><input type="checkbox"  value="1" name="source.unknown"  checked="checked"> <span>unknown</span></label></li>
-			<li class="g_odd g_bubble"><h3>Misc</h3>
-<label>
-	
-	<select name="epp" size="1"><option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="50" selected="selected">50</option><option value="100">100</option>
-	</select> # to show</label>
-<label><input type="checkbox"  value="1" name="uncensored" > <span>show uncensored only</span></label></li>
-			<li class="g_bubble"><h3>Timeframe</h3><label><input type="radio" name="timeframe" value="0" checked="checked"> <span>group by day</span></label><label><input type="radio" name="timeframe" value="1"> <span>group by week</span></label><label><input type="radio" name="timeframe" value="2"> <span>group by month</span></label></li>
-		</ul>
-	</div>
-			</form>
-		</div>
-	</div>
+<ul class="g_bubblewrap">
+
+  <li class="g_odd g_bubble">
+    <div class="g_boxwrap"><h3>Adult Content</h3><label class="ignore"><input type="radio" name="h" value="0" check="check"> <a href="/content/ignore"><span>ignore</span></a></label><label><input type="radio" name="h" value="1"> <a href="/content/hide-18-plus"><span>hide 18+ Content</span></a></label><label><input type="radio" name="h" value="2"> <a href="/content/only-18-plus"><span>show only 18+ Content</span></a></label></div>
+  </li>
+
+  <li class="g_bubble">
+    <div class="g_boxwrap"><h3>Airing Status</h3><label class="ignore"><input type="radio" name="airing" value="0" check="check"> <a href="/airing/ignore"><span>ignore</span></a></label><label><input type="radio" name="airing" value="1"> <a href="/airing/still-airing"><span>still airing</span></a></label><label><input type="radio" name="airing" value="2"> <a href="/airing/finished"><span>finished</span></a></label><label><input type="radio" name="airing" value="3"> <a href="/airing/unaired"><span>unaired/unknown</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble"><h3>Anime Type</h3>
+    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="type.movie"> <a href="/type/movie"><span>Movie</span></a></label><label><input type="checkbox" value="1" name="type.musicvideo"> <a href="/type/musicvideo"><span>Music Video</span></a></label><label><input type="checkbox" value="1" name="type.other"> <a href="/type/other"><span>Other</span></a></label><label><input type="checkbox" value="1" name="type.ova"> <a href="/type/ova"><span>OVA</span></a></label><label><input type="checkbox" value="1" name="type.tvseries"> <a href="/type/tvseries"><span>TV Series</span></a></label><label><input type="checkbox" value="1" name="type.tvspecial"> <a href="/type/tvspecial"><span>TV Special</span></a></label><label><input type="checkbox" value="1" name="type.unknown"> <a href="/type/unknown"><span>unknown</span></a></label><label><input type="checkbox" value="1" name="type.web"> <a href="/type/web"><span>Web</span></a></label></div>
+  </li>
+
+  <li class="g_bubble">
+    <div class="g_boxwrap"><h3>Misc</h3><label><input type="checkbox" value="1" name="noalias"> <a href="/misc/hide-synonyms"><span>hide synonyms</span></a></label>
+    <label><input type="checkbox" value="1" name="streamable"> <a href="/misc/streamable"><span>show only streamable</span></a></label>
+    <label><input type="checkbox" value="1" name="orderbar"> <a href="/misc/orderbar"><span>show order bar</span></a></label>
+    <label><input type="checkbox" value="1" name="lang.dub.pref"> <a href="/misc/audio-lang"><span>use audio lang pref</span></a></label>
+    <label><input type="checkbox" value="1" name="lang.sub.pref"> <a href="/misc/sub-lang"><span>use subtitle lang pref</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble">
+    <div class="g_boxwrap"><h3>My Buddy</h3><label class="ignore"><input type="radio" name="buddy" value="0" check="check"> <a href="/buddy/ignore"><span>ignore</span></a></label><label><input type="radio" name="buddy" value="1"> <a href="/buddy/show-mylist"><span>show if in mylist</span></a></label><label><input type="radio" name="buddy" value="2"> <a href="/buddy/hide-mylist"><span>hide if in mylist</span></a></label><label><input type="radio" name="buddy" value="3"> <a href="/buddy/show-watched"><span>show if watched</span></a></label><label><input type="radio" name="buddy" value="4"> <a href="/buddy/hide-watched"><span>hide if watched</span></a></label></div>
+  </li>
+
+  <li class="g_bubble"><h3>Mylist State</h3>
+    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="liststate.collecting"> <a href="/mylist/collecting"><span>collecting</span></a></label><label><input type="checkbox" value="1" name="liststate.completed"> <a href="/mylist/completed"><span>completed</span></a></label><label><input type="checkbox" value="1" name="liststate.dropped"> <a href="/mylist/dropped"><span>dropped</span></a></label><label><input type="checkbox" value="1" name="liststate.stalled"> <a href="/mylist/stalled"><span>stalled</span></a></label><label><input type="checkbox" value="1" name="liststate.unknown"> <a href="/mylist/unknown"><span>unknown</span></a></label><label><input type="checkbox" value="1" name="liststate.watching"> <a href="/mylist/watching"><span>watching</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble">
+    <div class="g_boxwrap"><h3>Mylist Status</h3><label class="ignore"><input type="radio" name="mylist" value="0" check="check"> <a href="/mylist-status/ignore"><span>ignore</span></a></label><label><input type="radio" name="mylist" value="1"> <a href="/mylist-status/complete"><span>complete</span></a></label><label><input type="radio" name="mylist" value="2"> <a href="/mylist-status/incomplete"><span>incomplete</span></a></label><label><input type="radio" name="mylist" value="3"> <a href="/mylist-status/in-mylist"><span>in mylist</span></a></label><label><input type="radio" name="mylist" value="4"> <a href="/mylist-status/not-in-mylist"><span>not in mylist</span></a></label><label><input type="radio" name="mylist" value="5"> <a href="/mylist-status/related"><span>related &amp; not in mylist</span></a></label></div>
+  </li>
+
+  <li class="g_bubble">
+    <div class="g_boxwrap"><h3>Notification Status</h3><label class="ignore"><input type="radio" name="notification" value="0" check="check"> <a href="/notification/ignore"><span>ignore</span></a></label><label><input type="radio" name="notification" value="1"> <a href="/notification/enabled"><span>notifications enabled</span></a></label><label><input type="radio" name="notification" value="2"> <a href="/notification/disabled"><span>notifications disabled</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble"><h3>Origin</h3>
+    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="tag.6152"> <a href="/origin/china"><span>China</span></a></label><label><input type="checkbox" value="1" name="tag.7885"> <a href="/origin/japan"><span>Japan</span></a></label><label><input type="checkbox" value="1" name="tag.6166"> <a href="/origin/south-korea"><span>South Korea</span></a></label></div>
+  </li>
+
+  <li class="g_bubble">
+    <div class="g_boxwrap"><h3>Vote Status</h3><label class="ignore"><input type="radio" name="vote" value="0" check="check"> <a href="/vote/ignore"><span>ignore</span></a></label><label><input type="radio" name="vote" value="1"> <a href="/vote/permanent"><span>permanent</span></a></label><label><input type="radio" name="vote" value="2"> <a href="/vote/temporary"><span>temporary</span></a></label><label><input type="radio" name="vote" value="3"> <a href="/vote/none"><span>none</span></a></label><label><input type="radio" name="vote" value="4"> <a href="/vote/either"><span>either</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble"><h3>Watched Status</h3>
+    <div class="g_boxwrap"><label><input type="checkbox" value="1" name="watched.allihave"> <a href="/watched/all-i-have"><span>"all I have" watched</span></a></label><label><input type="checkbox" value="1" name="watched.complete"> <a href="/watched/complete"><span>completely watched</span></a></label><label><input type="checkbox" value="1" name="watched.partial"> <a href="/watched/partial"><span>partially watched</span></a></label><label><input type="checkbox" value="1" name="watched.unwatched"> <a href="/watched/unwatched"><span>unwatched</span></a></label></div>
+  </li>
+
+  <li class="g_bubble">
+    <div class="g_boxwrap"><h3>Wishlist Status</h3><label class="ignore"><input type="radio" name="wishlist.status" value="0" check="check"> <a href="/wishlist/ignore"><span>ignore</span></a></label><label><input type="radio" name="wishlist.status" value="1"> <a href="/wishlist/wish-or-blacklist"><span>in wish- or blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="2"> <a href="/wishlist/not-wish-or-blacklist"><span>not in wish- or blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="3"> <a href="/wishlist/in-wishlist"><span>in wishlist</span></a></label><label><input type="radio" name="wishlist.status" value="4"> <a href="/wishlist/not-in-wishlist"><span>not in wishlist</span></a></label><label><input type="radio" name="wishlist.status" value="5"> <a href="/wishlist/blacklist"><span>in blacklist</span></a></label><label><input type="radio" name="wishlist.status" value="6"> <a href="/wishlist/not-blacklist"><span>not in blacklist</span></a></label></div>
+  </li>
+
+  <li class="g_odd g_bubble">
+    <div class="g_boxwrap"><h3>Calendar Mode</h3><label><input type="radio" name="calendar.mode" value="0" check="check"> <a href="/calendar/starting"><span>starting</span></a></label><label><input type="radio" name="calendar.mode" value="1"> <a href="/calendar/ending"><span>ending</span></a></label><label><input type="radio" name="calendar.mode" value="2"> <a href="/calendar/airing"><span>airing</span></a></label></div>
+  </li>
+
+  <li class="g_bubble"><h3>File Source</h3>
+    <label><input type="checkbox" value="1" name="source.bd" check="check"> <a href="/source/bluray"><span>Bluray/HDDVD</span></a></label><label><input type="checkbox" value="1" name="source.dvd" check="check"> <a href="/source/dvd"><span>DVD</span></a></label><label><input type="checkbox" value="1" name="source.hdtv" check="check"> <a href="/source/hdtv"><span>HDTV</span></a></label><label><input type="checkbox" value="1" name="source.www" check="check"> <a href="/source/www"><span>WWW</span></a></label><label><input type="checkbox" value="1" name="source.other" check="check"> <a href="/source/other"><span>other</span></a></label><label><input type="checkbox" value="1" name="source.unknown" check="check"> <a href="/source/unknown"><span>unknown</span></a></label>
+  </li>
+
+  <li class="g_odd g_bubble"><h3>Misc</h3>
+  <label>
+    <select name="epp" size="1">
+      <option value="10">hello</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="50" selected="selected">50</option>
+      <option value="100">100</option>
+    </select> # to show
+  </label>
+  <label><input type="checkbox" value="1" name="uncensored"> <a href="/misc/show-this-page"><span>show this page</span></a></label>
+</li>
+
+  <li class="g_bubble"><h3>Timeframe</h3>
+    <label><input type="radio" name="timeframe" value="0" check="check"> <a href="/timeframe/day"><span>group by day</span></a></label><label><input type="radio" name="timeframe" value="1"> <a href="/timeframe/week"><span>group by week</span></a></label><label><input type="radio" name="timeframe" value="2"> <a href="/timeframe/month"><span>group by month</span></a></label>
+  </li>
+
+</ul>
+</div>
+</form>
+</div>
+</div>
   <!--Side-Filte-END-->
-        
+
+             <!--Main-Content-poster-start-->      
               <div class="container">
               <div class="g_section content">
                 <h2><span>Latest Uploads</span></h2>
@@ -1126,104 +916,17 @@
               </div>
             </div>
           </div>
-          <div class="g_section bottom">
-            <div class="g_section top">
-              <form action="/perl-bin/animedb.pl" method="get">
-                <fieldset>
-                  <input type="hidden" name="cleanurl" value="1" />
-                  <input type="hidden" name="view" value="smallgrid" />
-                  <input type="hidden" name="h" value="1" />
-                  <input type="hidden" name="do" value="calendar" />
-                  <input type="hidden" name="show" value="calendar" />
-                </fieldset>
-                <ul class="g_list jump">
-                  <li class="g_odd prev">
-                    <span
-                      ><a
-                        href="/anime/season/2024/spring/?do=calendar&amp;h=1&amp;view=smallgrid"
-                        >prev</a
-                      ></span
-                    >
-                  </li>
-                  <li class="next">
-                    <span
-                      ><a
-                        href="/anime/season/2024/autumn/?do=calendar&amp;h=1&amp;view=smallgrid"
-                        >next</a
-                      ></span
-                    >
-                  </li>
-                  <li class="g_odd gridview">
-                    <span
-                      ><a
-                        class="i_icon i_view_grid"
-                        href="/anime/season/2024/summer/?do=calendar&amp;h=1&amp;view=grid"
-                        ><span class="text">grid</span></a
-                      ></span
-                    >
-                  </li>
-                  <li class="smallgridview selected">
-                    <span
-                      ><span class="nolink i_icon i_view_smallgrid"
-                        ><span class="text">smallgrid</span></span
-                      ></span
-                    >
-                  </li>
-                  <li class="g_odd month">
-                    <span>
-                      <select name="last.anime.month" size="1">
-                        <optgroup label="Seasons">
-                          <option value="13">Winter</option>
-                          <option value="16">Spring</option>
-                          <option value="19" selected="selected">Summer</option>
-                          <option value="22">Autumn</option>
-                        </optgroup>
-                        <optgroup label="Months">
-                          <option value="1">January</option>
-                          <option value="2">February</option>
-                          <option value="3">March</option>
-                          <option value="4">April</option>
-                          <option value="5">May</option>
-                          <option value="6">June</option>
-                          <option value="7">July</option>
-                          <option value="8">August</option>
-                          <option value="9">September</option>
-                          <option value="10">October</option>
-                          <option value="11">November</option>
-                          <option value="12">December</option>
-                        </optgroup>
-                      </select></span
-                    >
-                  </li>
-                  <li class="year">
-                    <span
-                      ><input
-                        placeholder="Year"
-                        required
-                        class="year"
-                        type="text"
-                        name="last.anime.year"
-                        maxlength="4"
-                        value="2024"
-                    /></span>
-                  </li>
-                  <li class="g_odd submit">
-                    <span
-                      ><button class="submit" type="submit">Show</button></span
-                    >
-                  </li>
-                </ul>
-              </form>
-            </div>
-          </div>
-          <ul class="g_list links">
-            <li class="g_odd back">
-              <span
-                ><a href="/"><span class="text">back</span></a></span
-              >
-            </li>
-          </ul>
-        </div>
+<!--main-content-poster-end-here-->
+
+
+
+
+
+<!--Anime-list-down-next-prev-button-start-->
+        
+<!--Anime-list-down-next-prev-button-end-->
+
+
       <!--g_content-->
         <div class="g_end"></div>
       </div>
@@ -1231,6 +934,11 @@
     </div>
     <!--layout-content-->
 
+
+
+
+
+<!--Footer-layout-start-->
     <div id="layout-footer">
       <p>
         <a href="/" property="cc:attributionName">MugiSub</a> does not host any files on its servers. All content is sourced from third-party platforms and is provided solely for viewing purposes.
@@ -1273,6 +981,8 @@
         </div>
       </div>
     </div>
+<!--Footer-layout-end-->
+
   </body>
 </html>
 

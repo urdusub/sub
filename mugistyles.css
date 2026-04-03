@@ -1,3 +1,10 @@
+/* custom-nave-blue-nav-icon-colors-start */
+#layout-menu i.fas {
+    color: #1e3a5f;
+}
+/* custom-nave-blue-nav-icon-colors-end */
+
+
 blockquote,
 body,
 dd,
@@ -30,6 +37,7 @@ table {
     -border-collapse: collapse;
     border-spacing: 0
 }
+
 
 fieldset,
 img {
