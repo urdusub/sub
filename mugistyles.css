@@ -19901,51 +19901,49 @@ table,
 }
 
 #layout-search {
-    background: url("https://i3.imageban.ru/out/2026/04/02/4a2b21ef04e8ff7fb9b85f56edcf3731.png") no-repeat scroll left top transparent
+  background: url("images/logo.png") no-repeat scroll left top transparent;
 }
-
 @media screen and (max-width: 950px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
-        background: url("images/logo-wide.png") no-repeat scroll left top transparent
-    }
-
-    #anidb.nodropdownmenu #layout-search {
-        background: url("https://i3.imageban.ru/out/2026/04/02/4a2b21ef04e8ff7fb9b85f56edcf3731.png") no-repeat scroll left top transparent
-    }
+  #anidb:not(.nodropdownmenu) #layout-search {
+    background: url("images/logo-wide.png") no-repeat scroll left top
+      transparent;
+  }
+  #anidb.nodropdownmenu #layout-search {
+    background: url("images/logo-small.png") no-repeat scroll left top
+      transparent;
+  }
 }
-
 @media screen and (max-width: 800px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
-        background: url("https://i3.imageban.ru/out/2026/04/02/4a2b21ef04e8ff7fb9b85f56edcf3731.png") no-repeat scroll center top transparent
-    }
-
-    #anidb.nodropdownmenu #layout-search {
-        background: none
-    }
+  #anidb:not(.nodropdownmenu) #layout-search {
+    background: url("images/logo.png") no-repeat scroll center top transparent;
+  }
+  #anidb.nodropdownmenu #layout-search {
+    background: none;
+  }
 }
-
 @media screen and (max-width: 510px) {
-    #anidb:not(.nodropdownmenu) #layout-search {
-        background: url("https://i3.imageban.ru/out/2026/04/02/4a2b21ef04e8ff7fb9b85f56edcf3731.png") no-repeat scroll center top transparent
-    }
+  #anidb:not(.nodropdownmenu) #layout-search {
+    background: url("images/logo-small.png") no-repeat scroll center top
+      transparent;
+  }
 }
-
 @media screen and (min-width: 1235px) {
-    #layout-search {
-        background: url("images/logo-wide.png") no-repeat scroll left top transparent
-    }
+  #layout-search {
+    background: url("images/logo-wide.png") no-repeat scroll left top
+      transparent;
+  }
 }
-
 @media screen and (min-width: 1575px) {
-    #layout-search {
-        background: url("images/logo-wider.png") no-repeat scroll left top transparent
-    }
+  #layout-search {
+    background: url("images/logo-wider.png") no-repeat scroll left top
+      transparent;
+  }
 }
-
 @media screen and (min-width: 1860px) {
-    #layout-search {
-        background: url("https://i3.imageban.ru/out/2026/04/02/4a2b21ef04e8ff7fb9b85f56edcf3731.png") no-repeat scroll left top transparent
-    }
+  #layout-search {
+    background: url("logo-MugiSUB.png") no-repeat scroll left top
+      transparent;
+  }
 }
 
 #layout-main ul.g_list {
