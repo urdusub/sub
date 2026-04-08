@@ -14,8 +14,10 @@
       type="text/css" 
       title="Style"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!--mine-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="request.css"/>
+     <link rel="stylesheet" href="wysibb.css"/>
     
     
     <link
@@ -181,21 +183,27 @@
           <a title="Latest Releases" href="/latest"><span class="text">Latest</span></a>
         </li>
         <li class="Random">
-          <a title="Random Anime" href="/random"><span class="text">Random</span></a>
+          <a title="Random Watch" href="/random"><span class="text">Random</span></a>
+        </li>
+        <li class="Watch2gether">
+          <a title="Watch with friends" href="/Watch2gether"><span class="text">Watch2gether</span></a>
         </li>
       </ul>
       <span></span>
     </li>
 
-    <!-- ANIME -->
+    <!-- Browse -->
     <li class="sub-menu listings" title="Content">
-      <span class="tab">ANIME</span>
+      <span class="tab">BROWSE</span>
       <ul id="menu-lists">
         <li class="anime">
           <a title="All Anime" href="/anime"><span class="text">Anime</span></a>
         </li>
         <li class="movies">
           <a title="Movies" href="/anime/movies"><span class="text">Movies</span></a>
+        </li>
+        <li class="tv">
+          <a title="Tv Show" href="/anime/movies"><span class="text">TV Shows</span></a>
         </li>
         <li class="ova">
           <a title="OVA / ONA" href="/anime/ova"><span class="text">OVA / ONA</span></a>
@@ -238,6 +246,9 @@
         </li>
         <li class="Staff">
           <a title="MugiSUB Team" href="/about"><span class="text">Our Team</span></a>
+        </li>
+        <li class="Contact">
+          <a title="Contact Team" href="/about"><span class="text">Contact US</span></a>
         </li>
       </ul>
       <span></span>
@@ -290,7 +301,7 @@
                     type="checkbox"
                     check="check"
                   />
-                  <span>stay logged in</span></label
+                  <span>stay logged-in</span></label
                 ></span
               >
             </li>
@@ -463,6 +474,43 @@
   <label><input type="checkbox" value="1" name="uncensored"> <a href="/misc/show-this-page"><span>show this page</span></a></label>
 </li>
   <li class="g_odd g_bubble">
+
+<!-- Request Section - Side Filter ke andar, ul.g_bubblewrap me add karo -->
+
+            <div class="g_section g_bubble content">
+              <h2><span>Submit a Request</span></h2>
+  <!-- Type selector -->
+  <div class="g_section g_bubble content" id="mugi-request-section">
+  <h2><span>Submit a Request</span></h2>
+
+  <div class="mugi-type-grid">
+    <label class="mugi-type-btn active">
+      <input type="radio" name="req_type" value="anime" hidden checked> Anime
+    </label>
+    <label class="mugi-type-btn">
+      <input type="radio" name="req_type" value="movie" hidden> Movie
+    </label>
+    <label class="mugi-type-btn">
+      <input type="radio" name="req_type" value="tv" hidden> TV
+    </label>
+    <label class="mugi-type-btn">
+      <input type="radio" name="req_type" value="other" hidden> Other
+    </label>
+  </div>
+
+  <textarea id="mugi-req-text" rows="5"
+    placeholder="Anime ka naam, episode, ya koi detail likho..."></textarea>
+
+  <button id="mugi-req-submit" type="button">Request bhejo</button>
+
+  <p id="mugi-req-success">Shukriya! Request mil gayi 🎌</p>
+</div>
+  
+
+
+
+
+
     <div class="g_boxwrap"><h3>Adult Content</h3><label class="ignore"><input type="radio" name="h" value="0" check="check"> <a href="/content/ignore"><span>ignore</span></a></label><label><input type="radio" name="h" value="1"> <a href="/content/hide-18-plus"><span>hide 18+ Content</span></a></label><label><input type="radio" name="h" value="2"> <a href="/content/only-18-plus"><span>show only 18+ Content</span></a></label></div>
   </li>
 
@@ -1100,7 +1148,9 @@ title="Watch on UrduSUB"
       </div>
     </div>
 <!--Footer-layout-end-->
+ <!-- ... Request -js-side filter ... -->
 
+  <script src="request.js"></script>
   </body>
 </html>
 
