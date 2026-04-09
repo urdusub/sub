@@ -405,7 +405,7 @@
    <div id="layout-content">
 	<div id="layout-tabs">
 		<ul class="main-tabs">
-			<li class="g_odd file selected"><span><a href="/latest/anime/release"><span class="text">Donate</span></a></span></li>
+			<li class="g_odd file"><span><a href="/latest/anime/release"><span class="text">Donate</span></a></span></li>
 			<li class="completed"><span><a href="/latest/anime/release/complete"><span class="text">Credits</span></a></span></li>
 			<li class="g_odd hotanime"><span><a href="/latest/anime/popular"><span class="text">Policies</span></a></span></li>
 			<li class="anime"><span><a href="/latest/anime"><span class="text">DMCA</span></a></span></li>
