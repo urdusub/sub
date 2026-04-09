@@ -1,0 +1,82 @@
+{
+    "name": "MugiSUB",
+    "short_name": "MugiSUB",
+    "icons": [
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-36x36.png?v=5APwgP3EOy",
+    "sizes": "36x36",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-48x48.png?v=5APwgP3EOy",
+    "sizes": "48x48",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-72x72.png?v=5APwgP3EOy",
+    "sizes": "72x72",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-96x96.png?v=5APwgP3EOy",
+    "sizes": "96x96",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-144x144.png?v=5APwgP3EOy",
+    "sizes": "144x144",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-192x192.png?v=5APwgP3EOy",
+    "sizes": "192x192",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-256x256.png?v=5APwgP3EOy",
+    "sizes": "256x256",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-384x384.png?v=5APwgP3EOy",
+    "sizes": "384x384",
+    "type": "image/png"
+    },
+    {
+    "src": "https://cdn.anidb.net/css/assets/images/touch/android-chrome-512x512.png?v=5APwgP3EOy",
+    "sizes": "512x512",
+    "type": "image/png"
+    }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://mugisub.com",
+    "display": "standalone"
+}
+
+
+
+{
+    "short_name": "Mugisub",
+    "name": "mugisub.com",
+    "icons": [
+      {
+        "src": "https://mugisub.com/images/touch-icon-192x192.png?v=0.1",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://mugisub.com/images/touch-icon-512x512.png?v=0.1",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/index.html?source=pwa",
+    "background_color": "#202125",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#202125",
+    "description": "MugiSUB' is an Online free Movie and TV shows Streaming site. With Movies and TV shows we let you Watch every Movie Online without Registering or Paying. WATCH NOW!"
+  }
