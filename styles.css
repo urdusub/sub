@@ -20357,7 +20357,7 @@ table,
 /* Responsive: min-width 1860px — larger screen layout -logo-widest */
 @media screen and (min-width: 1860px) {
   #layout-search {
-    background: url("https://raw.githubusercontent.com/urdusub/sub/06a0fff2cf48f3aaffeda4dca916392c4e358a4b/sub/logo-widest.svg") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/dfaf30dacd9c17c385c49a2f366803be5d5b26b1/sub/logo-widest.svg") no-repeat scroll left top
       transparent;
   }
 }
