@@ -20320,7 +20320,7 @@ table,
       transparent;
   }
   #anidb.nodropdownmenu #layout-search {
-    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-small.png") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/023a647223b04bb5d914083fbf5cfd252a7a6c5a/sub/logo-small.svg") no-repeat scroll left top
       transparent;
   }
 }
@@ -20336,7 +20336,7 @@ table,
 /* Responsive: max-width 510px — smaller screen layout -logo-small */
 @media screen and (max-width: 510px) {
   #anidb:not(.nodropdownmenu) #layout-search {
-    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-small.png") no-repeat scroll center top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/023a647223b04bb5d914083fbf5cfd252a7a6c5a/sub/logo-small.svg") no-repeat scroll center top
       transparent;
   }
 }
