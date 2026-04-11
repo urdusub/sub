@@ -20324,7 +20324,7 @@ table,
       transparent;
   }
 }
-/* Responsive: max-width 800px — smaller screen layout */
+/* Responsive: max-width 800px — smaller screen layout -logo.png */
 @media screen and (max-width: 800px) {
   #anidb:not(.nodropdownmenu) #layout-search {
     background: url("images/logo.png") no-repeat scroll center top transparent;
@@ -20333,31 +20333,31 @@ table,
     background: none;
   }
 }
-/* Responsive: max-width 510px — smaller screen layout */
+/* Responsive: max-width 510px — smaller screen layout -logo-small */
 @media screen and (max-width: 510px) {
   #anidb:not(.nodropdownmenu) #layout-search {
-    background: url("images/logo-small.png") no-repeat scroll center top
+    background: url("/sub/logo-small.png") no-repeat scroll center top
       transparent;
   }
 }
-/* Responsive: min-width 1235px — larger screen layout */
+/* Responsive: min-width 1235px — larger screen layout-logo-wide */
 @media screen and (min-width: 1235px) {
   #layout-search {
     background: url("images/logo-wide.png") no-repeat scroll left top
       transparent;
   }
 }
-/* Responsive: min-width 1575px — larger screen layout */
+/* Responsive: min-width 1575px — larger screen layout -logo-wider */
 @media screen and (min-width: 1575px) {
   #layout-search {
     background: url("images/logo-wider.png") no-repeat scroll left top
       transparent;
   }
 }
-/* Responsive: min-width 1860px — larger screen layout */
+/* Responsive: min-width 1860px — larger screen layout -logo-widest */
 @media screen and (min-width: 1860px) {
   #layout-search {
-    background: url("logo-MugiSUB.png") no-repeat scroll left top
+    background: url("sub/blob/main/sub/logo-widest.png") no-repeat scroll left top
       transparent;
   }
 }
