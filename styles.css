@@ -20357,7 +20357,7 @@ table,
 /* Responsive: min-width 1860px — larger screen layout -logo-widest */
 @media screen and (min-width: 1860px) {
   #layout-search {
-    background: url("sub/blob/main/sub/logo-widest.png") no-repeat scroll left top
+    background: url("/sub/logo-widest.png") no-repeat scroll left top
       transparent;
   }
 }
