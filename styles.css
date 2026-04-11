@@ -20311,23 +20311,23 @@ table,
 }
 
 #layout-search {
-  background: url("images/logo.png") no-repeat scroll left top transparent;
+  background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo.png") no-repeat scroll left top transparent;
 }
 /* Responsive: max-width 950px — smaller screen layout */
 @media screen and (max-width: 950px) {
   #anidb:not(.nodropdownmenu) #layout-search {
-    background: url("images/logo-wide.png") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-wide.png") no-repeat scroll left top
       transparent;
   }
   #anidb.nodropdownmenu #layout-search {
-    background: url("images/logo-small.png") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-small.png") no-repeat scroll left top
       transparent;
   }
 }
 /* Responsive: max-width 800px — smaller screen layout -logo.png */
 @media screen and (max-width: 800px) {
   #anidb:not(.nodropdownmenu) #layout-search {
-    background: url("images/logo.png") no-repeat scroll center top transparent;
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo.png") no-repeat scroll center top transparent;
   }
   #anidb.nodropdownmenu #layout-search {
     background: none;
@@ -20336,21 +20336,21 @@ table,
 /* Responsive: max-width 510px — smaller screen layout -logo-small */
 @media screen and (max-width: 510px) {
   #anidb:not(.nodropdownmenu) #layout-search {
-    background: url("/sub/logo-small.png") no-repeat scroll center top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-small.png") no-repeat scroll center top
       transparent;
   }
 }
 /* Responsive: min-width 1235px — larger screen layout-logo-wide */
 @media screen and (min-width: 1235px) {
   #layout-search {
-    background: url("images/logo-wide.png") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-wide.png") no-repeat scroll left top
       transparent;
   }
 }
 /* Responsive: min-width 1575px — larger screen layout -logo-wider */
 @media screen and (min-width: 1575px) {
   #layout-search {
-    background: url("images/logo-wider.png") no-repeat scroll left top
+    background: url("https://raw.githubusercontent.com/urdusub/sub/refs/heads/main/sub/logo-wider.png") no-repeat scroll left top
       transparent;
   }
 }
